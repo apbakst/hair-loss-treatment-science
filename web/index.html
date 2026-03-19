@@ -1375,7 +1375,16 @@ function sortTable(col) {
 
 function goToTreatment(id) {
   activateTab(id);
-  document.getElementById('treatments').scrollIntoView({behavior:'smooth'});
+  // Scroll directly to the panel, not just the section
+  const panel = document.getElementById('panel-' + id);
+  if (panel) {
+    setTimeout(() => {
+      panel.scrollIntoView({behavior: 'smooth', block: 'start'});
+    }, 50);
+  }
+  // Scroll tab into view too
+  const tabBtn = document.getElementById('tab-' + id);
+  if (tabBtn) tabBtn.scrollIntoView({behavior:'smooth', block:'nearest', inline:'center'});
 }
 
 // ===== TAB SYSTEM =====
