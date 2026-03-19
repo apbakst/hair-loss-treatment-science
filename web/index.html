@@ -1598,14 +1598,21 @@ function buildPanels() {
       if (hasTimeline) {
         efficacyHtml += '<div class="efficacy-timeline"><div class="detail-subsection-label">Timeline</div>';
         if (eff.timeToEffect || eff.peakEffect) {
+          // Extract short label (first sentence fragment before semicolon, period, or parenthesis)
+          const shortLabel = function(s) {
+            if (!s) return '';
+            let short = s.split(/[.;(]/)[0].trim();
+            if (short.length > 40) short = short.substring(0, 37) + '...';
+            return short;
+          };
           efficacyHtml += '<div class="timeline-bar-container"><div class="timeline-bar">';
           if (eff.timeToEffect) {
             efficacyHtml += `<div class="timeline-marker" style="left:30%"></div>
-              <div class="timeline-marker-label" style="left:30%"><strong>Initial effect</strong>${escHtml(eff.timeToEffect)}</div>`;
+              <div class="timeline-marker-label" style="left:30%"><strong>Initial effect</strong>${escHtml(shortLabel(eff.timeToEffect))}</div>`;
           }
           if (eff.peakEffect) {
             efficacyHtml += `<div class="timeline-marker" style="left:70%"></div>
-              <div class="timeline-marker-label" style="left:70%"><strong>Peak effect</strong>${escHtml(eff.peakEffect)}</div>`;
+              <div class="timeline-marker-label" style="left:70%"><strong>Peak effect</strong>${escHtml(shortLabel(eff.peakEffect))}</div>`;
           }
           if (eff.maintenanceRequired) {
             efficacyHtml += '<div class="timeline-arrow"></div>';
@@ -1613,6 +1620,12 @@ function buildPanels() {
           efficacyHtml += '</div></div>';
         }
         efficacyHtml += '<dl class="timeline-details">';
+        if (eff.timeToEffect) {
+          efficacyHtml += `<dt>Time to effect:</dt><dd>${escHtml(eff.timeToEffect)}</dd>`;
+        }
+        if (eff.peakEffect) {
+          efficacyHtml += `<dt>Peak effect:</dt><dd>${escHtml(eff.peakEffect)}</dd>`;
+        }
         if (eff.maintenanceRequired !== undefined) {
           const mVal = eff.maintenanceRequired ? 'Yes' : 'No';
           const mStyle = eff.maintenanceRequired ? ' style="color:var(--color-primary);font-weight:600"' : '';
