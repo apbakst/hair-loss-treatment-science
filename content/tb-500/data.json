@@ -1,0 +1,517 @@
+{
+  "id": "tb-500",
+  "name": "TB-500 / Thymosin Beta-4",
+  "fullName": "Thymosin Beta-4 Fragment (TB-500)",
+  "aliases": [
+    "TB-500",
+    "TB500",
+    "Thymosin Beta-4",
+    "Thymosin Beta 4",
+    "Tβ4",
+    "RGN-259",
+    "RGN-352",
+    "Ac-SDKP"
+  ],
+  "category": "peptides-cosmeceuticals",
+  "categoryLabel": "Peptides / Cosmeceuticals",
+  "approvalStatus": "none",
+  "approvalNote": "No FDA approval for any indication. Phase I-III clinical trials conducted using pharmaceutical-grade Tβ4 (RGN-259, RGN-352) for dry eye, wound healing, and cardiac repair. Research-grade TB-500 from peptide vendors has not been tested for bioequivalence.",
+  "mechanismOfAction": "Thymosin Beta-4 is a 43-amino acid peptide that activates hair follicle stem cells in the bulge region, upregulates Wnt/β-catenin/LEF-1 signaling, and promotes extracellular matrix remodeling via MMP-2 -- all pathways central to the hair cycle. It also stimulates cell migration, angiogenesis (via VEGF), and has anti-inflammatory and anti-fibrotic properties (via its N-terminal cleavage product Ac-SDKP).",
+  "primaryTargets": [
+    "Hair follicle stem cell migration/differentiation",
+    "Wnt/β-catenin/LEF-1 signaling",
+    "MMP-2/ECM remodeling",
+    "VEGF/angiogenesis",
+    "PINCH/ILK/Akt pathway (cardiac)",
+    "TGF-β/anti-fibrotic (via Ac-SDKP)"
+  ],
+  "routeOfAdministration": [
+    "subcutaneous injection",
+    "topical",
+    "other"
+  ],
+  "typicalDose": "No established dose for hair loss. Animal hair studies used IP injection or transgenic overexpression. Clinical trials for other indications used IV doses up to 1,260 mg (Phase I) and topical formulations (0.1% Tβ4 eye drops for dry eye).",
+  "evidenceGrade": "D",
+  "evidenceGradeRationale": "Best animal hair data of any peptide -- genuine stem cell activation, confirmed Wnt/β-catenin signaling in transgenic models, and MMP-2-mediated ECM remodeling -- but zero human hair trials. Non-hair indications have Phase I-III human data, including the strongest safety profile of any peptide in this guide.",
+  "highestEvidenceLevel": "human-rct",
+  "totalClaimsEvaluated": 9,
+  "humanTrialCount": 4,
+  "evidenceLevelCounts": {
+    "in-silico": 0,
+    "in-vitro": 0,
+    "in-vivo-animal": 5,
+    "ex-vivo": 0,
+    "human-open-label": 0,
+    "human-rct": 4
+  },
+  "oneLinerSummary": "Strongest preclinical hair biology of any peptide, but zero human hair trials -- best evidence is for wound healing, dry eye, and cardiac repair.",
+  "strengthOfEvidenceForHair": 2,
+  "keyLimitation": "Zero human trials for hair loss. All hair evidence comes from rodent models using injection or genetic overexpression, not topical application.",
+  "bestFor": "Speculative adjunct for consumers comfortable with unproven peptides. Best-supported applications are wound healing and ophthalmology, not hair.",
+  "claims": [
+    {
+      "number": 1,
+      "title": "TB-500 activates hair follicle stem cell migration and differentiation",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (rat/mouse) + In vitro (rat vibrissa keratinocytes)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Well-conducted science in a top-tier journal with directly hair-relevant mechanism, but still animal data with no human validation.",
+      "model": "In vivo -- rats and mice (topical and IP administration). In vitro -- rat vibrissa follicle clonogenic keratinocytes (stem-cell-like cells from the follicle bulge region). This is the landmark study by Philp et al., 2004, published in FASEB Journal -- a high-impact, peer-reviewed journal.",
+      "finding": "Tβ4 stimulated hair growth in normal rats and mice. A specific subset of keratinocytes in the hair follicle bulge (the stem cell niche) expressed Tβ4 in a coordinated manner during the hair cycle. In vitro, these bulge-derived keratinocytes showed increased migration and differentiation at nanomolar Tβ4 concentrations. Expression of MMP-2 (a matrix-remodeling enzyme essential for follicle extension during anagen) was increased. A 2007 follow-up confirmed these results across multiple rodent models, including a transgenic Tβ4-overexpressing mouse.",
+      "assessment": "This is real, well-conducted science published in a top-tier journal. The mechanism is directly relevant to hair biology -- stem cell activation in the bulge region is exactly how follicles re-enter the growth phase. The data is stronger than anything in BPC-157's portfolio for hair. However, it's still animal data. Rat vibrissa follicles are not human scalp follicles. Mice have a synchronized hair cycle that humans don't. And no one has tested whether topical or injected Tβ4/TB-500 stimulates human hair follicle stem cells.",
+      "assessmentSummary": "Best animal data of any peptide for hair stem cell activation, but no human validation.",
+      "citations": [
+        {
+          "authors": "Philp D et al.",
+          "year": 2004,
+          "title": "Thymosin beta4 increases hair growth by activation of hair follicle stem cells",
+          "journal": "FASEB J",
+          "pmid": "14657002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14657002/"
+        },
+        {
+          "authors": "Philp D et al.",
+          "year": 2007,
+          "title": "Thymosin beta 4 and a synthetic peptide containing its actin-binding domain promote dermal wound repair in db/db diabetic mice and in aged mice",
+          "journal": "Ann NY Acad Sci",
+          "pmid": "17947589",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17947589/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 2,
+      "title": "TB-500 upregulates β-catenin/LEF-1 (Wnt pathway signaling)",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (transgenic/knockout mouse -- bidirectional genetic evidence)",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "Strongest Wnt/β-catenin evidence of any peptide -- actual genetic evidence in relevant tissue, not computational prediction. Still mouse-only.",
+      "model": "In vivo -- transgenic Tβ4-overexpressing mice AND Tβ4 global knockout mice (Gao et al., 2015-2016). This is powerful genetic evidence: if you overexpress the gene, the pathway goes up; if you knock it out, the pathway goes down.",
+      "finding": "In Tβ4-overexpressing mice, β-catenin and LEF-1 expression increased, along with MMP-2 and VEGF. In knockout mice, the opposite pattern was observed. The overexpressing mice had faster hair growth and altered follicle patterns; knockout mice had slower regrowth and fewer follicles. The proposed mechanism: Tβ4 regulates VEGF and MMP-2 via the Wnt/β-catenin/LEF-1 signaling pathway.",
+      "assessment": "This is the strongest mechanistic evidence connecting any peptide in this guide to the Wnt/β-catenin pathway -- and Wnt signaling is arguably the most important pathway for hair follicle cycling. Unlike GHK-Cu's Wnt claim (which comes from computational analysis of cancer cell lines), this is actual genetic evidence in a relevant tissue. The use of both overexpression and knockout models provides bidirectional confirmation. The limitation remains that it's mouse data, and mouse hair biology doesn't perfectly translate to humans.",
+      "assessmentSummary": "Strongest Wnt/β-catenin evidence of any peptide, using bidirectional genetic models -- but mouse data only.",
+      "citations": [
+        {
+          "authors": "Gao X et al.",
+          "year": 2015,
+          "title": "Thymosin Beta 4 Promotes Hair Growth in Transgenic Mice",
+          "journal": "PLOS ONE",
+          "pmid": "26083021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26083021/"
+        },
+        {
+          "authors": "Gao X et al.",
+          "year": 2016,
+          "title": "Thymosin Beta 4 Promotes Hair Growth via the Wnt/β-catenin Signaling Pathway",
+          "journal": "Mol Genet Genomics",
+          "pmid": "27130465",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27130465/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 3,
+      "title": "TB-500 promotes extracellular matrix remodeling via MMP-2",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vitro (rat vibrissa keratinocytes) + In vivo (transgenic/knockout mouse)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Legitimate hair-relevant mechanism from well-conducted studies, but not validated in human tissue.",
+      "model": "In vitro -- rat vibrissa keratinocytes (Philp 2004). In vivo -- transgenic/knockout mice (Gao 2016).",
+      "finding": "Tβ4 upregulates both expression and secretion of MMP-2, a matrix metalloproteinase that degrades denatured collagen, fibronectin, and other ECM components. This remodeling separates follicle structures from the basement membrane -- essential for follicle extension during anagen.",
+      "assessment": "MMP-2-mediated ECM remodeling is a legitimate hair-relevant mechanism. The data comes from the same well-conducted Philp and Gao studies discussed above. As with the other hair claims, this has not been validated in human tissue.",
+      "assessmentSummary": "Supports the stem cell activation data with a clear ECM-remodeling mechanism, but human evidence is absent.",
+      "citations": [
+        {
+          "authors": "Philp D et al.",
+          "year": 2004,
+          "title": "Thymosin beta4 increases hair growth by activation of hair follicle stem cells",
+          "journal": "FASEB J",
+          "pmid": "14657002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14657002/"
+        },
+        {
+          "authors": "Gao X et al.",
+          "year": 2016,
+          "title": "Thymosin Beta 4 Promotes Hair Growth via the Wnt/β-catenin Signaling Pathway",
+          "journal": "Mol Genet Genomics",
+          "pmid": "27130465",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27130465/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 4,
+      "title": "TB-500 accelerates wound healing",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "In vivo (multiple animal models) + Human Phase II clinical trials",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "Consistent animal data across multiple wound types, clear mechanism, and Phase II human data showing real clinical benefit.",
+      "model": "In vivo -- multiple animal models (normal rats, diabetic mice, steroid-treated rats, aged mice). Also human Phase II clinical trials for pressure ulcers, stasis ulcers, and epidermolysis bullosa. The landmark animal study (Malinda et al., 1999) showed Tβ4 increased re-epithelialization by 42% at day 4 and up to 61% at day 7 versus controls, with increased collagen deposition and angiogenesis.",
+      "finding": "In Phase II human trials, topical Tβ4 accelerated wound healing by almost a month in patients who did heal. Keratinocyte migration was stimulated 2-3 fold at doses as low as 10 picograms in vitro.",
+      "assessment": "This is one of the stronger evidence bases for any peptide: consistent animal data across multiple wound types, a clear mechanism (cell migration, stem cell mobilization, reduced inflammation), and Phase II human data showing real clinical benefit. The wound healing evidence is what originally drove the clinical development program.",
+      "assessmentSummary": "One of the stronger peptide evidence bases -- consistent animal data plus Phase II human trials showing accelerated healing.",
+      "citations": [
+        {
+          "authors": "Malinda KM et al.",
+          "year": 1999,
+          "title": "Thymosin beta4 accelerates wound healing",
+          "journal": "J Invest Dermatol",
+          "pmid": "10469335",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10469335/"
+        },
+        {
+          "authors": "Treadwell T et al.",
+          "year": 2012,
+          "title": "The regenerative activities of thymosin β4 in the healing of wounds",
+          "journal": "Ann NY Acad Sci",
+          "pmid": "23050815",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23050815/"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 5,
+      "title": "TB-500 promotes corneal healing and treats dry eye",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Human Phase II and Phase III clinical trials (RGN-259 ophthalmic)",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "The closest any peptide has come to formal clinical validation, though the Phase III SEER-3 trial missed its primary endpoint.",
+      "model": "Human clinical trials -- Phase II and Phase III. The ophthalmic program (RGN-259, 0.1% Tβ4 eye drops) is TB-500's most advanced clinical application.",
+      "finding": "Phase II dry eye trial (N=72, double-masked RCT): 27% reduction in ocular discomfort, significant improvement in corneal staining (p=0.0075 central, p=0.0210 superior). Phase II severe dry eye (N=9): 35.1% reduction in discomfort (p=0.0141), 59.1% reduction in corneal staining (p=0.0108). Phase III neurotrophic keratopathy (SEER-1, N=18): 60% achieved complete corneal healing at 4 weeks vs 12.5% placebo. However, a later Phase III trial (SEER-3) missed its primary endpoint.",
+      "assessment": "This is the closest any peptide in this guide has come to formal clinical validation. The Phase II results are impressive, and SEER-1 showed meaningful healing in a difficult condition. The SEER-3 failure is an important caveat -- it shows that even promising Phase II results don't always replicate in larger trials. No drug is FDA-approved based on this data yet.",
+      "assessmentSummary": "Most advanced clinical pipeline of any peptide -- impressive Phase II results, but Phase III SEER-3 missed its primary endpoint.",
+      "citations": [
+        {
+          "authors": "Sosne G, Ousler GW",
+          "year": 2015,
+          "title": "Thymosin beta 4 ophthalmic solution for dry eye: a randomized, placebo-controlled, Phase II clinical trial conducted using the controlled adverse environment (CAE) model",
+          "journal": "Clin Ophthalmol",
+          "pmid": "26056426",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26056426/"
+        },
+        {
+          "authors": "Sosne G et al.",
+          "year": 2015,
+          "title": "Thymosin Beta 4: A Potential Novel Therapy for Neurotrophic Keratopathy, Dry Eye, and Ocular Surface Diseases",
+          "journal": "Cornea",
+          "pmid": "25826322",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25826322/"
+        },
+        {
+          "authors": "Sosne G et al.",
+          "year": 2023,
+          "title": "Thymosin Beta 4 for Neurotrophic Keratopathy: SEER-1 Phase III Results",
+          "journal": "Int J Mol Sci",
+          "pmid": "36614008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36614008/"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 6,
+      "title": "TB-500 promotes cardiac repair after heart attack",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "In vivo (mouse MI model, 2x Nature papers) + Human Phase II clinical trial",
+      "evidenceWeight": "High",
+      "weightRationale": "Two Nature papers establish the cardiac mechanism with exceptional rigor. Phase II trial reportedly showed benefit, but full peer-reviewed results not published.",
+      "model": "In vivo -- mouse coronary artery ligation (MI model). Published in Nature (Bock-Marquette et al., 2004) and Nature (Smart et al., 2007) -- two of the highest-impact publications for any peptide discussed in this guide. Also Phase II human clinical trial (NCT01311518, ~75 subjects).",
+      "finding": "Tβ4 promoted cardiomyocyte migration and survival through the PINCH/ILK/Akt pathway. After coronary ligation in mice, it enhanced early myocyte survival and improved cardiac function. A separate Nature paper showed Tβ4 mobilizes adult epicardial progenitor cells -- essentially reactivating dormant cardiac stem cells -- to form new blood vessels. The Phase II trial reportedly showed efficacy, though full results are available only via a RegeneRx press release.",
+      "assessment": "Two Nature papers establish the cardiac mechanism with exceptional rigor. The epicardial progenitor mobilization finding is particularly striking -- it shows Tβ4 can restore pluripotency in adult cells. The clinical data (Phase II) reportedly showed benefit, but full peer-reviewed publication of the cardiac trial results hasn't been located.",
+      "assessmentSummary": "Two Nature papers for cardiac mechanism -- the highest-impact publications for any peptide in this guide. Phase II data reportedly positive but unpublished.",
+      "citations": [
+        {
+          "authors": "Bock-Marquette I et al.",
+          "year": 2004,
+          "title": "Thymosin beta4 activates integrin-linked kinase and promotes cardiac cell migration, survival and cardiac repair",
+          "journal": "Nature",
+          "pmid": "15565145",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15565145/"
+        },
+        {
+          "authors": "Smart N et al.",
+          "year": 2007,
+          "title": "Thymosin beta4 induces adult epicardial progenitor mobilization and neovascularization",
+          "journal": "Nature",
+          "pmid": "17108969",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17108969/"
+        },
+        {
+          "authors": "RegeneRx Biopharmaceuticals",
+          "year": 2013,
+          "title": "Phase II Clinical Trial of RGN-352 for Acute Myocardial Infarction",
+          "journal": "ClinicalTrials.gov",
+          "pmid": "",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT01311518"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 7,
+      "title": "TB-500 is safe at high doses in humans",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Human Phase I (2 independent RCTs -- US and China)",
+      "evidenceWeight": "High",
+      "weightRationale": "Strongest safety data of any peptide by a wide margin -- two independent Phase I trials, ascending doses up to gram-level IV with no safety signals. Applies to pharmaceutical-grade Tβ4, not necessarily research-grade TB-500.",
+      "model": "Human Phase I -- randomized, placebo-controlled trial (Ruff et al., 2010). Four cohorts of 10 healthy subjects each received ascending IV doses: 42, 140, 420, or 1,260 mg. After safety review, the same dose was given daily for 14 days. A second Phase I trial in China (Wang et al., 2021) tested ascending doses in 84 healthy volunteers.",
+      "finding": "Adverse events were infrequent, mild or moderate. No dose-limiting toxicities. No serious adverse events at any dose up to 1,260 mg IV. Half-life ranged from 0.95h (42 mg) to 2.1h (1,260 mg). The Chinese trial confirmed the safety profile with no serious adverse events across all dose cohorts.",
+      "assessment": "This is the strongest safety data for any peptide in this guide, by a wide margin. Two independent Phase I trials (US and China), proper randomization and controls, ascending doses up to gram-level IV administration with no safety signals. However, this applies to pharmaceutical-grade Tβ4 -- not necessarily to research-grade TB-500 from peptide vendors.",
+      "assessmentSummary": "Best safety data of any peptide -- two Phase I trials, gram-level IV doses, no serious adverse events. Applies to pharmaceutical Tβ4, not vendor TB-500.",
+      "citations": [
+        {
+          "authors": "Ruff D et al.",
+          "year": 2010,
+          "title": "A randomized, placebo-controlled, single and multiple dose study of intravenous thymosin beta4 in healthy volunteers",
+          "journal": "Ann NY Acad Sci",
+          "pmid": "20536472",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20536472/"
+        },
+        {
+          "authors": "Wang D et al.",
+          "year": 2021,
+          "title": "Safety and pharmacokinetics of thymosin beta 4 in healthy Chinese subjects: A Phase I clinical trial",
+          "journal": "J Cell Mol Med",
+          "pmid": "34346165",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34346165/"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 8,
+      "title": "TB-500 has anti-fibrotic effects across multiple organs",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (mouse models -- renal, pulmonary, hepatic, and cardiac fibrosis)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Consistent anti-fibrotic data across organs, with potential hair relevance (perifollicular fibrosis in AGA), but not tested in scalp tissue and the active moiety is the cleavage product Ac-SDKP.",
+      "model": "In vivo -- mouse models of renal fibrosis (unilateral ureteral obstruction), pulmonary fibrosis (bleomycin-induced), hepatic fibrosis, and cardiac fibrosis. Key finding: the anti-fibrotic activity resides primarily in Ac-SDKP, the N-terminal cleavage product of Tβ4.",
+      "finding": "Ac-SDKP reduced collagen and fibronectin deposition, decreased myofibroblast numbers and macrophage infiltration, and suppressed profibrotic factors (TGF-β, CTGF, α-SMA) across kidney, lung, and liver models. In pulmonary fibrosis, it significantly decreased mortality, weight loss, and fibrosis markers when given both preventively and therapeutically.",
+      "assessment": "The anti-fibrotic data is consistent across organs and mechanisms. The Ac-SDKP distinction is important for hair: perifollicular fibrosis is associated with advanced androgenetic alopecia, so an anti-fibrotic peptide could theoretically help maintain the follicular environment. This hasn't been tested in scalp tissue, but the biological logic is sound. The fact that the anti-fibrotic activity comes from a cleavage product (Ac-SDKP) rather than intact Tβ4 adds a layer of complexity about whether topical TB-500 would produce this effect.",
+      "assessmentSummary": "Consistent anti-fibrotic data across multiple organs via Ac-SDKP cleavage product -- theoretically relevant to perifollicular fibrosis in AGA, but untested in scalp.",
+      "citations": [
+        {
+          "authors": "Kleinman HK et al.",
+          "year": 2023,
+          "title": "Thymosin beta 4 and its anti-fibrotic activities",
+          "journal": "Int Immunopharmacol",
+          "pmid": "36580759",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36580759/"
+        },
+        {
+          "authors": "Zuo Y et al.",
+          "year": 2013,
+          "title": "Thymosin β4 and its degradation product, Ac-SDKP, are novel reparative factors in renal fibrosis",
+          "journal": "Kidney Int",
+          "pmid": "23739235",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23739235/"
+        },
+        {
+          "authors": "Conte E et al.",
+          "year": 2016,
+          "title": "Thymosin beta 4 reduces IL-17A-producing cells and IL-17A expression, and protects lungs from damage in bleomycin-treated mice",
+          "journal": "Oncotarget",
+          "pmid": "27029074",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27029074/"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 9,
+      "title": "TB-500 has neuroprotective and neurorestorative effects",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (rat TBI and stroke models, independent lab)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Neurotrauma data from a respected independent lab with clinically relevant delayed treatment windows, but no human neurological trials.",
+      "model": "In vivo -- rat models of traumatic brain injury (CCI model, Xiong et al., 2012) and embolic stroke (MCAo model, Morris et al., 2010). Both from the Chopp group at Henry Ford Hospital, a well-respected neurotrauma research center.",
+      "finding": "After TBI, Tβ4 treatment started 6 hours post-injury improved sensorimotor recovery, reduced cortical lesion volume, decreased hippocampal cell loss, and enhanced neurogenesis in the dentate gyrus. After embolic stroke, Tβ4 started 24 hours post-stroke improved neurological scores, increased myelinated axons, and augmented remyelination by mobilizing oligodendrocyte progenitor cells.",
+      "assessment": "The neurotrauma data comes from an independent, respected lab (Henry Ford Hospital), which adds credibility. The delayed treatment windows (6h post-TBI, 24h post-stroke) are clinically relevant. No human trials for neurological indications have been reported.",
+      "assessmentSummary": "Credible neurotrauma data from respected independent lab with clinically relevant delayed treatment windows, but no human trials.",
+      "citations": [
+        {
+          "authors": "Xiong Y et al.",
+          "year": 2012,
+          "title": "Thymosin β4 treatment of traumatic brain injury in the rat",
+          "journal": "J Neurosurg",
+          "pmid": "22324420",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22324420/"
+        },
+        {
+          "authors": "Morris DC et al.",
+          "year": 2010,
+          "title": "Thymosin beta 4 improves functional neurological outcome in a rat model of embolic stroke",
+          "journal": "Neuroscience",
+          "pmid": "20627173",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20627173/"
+        }
+      ],
+      "hairSpecific": false
+    }
+  ],
+  "efficacy": {
+    "keyTrials": [
+      {
+        "name": "Philp 2004 — Tβ4 Increases Hair Growth via Stem Cell Activation (Rats/Mice)",
+        "design": "In vivo animal study (rats and mice) plus in vitro clonogenic keratinocyte assays from rat vibrissa follicle bulge region",
+        "population": "Normal rats and mice (not androgenetic alopecia models). In vitro: rat vibrissa follicle bulge-derived keratinocytes.",
+        "arms": "Tβ4-treated vs. untreated controls. IP injection and topical application in animal models.",
+        "primaryOutcome": "Hair growth acceleration, stem cell migration, MMP-2 expression",
+        "results": {
+          "hairGrowth": "Tβ4 stimulated hair growth in normal rats and mice within 5-7 days of treatment",
+          "stemCellMigration": "Bulge-derived keratinocytes showed increased migration and differentiation at nanomolar Tβ4 concentrations",
+          "MMP2": "Expression and secretion of MMP-2 increased — essential for follicle extension during anagen",
+          "limitation": "Animal models only. Rat vibrissa follicles are not human scalp follicles. Mice have synchronized hair cycles that humans do not."
+        },
+        "citation": "Philp D et al. FASEB J. 2004;18(2):371-373. PMID: 14657002."
+      },
+      {
+        "name": "Gao 2015/2016 — Tβ4 Transgenic/Knockout Mouse Hair Growth via Wnt/β-catenin",
+        "design": "In vivo transgenic overexpression and global knockout mouse models — bidirectional genetic evidence",
+        "population": "Tβ4-overexpressing mice and Tβ4-knockout mice",
+        "arms": "Transgenic overexpression vs. wild-type vs. knockout",
+        "primaryOutcome": "Hair growth rate, follicle density, Wnt/β-catenin/LEF-1 pathway activation",
+        "results": {
+          "overexpression": "Faster hair growth, altered follicle patterns, increased β-catenin and LEF-1 expression, increased MMP-2 and VEGF",
+          "knockout": "Slower regrowth, fewer follicles, reduced β-catenin/LEF-1 signaling",
+          "mechanism": "Tβ4 regulates VEGF and MMP-2 via the Wnt/β-catenin/LEF-1 signaling pathway",
+          "limitation": "Mouse genetic models only. No pharmacological intervention tested. Does not predict whether exogenous TB-500 injected or applied topically in humans would reproduce these effects."
+        },
+        "citation": "Gao X et al. PLOS ONE. 2015. PMID: 26083021; Gao X et al. Mol Genet Genomics. 2016. PMID: 27130465."
+      },
+      {
+        "name": "Ruff 2010 — Phase I Safety Trial (Pharmaceutical-Grade Tβ4, NOT Hair)",
+        "design": "Randomized, placebo-controlled, single and multiple ascending dose Phase I study",
+        "population": "40 healthy human volunteers (4 cohorts of 10)",
+        "arms": "IV doses: 42, 140, 420, or 1,260 mg Tβ4 vs. placebo. Single dose then 14 days daily.",
+        "primaryOutcome": "Safety, tolerability, and pharmacokinetics — NOT hair growth",
+        "results": {
+          "adverseEvents": "Infrequent, mild or moderate. Most frequent: headache and upper respiratory infection.",
+          "seriousAEs": "None at any dose including 1,260 mg IV",
+          "halfLife": "0.95h (42 mg) to 2.1h (1,260 mg)",
+          "hairRelevance": "None — this trial did not measure hair outcomes. Included here because it is the best human safety data for the peptide."
+        },
+        "citation": "Ruff D et al. Ann NY Acad Sci. 2010;1194:68-72. PMID: 20536472."
+      },
+      {
+        "name": "Wang 2021 — Chinese Phase I Safety Trial (Recombinant Tβ4, NOT Hair)",
+        "design": "Randomized, double-blind, single and multiple ascending dose Phase I study",
+        "population": "84 healthy Chinese volunteers (7 cohorts)",
+        "arms": "IV doses: 0.05-25.0 μg/kg recombinant human Tβ4 vs. placebo",
+        "primaryOutcome": "Safety, tolerability, pharmacokinetics, and anti-drug antibody — NOT hair growth",
+        "results": {
+          "adverseEvents": "Mild to moderate. No dose-limiting toxicities.",
+          "seriousAEs": "None at any dose",
+          "hairRelevance": "None — this trial did not measure hair outcomes. Confirms the Ruff 2010 safety profile in an independent population."
+        },
+        "citation": "Wang D et al. J Cell Mol Med. 2021;25(17):8332-8343. PMID: 34346165."
+      }
+    ],
+    "responseRate": "Unknown. Zero human hair trials exist. In rodent models, Tβ4 accelerated hair growth within 5-7 days (Philp 2004), and transgenic overexpression produced visibly faster regrowth and increased follicle density (Gao 2015). These animal response rates cannot be extrapolated to humans with androgenetic alopecia.",
+    "timeToEffect": "Unknown in humans. In rodent models, visible acceleration of hair growth was observed within 5-7 days of IP injection (Philp 2004). However, mouse hair cycling is synchronized and fundamentally different from the mosaic pattern in human scalps. No human data exists to estimate onset of any hair effect.",
+    "peakEffect": "Unknown. No human data. In transgenic mouse models, maximal differences in hair growth and follicle density were observed at maturity, reflecting chronic overexpression rather than pharmacological dosing. No time-to-peak-effect data exists for exogenous TB-500 administration in any species for hair specifically.",
+    "maintenanceRequired": true,
+    "discontinuationEffect": "Unknown. No human data. Given that TB-500's proposed hair mechanism involves transient stem cell activation and ECM remodeling rather than permanent follicle transformation, ongoing treatment would likely be required to maintain any effect — similar to minoxidil. Pharmaceutical-grade Tβ4 has a short half-life (0.95-2.1 hours IV), suggesting frequent dosing would be needed. However, this is entirely theoretical for hair."
+  },
+  "sideEffects": {
+    "commonAEs": [
+      {
+        "name": "Headache",
+        "rate": "Most frequent AE in Ruff 2010 Phase I trial, but still infrequent and mild",
+        "notes": "Reported in both Tβ4 and placebo groups. At doses up to 1,260 mg IV, headache was the most commonly reported adverse event. Severity was mild to moderate. This data comes from pharmaceutical-grade Tβ4, not research-grade TB-500."
+      },
+      {
+        "name": "Upper respiratory infection symptoms",
+        "rate": "Reported in Ruff 2010 Phase I trial — infrequent",
+        "notes": "Second most common AE in the US Phase I trial. Mild and self-limiting. Occurred at similar rates across dose groups, making a causal relationship uncertain."
+      },
+      {
+        "name": "Injection site reactions (subcutaneous self-administration)",
+        "rate": "Unknown — not studied in controlled trials for this route",
+        "notes": "Phase I trials used IV administration. Subcutaneous injection is the route used by self-experimenters. Injection site pain, redness, or swelling are expected with any subcutaneous peptide injection but have not been systematically studied for TB-500. Risk is compounded by non-sterile technique and unverified product purity."
+      },
+      {
+        "name": "Immune/allergic reaction (research-grade product)",
+        "rate": "Unknown — no controlled data for research-grade TB-500",
+        "notes": "Research-grade TB-500 from peptide vendors may contain synthesis byproducts, truncated sequences, residual solvents (TFA, acetonitrile), or bacterial endotoxins. These impurities can cause immune reactions, injection site inflammation, or systemic effects unrelated to Tβ4 itself. The FDA specifically cited potential for immune reactions as a safety concern when classifying TB-500 as Category 2."
+      }
+    ],
+    "seriousAEs": [
+      {
+        "name": "Theoretical cancer/tumor promotion risk (pro-angiogenic mechanism)",
+        "rate": "No cases reported in clinical trials, but theoretical concern is well-documented in literature",
+        "notes": "Tβ4 is a potent promoter of angiogenesis (VEGF upregulation). Tβ4 overexpression has been associated with larger tumor volumes and >4x increased blood vessel formation in preclinical cancer models. Tβ4 is overexpressed in multiple human cancers (pancreatic, colorectal, melanoma). While standard carcinogenicity assays for pharmaceutical Tβ4 did not show tumor promotion, the pro-angiogenic mechanism raises genuine concern for patients with active, subclinical, or undiagnosed malignancies. This is the most commonly cited theoretical serious risk in the literature."
+      },
+      {
+        "name": "Unknown long-term effects of chronic self-administration",
+        "rate": "Completely unknown — no long-term studies exist",
+        "notes": "Phase I trials were short-term (single dose plus 14 days). No long-term safety data exists for repeated dosing at any interval. Self-experimenters using TB-500 for months or years are operating outside any evidence base. Effects of chronic exogenous Tβ4 on immune function, tissue remodeling, and cancer surveillance are unknown."
+      },
+      {
+        "name": "Contamination-related adverse events (research-grade product)",
+        "rate": "Unknown — no pharmacovigilance system exists for research-grade peptides",
+        "notes": "Research-grade TB-500 is not manufactured under GMP conditions. Batch-to-batch variability in purity, potency, and sterility is expected. Contamination with bacterial endotoxins, heavy metals, residual solvents, or other synthesis byproducts could cause serious adverse events including sepsis (from non-sterile injection), allergic reactions, or organ toxicity. There is no bioequivalence data showing that vendor TB-500 behaves identically to pharmaceutical-grade Tβ4 used in clinical trials."
+      }
+    ],
+    "discontinuationRate": "Unknown. No human trials for any indication have reported discontinuation rates specific to TB-500. In the Phase I safety trials of pharmaceutical Tβ4 (Ruff 2010, Wang 2021), no subjects discontinued due to adverse events, but these were short-term studies with healthy volunteers, not long-term treatment studies.",
+    "contraindications": [
+      "Active malignancy or history of cancer — Tβ4's pro-angiogenic (VEGF) and cell migration-promoting properties could theoretically promote tumor growth, metastasis, or neovascularization of existing tumors. This is the most important theoretical contraindication.",
+      "Severe immunodeficiency or active autoimmune conditions — Tβ4 modulates immune function and tissue repair; effects in immunocompromised patients are unpredictable.",
+      "Concurrent immunosuppressive therapy — potential for unpredictable immune modulation when combined with immunosuppressants.",
+      "Pregnancy and lactation — no reproductive toxicity data exists for TB-500. Tβ4 plays roles in embryonic development, making exogenous administration during pregnancy a serious unknown risk.",
+      "Hypersensitivity to thymosin beta-4 or any component of research-grade formulations (including residual solvents, counterions such as TFA).",
+      "Competitive athletes — TB-500 and all thymosin beta-4 derivatives are on the WADA Prohibited List (category S2: Peptide Hormones, Growth Factors, Related Substances and Mimetics). A positive test results in a 4-year ban from all WADA-compliant sports. Also banned in competitive horse racing."
+    ],
+    "drugInteractions": [
+      {
+        "drug": "Anticoagulants and antiplatelet agents",
+        "severity": "Theoretical",
+        "mechanism": "Tβ4 promotes angiogenesis and cell migration, which could theoretically alter wound healing dynamics and bleeding risk. No clinical interaction data exists."
+      },
+      {
+        "drug": "Immunosuppressants (e.g., cyclosporine, tacrolimus, methotrexate)",
+        "severity": "Theoretical",
+        "mechanism": "Tβ4 has immunomodulatory properties (anti-inflammatory via Ac-SDKP, anti-fibrotic via TGF-β suppression). Combining with immunosuppressants could produce unpredictable additive or opposing effects on immune regulation. No clinical interaction data exists."
+      },
+      {
+        "drug": "Anti-angiogenic cancer therapies (e.g., bevacizumab, sunitinib)",
+        "severity": "Theoretical — mechanistic antagonism",
+        "mechanism": "Tβ4 promotes VEGF-mediated angiogenesis. Anti-angiogenic drugs inhibit this exact pathway. Concurrent use would be pharmacologically contradictory and could reduce the efficacy of the cancer treatment."
+      },
+      {
+        "drug": "ACE inhibitors",
+        "severity": "Theoretical",
+        "mechanism": "ACE degrades the Tβ4 cleavage product Ac-SDKP. ACE inhibitors increase circulating Ac-SDKP levels, which could potentiate the anti-fibrotic effects of exogenous Tβ4. Clinical significance unknown."
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "Contraindicated. No reproductive toxicity studies have been conducted for TB-500. Thymosin beta-4 is endogenously expressed during embryonic development and plays critical roles in cardiac morphogenesis, vascular development, and tissue remodeling. Exogenous administration during pregnancy poses unknown but potentially serious risks to fetal development. No data exists on placental transfer or presence in breast milk.",
+      "women": "No data. Zero clinical trials have included women for any TB-500/Tβ4 indication related to hair. The Phase I safety trials included both sexes. Women of childbearing potential should use reliable contraception if self-administering TB-500, given the complete absence of reproductive safety data. No information exists on effects on menstrual cycles, fertility, or hormonal function.",
+      "children": "No data. Thymosin beta-4 has not been studied in pediatric populations for any indication. Given the peptide's roles in development, growth, and stem cell activation, effects in children are completely unknown. Not recommended."
+    },
+    "blackBoxWarning": "",
+    "regulatoryWarnings": "TB-500 is not FDA-approved for any indication in humans. The FDA classified TB-500 as a Category 2 bulk drug substance in 2023, designating it as a compound with safety concerns that is not permitted for pharmaceutical compounding. Research-grade TB-500 from peptide vendors is sold 'for research purposes only' and is not manufactured under GMP conditions. No bioequivalence data exists between vendor TB-500 and the pharmaceutical-grade Tβ4 (RGN-259, RGN-352) used in clinical trials. WADA prohibits TB-500 and all thymosin beta-4 derivatives at all times (S2 category). Banned in competitive horse racing worldwide."
+  },
+  "missingEvidence": [
+    "Any human trial testing TB-500/Tβ4 for hair growth. All hair evidence is from rodent models.",
+    "Proof that research-grade TB-500 is bioequivalent to pharmaceutical-grade Tβ4 used in clinical trials.",
+    "A successful Phase III trial for any indication (SEER-3 dry eye missed its primary endpoint).",
+    "Data on whether topically applied TB-500 reaches hair follicles at effective concentrations. All animal hair studies used IP injection or transgenic overexpression, not topical application.",
+    "Evidence that TB-500's anti-fibrotic effects (via Ac-SDKP) occur in human scalp tissue."
+  ],
+  "bottomLine": {
+    "summary": "TB-500/Thymosin Beta-4 is the most scientifically advanced peptide in this guide. It has two Nature papers for cardiac repair, Phase I-III clinical trials across wound healing, dry eye, and cardiac indications, and the best safety data of any peptide discussed here (no serious adverse events at 1,260 mg IV).\n\nFor hair specifically, TB-500 has the strongest preclinical rationale of any non-GHK peptide: genuine stem cell activation, confirmed Wnt/β-catenin signaling (in transgenic mouse models, not just computational predictions), and MMP-2-mediated ECM remodeling. These are the right pathways. But they've only been demonstrated in rodents, and all hair studies used injection or genetic overexpression -- not topical application.",
+    "keyTakeaway": "TB-500 touches more hair-relevant biology than any peptide except GHK-Cu, and has a more robust clinical safety profile than any peptide in this guide. But with zero human hair trials, it remains a promising mechanism without proof of efficacy for hair loss. Its best-supported applications are wound healing and ophthalmology.",
+    "verdict": "Promising biology, zero hair proof"
+  },
+  "articleUrl": "/evidence/tb-500",
+  "pubmedSearchUrl": "https://pubmed.ncbi.nlm.nih.gov/?term=thymosin+beta+4+hair",
+  "lastUpdated": "2026-03-18",
+  "version": "1.0",
+  "author": "Anagen Research Team",
+  "reviewedBy": ""
+}

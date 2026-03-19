@@ -1,0 +1,324 @@
+{
+  "id": "tdm105",
+  "name": "TDM-105795",
+  "category": "Investigational",
+  "subcategory": "Thyromimetic / Thyroid Hormone Receptor Agonist",
+  "status": "Phase 2a Completed",
+  "developer": "Technoderma Medicines, Inc.",
+  "developerHQ": "Chengdu Tianfu BioPark, Sichuan, China",
+  "targetIndication": "Androgenetic Alopecia (Male Pattern Hair Loss)",
+  "mechanismOfAction": "TRbeta1-selective thyroid hormone receptor agonist. Activates dormant hair follicle stem cells and induces telogen-to-anagen transition via thyroid hormone receptor signaling pathways (Wnt/beta-catenin, Sonic hedgehog, BMP inhibition).",
+  "routeOfAdministration": "Topical (scalp solution, once daily)",
+  "moleculeType": "Small molecule",
+  "firstInClass": true,
+  "approvalStatus": "Not approved. Investigational only.",
+  "clinicalTrials": [
+    {
+      "id": "NCT04913519",
+      "phase": "Phase 1a (SAD)",
+      "title": "A Phase 1 Study of TDM-105795 Topical Solution in Male Subjects With Androgenetic Alopecia (AGA)",
+      "design": "Randomized, double-blind, vehicle-controlled, parallel group, dose escalation",
+      "population": "Healthy males 18-55 with AGA",
+      "duration": "Single dose",
+      "sites": "1 site (San Diego, CA)",
+      "status": "Completed (~2022)",
+      "resultsPublished": false,
+      "endpoints": "Safety, tolerability, pharmacokinetics"
+    },
+    {
+      "id": "NCT05244980",
+      "phase": "Phase 1b (MAD)",
+      "title": "A Study of TDM-105795 in Male Subjects With Androgenetic Alopecia (AGA)",
+      "design": "Randomized, double-blind, vehicle-controlled, parallel group, multi-dose escalation",
+      "population": "Healthy males with AGA",
+      "enrollment": 32,
+      "duration": "28 days",
+      "sites": "2 U.S. sites (College Station, TX; San Diego, CA)",
+      "status": "Completed (March 2023)",
+      "resultsPublished": false,
+      "endpoints": "Safety, tolerability, pharmacokinetics"
+    },
+    {
+      "id": "NCT05802173",
+      "phase": "Phase 2a",
+      "title": "Study of TDM-105795 Following Topical Administration in Male Subjects with Androgenetic Alopecia",
+      "design": "Randomized, double-blind, vehicle-controlled, parallel group",
+      "population": "Males with mild to moderate AGA",
+      "enrollment": 71,
+      "randomization": "1:1:1 (high dose : low dose : placebo)",
+      "doses": ["0.02% (high)", "0.0025% (low)", "Vehicle (placebo)"],
+      "duration": "16 weeks (4 months), once-daily application",
+      "sites": "13 U.S. clinical sites",
+      "status": "Completed (February 2024)",
+      "resultsPublished": false,
+      "primaryEndpoint": "Non-vellus Target Area Hair Count (TAHC) change from baseline (1 cm2)",
+      "results": {
+        "highDose": {
+          "concentration": "0.02%",
+          "meanTAHCChange": 24.3,
+          "unit": "hairs/cm2"
+        },
+        "lowDose": {
+          "concentration": "0.0025%",
+          "meanTAHCChange": 20.3,
+          "unit": "hairs/cm2"
+        },
+        "placebo": {
+          "meanTAHCChange": 14.0,
+          "unit": "hairs/cm2"
+        },
+        "netEffectHighDose": 10.3,
+        "netEffectLowDose": 6.3,
+        "pValuesDisclosed": false,
+        "safetyNotes": "Both concentrations well tolerated. No material safety issues. Extremely low to no systemic exposure."
+      }
+    }
+  ],
+  "preclinicalData": {
+    "inVivoEfficacy": {
+      "model": "C3H mice (topical application)",
+      "finding": "Dose-dependent stimulation of hair growth; induced anagen in telogen-phase follicles",
+      "published": false,
+      "source": "Company press release"
+    },
+    "toxicology": {
+      "species": ["Rats", "Minipigs"],
+      "finding": "Favorable toxicology and toxicokinetic profiles",
+      "systemicAbsorption": "Poor systemic absorption following topical application",
+      "halfLife": "Short elimination half-life",
+      "published": false,
+      "source": "Company press release"
+    }
+  },
+  "supportingScience": [
+    {
+      "claim": "Thyroid hormone signaling controls hair follicle stem cell function",
+      "model": "In vivo (TR-knockout mice)",
+      "evidenceWeight": "Moderate",
+      "citation": "Contreras-Jurado et al., Mol Biol Cell. 2015;26(7):1263-1272. PMC4454174",
+      "independent": true
+    },
+    {
+      "claim": "Thyroid hormones directly promote hair growth in human follicles",
+      "model": "Ex vivo (human scalp hair follicle organ culture)",
+      "evidenceWeight": "Moderate-High",
+      "citation": "van Beek et al., J Clin Endocrinol Metab. 2008;93(11):4381-4388. PMID: 18728176",
+      "independent": true
+    },
+    {
+      "claim": "TRbeta-selective agonist promoted hair growth in mice and monkeys",
+      "model": "In vivo (C3H mice and stumptail macaques)",
+      "evidenceWeight": "Moderate",
+      "citation": "Li & Mitchell, Bioorg Med Chem Lett. 2009;19(24):6977-6981. PMID: 19900809",
+      "independent": true
+    },
+    {
+      "claim": "TRbeta1 is the dominant thyroid receptor during human hair follicle growth",
+      "model": "Human tissue expression analysis",
+      "evidenceWeight": "Moderate-High",
+      "citation": "Drug Discov Today. 2024;29(6). ScienceDirect (review)",
+      "independent": true
+    }
+  ],
+  "efficacy": {
+    "keyTrials": [
+      {
+        "name": "Phase 2a Proof-of-Concept (NCT05802173)",
+        "phase": "Phase 2a",
+        "design": "Randomized, double-blind, vehicle-controlled, parallel group, 1:1:1",
+        "population": "71 males with mild to moderate AGA across 13 U.S. sites",
+        "duration": "16 weeks (4 months), once-daily topical application",
+        "primaryEndpoint": "Non-vellus Target Area Hair Count (TAHC) change from baseline per cm2",
+        "results": {
+          "highDose_0.02pct": "+24.3 hairs/cm2 (net over placebo: +10.3 hairs/cm2)",
+          "lowDose_0.0025pct": "+20.3 hairs/cm2 (net over placebo: +6.3 hairs/cm2)",
+          "placebo": "+14.0 hairs/cm2"
+        },
+        "statisticalSignificance": "Not disclosed; p-values and confidence intervals were not reported in the press release",
+        "limitations": "Small sample size (~24 per arm), short duration (16 weeks), unusually high placebo response (+14.0 hairs/cm2), no global photography or patient-reported outcomes published, not peer-reviewed",
+        "companyInterpretation": "Positive proof-of-concept demonstrating hair growth",
+        "independentInterpretation": "Modest net effect over placebo; high placebo response raises questions about trial conduct or natural variability; unclear clinical significance without photography or subject self-assessment data"
+      },
+      {
+        "name": "Preclinical C3H Mouse Model",
+        "phase": "Preclinical",
+        "design": "Topical application of TDM-105795 to C3H mice in telogen phase",
+        "results": {
+          "finding": "Dose-dependent stimulation of hair growth; induced telogen-to-anagen transition"
+        },
+        "limitations": "Not published in peer-reviewed literature; C3H mouse model has limited translational relevance to human AGA (mouse hair cycling is mechanistically different from human pattern baldness)"
+      },
+      {
+        "name": "Phase 1b MAD (NCT05244980)",
+        "phase": "Phase 1b",
+        "design": "Randomized, double-blind, vehicle-controlled, multi-dose escalation",
+        "population": "32 healthy males with AGA across 2 U.S. sites",
+        "duration": "28 days",
+        "results": {
+          "finding": "Safety and tolerability endpoints met; pharmacokinetic data confirmed extremely low systemic exposure"
+        },
+        "limitations": "Efficacy was not a primary endpoint; detailed results not published"
+      }
+    ],
+    "timeToEffect": "Unknown. The only efficacy measurement was at 16 weeks (4 months). No interim timepoint data has been disclosed. Based on the thyromimetic mechanism (inducing telogen-to-anagen transition), onset could theoretically occur within 2-4 months, but this is speculative.",
+    "peakEffect": "Unknown. 16 weeks may not represent peak effect; most hair growth trials show continued improvement through 6-12 months. No data beyond 16 weeks exists.",
+    "maintenanceRequired": "Unknown. No maintenance or discontinuation studies have been conducted. Given the mechanism (activating dormant follicles rather than blocking DHT), it is unknown whether continuous use is required to sustain hair growth.",
+    "discontinuationEffect": "Unknown. No discontinuation data available. Theoretically, if the compound only induces anagen entry without addressing the underlying androgenic miniaturization process, hair regained may be lost after stopping treatment, but this is speculative.",
+    "contextVsApprovedTherapies": "The net placebo-adjusted effect of +6.3 to +10.3 hairs/cm2 at 16 weeks is modest compared to historical data for 5% topical minoxidil (placebo-adjusted ~15-20 hairs/cm2 at 16 weeks in registration trials). However, direct comparison is unreliable due to differences in trial design, population, and the unusually high placebo response in the TDM-105795 trial. No head-to-head trials exist."
+  },
+  "sideEffects": {
+    "commonAEs": [
+      {
+        "name": "No specific adverse events enumerated",
+        "rate": "Not disclosed",
+        "notes": "Technoderma reported that both dose strengths were 'well tolerated with no material safety issues identified' across Phase 1 and Phase 2a trials. However, no breakdown of individual adverse events, incidence rates, or AE tables has been published. This lack of granular safety data is a significant gap."
+      }
+    ],
+    "seriousAEs": [
+      {
+        "name": "None reported",
+        "rate": "Not disclosed",
+        "notes": "No serious adverse events were mentioned in any press release. However, the full safety dataset has not been published in a peer-reviewed journal or at a medical conference."
+      }
+    ],
+    "discontinuationRate": "Not disclosed. No data on treatment discontinuations due to adverse events has been published.",
+    "thyromimeticClassRisks": {
+      "overview": "As a thyroid hormone receptor agonist, TDM-105795 belongs to the thyromimetic drug class. Historically, thyromimetics have raised serious safety concerns when they activate TRalpha receptors or achieve significant systemic exposure.",
+      "cardiacEffects": {
+        "risk": "Tachycardia, atrial fibrillation, heart failure",
+        "mechanism": "Mediated primarily through TRalpha1 receptor activation in cardiac tissue",
+        "mitigationClaimed": "TDM-105795 is claimed to be TRbeta1-selective with extremely low systemic absorption, which should minimize cardiac risk. However, TRbeta1 vs TRalpha selectivity data has not been published.",
+        "observedInTrials": "No cardiac adverse events reported in Phase 1 or Phase 2a"
+      },
+      "boneEffects": {
+        "risk": "Accelerated bone turnover, osteoporosis with chronic use",
+        "mechanism": "Excess thyroid hormone (primarily via TRalpha1) increases osteoclast activity",
+        "mitigationClaimed": "Minimal systemic exposure should prevent bone effects",
+        "observedInTrials": "Not assessed. Bone density was not measured in any trial. 16-week duration is too short to detect bone effects."
+      },
+      "metabolicEffects": {
+        "risk": "Weight loss, diarrhea, heat intolerance, hypermetabolic state",
+        "mechanism": "Systemic thyroid hormone excess increases basal metabolic rate",
+        "mitigationClaimed": "Poor systemic absorption and short half-life designed to prevent systemic metabolic effects",
+        "observedInTrials": "No metabolic adverse events reported"
+      },
+      "thyroidAxisEffects": {
+        "risk": "TSH suppression, altered T3/T4 levels",
+        "mechanism": "Thyromimetics acting on TRbeta2 in the pituitary can suppress TSH, potentially causing secondary hypothyroidism",
+        "mitigationClaimed": "Extremely low systemic exposure should prevent pituitary effects",
+        "observedInTrials": "Not disclosed whether thyroid function tests (TSH, T3, T4) were monitored"
+      },
+      "hepaticEffects": {
+        "risk": "Transaminase elevations, hepatotoxicity",
+        "mechanism": "TRbeta1 is the predominant thyroid receptor in the liver; the approved thyromimetic resmetirom (Rezdiffra) carries hepatotoxicity warnings",
+        "mitigationClaimed": "Topical administration with minimal systemic exposure should limit hepatic effects",
+        "observedInTrials": "No liver-related adverse events reported, but detailed liver function data not published"
+      },
+      "historicalClassFailures": "D-thyroxine (1960s) showed increased mortality in cardiac patients. Eprotirome (TRbeta-selective, oral, for dyslipidemia) was discontinued after cartilage toxicity was found in long-term dog studies. These failures were with systemic oral agents, not topical preparations."
+    },
+    "localSkinEffects": {
+      "reported": "No specific local skin reactions reported",
+      "notes": "No data on application-site irritation, erythema, pruritus, or dermatitis has been published. This is notable because most topical hair loss treatments (minoxidil, topical finasteride) commonly cause some degree of local irritation."
+    },
+    "contraindications": [
+      {
+        "condition": "Hyperthyroidism or thyrotoxicosis",
+        "rationale": "Theoretical risk of exacerbating thyroid excess via thyromimetic activity, even with minimal systemic exposure. Not formally studied."
+      },
+      {
+        "condition": "Known hypersensitivity to TDM-105795 or vehicle components",
+        "rationale": "Standard precaution for any topical formulation. Vehicle composition not publicly disclosed."
+      },
+      {
+        "condition": "Cardiac arrhythmias (atrial fibrillation, supraventricular tachycardia)",
+        "rationale": "Theoretical concern based on thyromimetic class risk. Not formally contraindicated in trials but prudent given unknown long-term systemic exposure."
+      }
+    ],
+    "drugInteractions": [
+      {
+        "drug": "Levothyroxine / liothyronine (exogenous thyroid hormones)",
+        "concern": "Theoretical additive thyromimetic effect if any systemic absorption occurs",
+        "evidence": "Not studied"
+      },
+      {
+        "drug": "Beta-blockers",
+        "concern": "Theoretical pharmacodynamic interaction; beta-blockers may mask tachycardia from thyromimetic excess",
+        "evidence": "Not studied"
+      },
+      {
+        "drug": "Anticoagulants (warfarin)",
+        "concern": "Thyroid hormones increase catabolism of vitamin K-dependent clotting factors; theoretically relevant if systemic exposure occurs",
+        "evidence": "Not studied. Likely not clinically relevant given minimal systemic absorption."
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "Not studied. Pregnancy category not assigned. Thyroid hormones are critical for fetal development, and thyromimetic exposure during pregnancy could theoretically affect fetal thyroid function. Use during pregnancy cannot be recommended.",
+      "women": "Not studied. All clinical trials enrolled males only. Efficacy and safety in female pattern hair loss are unknown. A separate clinical development program would be needed.",
+      "children": "Not studied. No pediatric data. Use in children cannot be recommended.",
+      "elderly": "Not studied. Phase 2a enrolled males 18-55. Effects in older adults with potential comorbidities (cardiovascular disease, osteoporosis) are unknown.",
+      "renalImpairment": "Not studied.",
+      "hepaticImpairment": "Not studied. Given TRbeta1 expression in liver and hepatotoxicity signal with other systemic thyromimetics, this population may warrant particular caution."
+    },
+    "blackBoxWarning": "",
+    "overallSafetyAssessment": "The available safety data for TDM-105795 is extremely limited: three small, short-duration trials with no published adverse event tables, no peer-reviewed safety analysis, and no long-term data. The company's statements of 'well tolerated with no material safety issues' are encouraging but unverifiable without published data. The theoretical safety advantage of topical delivery with minimal systemic absorption is scientifically plausible but rests entirely on unpublished company data. No independent safety evaluation has been conducted."
+  },
+  "safetyProfile": {
+    "knownRisks": "Thyromimetics carry theoretical risk of systemic thyroid effects (tachycardia, metabolic effects) if absorbed systemically. TDM-105795 was specifically designed with poor systemic absorption and short half-life to mitigate this.",
+    "clinicalSafetyData": "Phase 1 and Phase 2a trials reported favorable safety with no material issues. Extremely low to no systemic exposure confirmed via bioanalytical testing.",
+    "longTermSafetyData": false,
+    "TRalphaSelectivityPublished": false
+  },
+  "comparisonToExistingTreatments": {
+    "minoxidil5Percent": {
+      "mechanism": "Potassium channel opener / vasodilator",
+      "typicalTAHCIncrease16Weeks": "20-26 hairs/cm2 total (placebo-adjusted ~15-20 hairs/cm2)",
+      "evidenceLevel": "Decades of RCT data, FDA-approved",
+      "note": "No head-to-head trial with TDM-105795"
+    },
+    "finasteride1mg": {
+      "mechanism": "5-alpha reductase type II inhibitor (blocks DHT)",
+      "evidenceLevel": "Large RCTs, FDA-approved",
+      "note": "No head-to-head trial with TDM-105795"
+    },
+    "tdm105795": {
+      "mechanism": "TRbeta1 thyromimetic (novel pathway)",
+      "netTAHCIncrease16Weeks": "6.3-10.3 hairs/cm2 over placebo (Phase 2a)",
+      "evidenceLevel": "One small Phase 2a trial (N=71), not peer-reviewed",
+      "potentialAdvantage": "Non-overlapping mechanism; could theoretically combine with existing treatments"
+    }
+  },
+  "limitations": [
+    "No peer-reviewed publications of any TDM-105795-specific data as of March 2026",
+    "Phase 2a statistical significance (p-values, CIs) not disclosed",
+    "High placebo response (+14.0 hairs/cm2) narrows net treatment effect",
+    "Small trial (N=71, ~24 per arm)",
+    "Short duration (16 weeks; hair loss trials typically need 6-12 months)",
+    "No global photography or patient-reported outcomes published",
+    "No Phase 2b or Phase 3 trial announced as of March 2026",
+    "TRbeta1 selectivity over TRalpha not characterized in published literature",
+    "No independent research groups have studied the compound"
+  ],
+  "overallEvidenceAssessment": {
+    "mechanismRationale": "Strong (supported by multiple independent published studies on thyroid hormone and hair growth)",
+    "compoundSpecificEvidence": "Early-stage (Phase 2a complete, no peer-reviewed publications)",
+    "safetyConfidence": "Moderate (clean Phase 1 and 2a data, but no long-term data and no published TRbeta selectivity characterization)",
+    "efficacyConfidence": "Low-Moderate (one small, short Phase 2a trial with modest net effect over placebo)",
+    "availabilityTimeline": "Not available. Several years from potential approval, assuming Phase 2b/3 trials proceed."
+  },
+  "keyPeople": {
+    "ceo": "Zengquan Wang, PhD",
+    "cmo": "Arthur Bertolino, MD"
+  },
+  "lastUpdated": "2026-03-19",
+  "sources": [
+    "https://www.prnewswire.com/news-releases/technoderma-medicines-phase-2-clinical-trial-of-tdm-105795-demonstrates-hair-growth-in-androgenetic-alopecia-302052631.html",
+    "https://www.prnewswire.com/news-releases/technoderma-medicines-initiates-tdm-105795-androgenetic-alopecia-phase-2-clinical-trial-301800212.html",
+    "https://clinicaltrials.gov/study/NCT04913519",
+    "https://clinicaltrials.gov/study/NCT05244980",
+    "https://clinicaltrials.gov/study/NCT05802173",
+    "https://pubmed.ncbi.nlm.nih.gov/18728176/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4454174/",
+    "https://pubmed.ncbi.nlm.nih.gov/19900809/",
+    "https://www.sciencedirect.com/science/article/abs/pii/S1359644624001387"
+  ]
+}

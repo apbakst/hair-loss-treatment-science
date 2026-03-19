@@ -1,0 +1,371 @@
+{
+  "id": "acetyl-tetrapeptide-3",
+  "name": "Acetyl Tetrapeptide-3 (Capixyl)",
+  "fullName": "Acetyl Tetrapeptide-3 with Biochanin A (marketed as Capixyl)",
+  "aliases": [
+    "Capixyl",
+    "acetyl tetrapeptide-3",
+    "Ac-KGHK",
+    "red clover peptide complex",
+    "Lucas Meyer Capixyl",
+    "Trifolium pratense peptide"
+  ],
+  "category": "peptides-cosmeceuticals",
+  "categoryLabel": "Peptides / Cosmeceuticals",
+  "approvalStatus": "none",
+  "approvalNote": "Cosmetic ingredient. No FDA or EMA approval for hair loss. Sold as part of the proprietary Capixyl complex by Lucas Meyer Cosmetics (now Clariant/IFF).",
+  "mechanismOfAction": "Capixyl is a two-component system: acetyl tetrapeptide-3 (Ac-Lys-Gly-His-Lys) stimulates extracellular matrix proteins (collagen III, laminin) around the hair follicle, while the red clover extract (standardized to biochanin A) inhibits 5-alpha reductase in vitro, reducing DHT production. The peptide and the isoflavone target different pathways, but virtually all clinical data tests the combination, not either component alone.",
+  "primaryTargets": [
+    "Extracellular matrix (collagen III, laminin)",
+    "5-alpha reductase (via biochanin A, not the peptide)",
+    "DHT reduction (via biochanin A)"
+  ],
+  "routeOfAdministration": ["topical"],
+  "typicalDose": "Capixyl is typically used at 1-5% concentration in topical serums and lotions. The manufacturer's clinical study used 5% Capixyl lotion applied twice daily.",
+  "evidenceGrade": "D",
+  "evidenceGradeRationale": "One small manufacturer-sponsored RCT (N=30), two most-cited statistics trace to unverifiable or fabricated citations, no study has tested the peptide alone in humans, and the anti-DHT activity belongs to the red clover extract, not the peptide.",
+  "highestEvidenceLevel": "human-rct",
+  "totalClaimsEvaluated": 6,
+  "humanTrialCount": 1,
+  "evidenceLevelCounts": {
+    "in-silico": 0,
+    "in-vitro": 3,
+    "in-vivo-animal": 0,
+    "ex-vivo": 0,
+    "human-open-label": 0,
+    "human-rct": 3
+  },
+  "oneLinerSummary": "Two-component complex with plausible mechanisms but thin clinical evidence and key claims traceable to fabricated citations.",
+  "strengthOfEvidenceForHair": 2,
+  "keyLimitation": "The anti-DHT activity is from biochanin A (red clover), not the peptide; the two most-cited statistics trace to a fabricated citation; and the only manufacturer RCT is N=30.",
+  "bestFor": "Cosmetic adjunct to proven treatments for those seeking a peptide-based addition to their regimen.",
+  "claims": [
+    {
+      "number": 1,
+      "title": "Capixyl produces a 17% increase in hair diameter",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Unverifiable -- attributed to a non-existent peer-reviewed publication",
+      "evidenceWeight": "Very Low",
+      "weightRationale": "The source citation (Garcia et al. 2015) does not exist on PubMed or in the International Journal of Trichology. The claim cannot be evaluated because its source appears fabricated.",
+      "model": "Unverifiable. This figure is frequently attributed to \"Garcia A., Stuard B., & Wendt J. (2015). Clinical efficacy of a hair serum containing acetyl tetrapeptide-3. International Journal of Trichology, 7(4), 148-152.\" However, this paper does not exist on PubMed. The International Journal of Trichology Volume 7, Issue 4 (2015) does not contain this article. The citation appears to have been fabricated or hallucinated by marketing content writers and propagated across cosmetics websites.",
+      "finding": "The 17% figure likely originates from the Lucas Meyer Cosmetics proprietary technical data file, which is not publicly accessible as a peer-reviewed publication. The only peer-reviewed study from the manufacturer (Loing et al., 2013) reports anagen/telogen ratio changes, not hair diameter.",
+      "assessment": "You cannot give weight to a claim whose source study doesn't exist. This is a significant red flag for anyone evaluating Capixyl: one of its most-cited statistics traces back to a fabricated citation. The actual manufacturer data may show something about diameter changes, but it hasn't been published in a journal where it can be evaluated by independent scientists.",
+      "assessmentSummary": "Source citation appears fabricated; the claimed 17% figure cannot be independently verified.",
+      "citations": [
+        {
+          "authors": "Garcia A, Stuard B, Wendt J",
+          "year": 2015,
+          "title": "Clinical efficacy of a hair serum containing acetyl tetrapeptide-3",
+          "journal": "International Journal of Trichology (CLAIMED -- paper does not exist in this journal)",
+          "volume": "7",
+          "pages": "148-152",
+          "pmid": "",
+          "doi": "",
+          "url": ""
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 2,
+      "title": "Capixyl produces a 67% boost in hair growth activity",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Unverifiable -- same fabricated citation as Claim 1, likely a misquoted statistic",
+      "evidenceWeight": "Very Low",
+      "weightRationale": "Attributed to the same non-existent Garcia et al. 2015 citation. The 67% figure is likely a misrepresentation of a responder rate, not a percentage improvement.",
+      "model": "Same situation as Claim 1 -- attributed to the same non-existent \"Garcia et al., 2015\" citation.",
+      "finding": "The only peer-reviewed study from the manufacturer (Loing et al., 2013, N=30) found a 46% increase in anagen/telogen ratio with the Capixyl combination -- not 67%. The 67% figure may come from a different metric in the proprietary technical file (the manufacturer's pilot trial reported that \"67% of the 18 Capixyl volunteers showed significant improvement\"), but this is a percentage of responders, not a percentage improvement in growth. It appears someone converted \"67% of people improved\" into \"67% boost in hair growth activity\" -- a fundamental misrepresentation.",
+      "assessment": "The published evidence shows a 46% improvement in A/T ratio (Loing et al., 2013), which is a reasonable metric. But the \"67%\" claim is either unverifiable or a misquotation of a different statistic entirely. This is common in cosmetic ingredient marketing: a real number gets separated from its context and turned into a different, more impressive-sounding claim.",
+      "assessmentSummary": "The 67% figure is either unverifiable or a misquotation of a responder rate, not a growth improvement metric.",
+      "citations": [
+        {
+          "authors": "Loing E et al.",
+          "year": 2013,
+          "title": "A new strategy to fight androgenetic alopecia beyond the androgen pathway",
+          "journal": "J Cosmet Sci",
+          "pmid": "23449130",
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23449130/"
+        },
+        {
+          "authors": "Garcia A, Stuard B, Wendt J",
+          "year": 2015,
+          "title": "Clinical efficacy of a hair serum containing acetyl tetrapeptide-3 (CLAIMED -- paper does not exist)",
+          "journal": "International Journal of Trichology (CLAIMED)",
+          "pmid": "",
+          "doi": "",
+          "url": ""
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 3,
+      "title": "Acetyl tetrapeptide-3 strengthens the extracellular matrix around follicles",
+      "evidenceLevel": "in-vitro",
+      "evidenceLevelLabel": "In vitro (MRC5 lung fibroblasts, not scalp cells) + ex vivo (human skin explants)",
+      "evidenceWeight": "Low to Moderate",
+      "weightRationale": "The ECM data is the strongest evidence for the peptide component specifically, but uses lung-derived fibroblasts rather than scalp dermal papilla cells, and was conducted by the manufacturer.",
+      "model": "In vitro -- MRC5 human fibroblasts (a lung-derived cell line, not scalp fibroblasts or dermal papilla cells). Cells were treated with 10^-7 M acetyl tetrapeptide-3 and measured via immunofluorescence. Also ex vivo -- human skin explants for collagen VII at the dermal-epidermal junction. This data was tested on the peptide alone (not the combination).",
+      "finding": "Type III collagen expression: +65% vs untreated control. Laminin expression: +285% vs control. Collagen VII at the dermal-epidermal junction was restored to baseline after corticoid-induced reduction. These are real findings from the manufacturer's published paper.",
+      "assessment": "The ECM data is the strongest evidence for the peptide component specifically. The increases in collagen III and laminin are significant in magnitude. However: (1) MRC5 fibroblasts are lung cells, not scalp cells -- the same compound might behave differently in dermal papilla fibroblasts. (2) This is in vitro data -- cells in a dish don't replicate the conditions of your scalp. (3) The study was conducted by the manufacturer's own R&D department (Lucas Meyer Cosmetics), not by independent researchers. (4) No direct measurement of hair anchoring force was performed -- the claim that ECM strengthening means better anchoring is logical but untested.",
+      "assessmentSummary": "Real ECM stimulation data, but tested in lung cells (not scalp) by the manufacturer with no direct hair anchoring measurement.",
+      "citations": [
+        {
+          "authors": "Loing E et al.",
+          "year": 2013,
+          "title": "A new strategy to fight androgenetic alopecia beyond the androgen pathway",
+          "journal": "J Cosmet Sci",
+          "pmid": "23449130",
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23449130/"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 4,
+      "title": "Capixyl reduces DHT / inhibits 5-alpha reductase",
+      "evidenceLevel": "in-vitro",
+      "evidenceLevelLabel": "In vitro (genital skin fibroblasts, prostatic tissue) -- biochanin A only, not the peptide",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "The anti-DHT activity is real and independently confirmed for biochanin A (the red clover extract). However, it has zero relevance to the peptide component. Products claiming 'acetyl tetrapeptide-3 reduces DHT' are misattributing the plant extract's activity to the peptide.",
+      "model": "In vitro -- human genital skin fibroblasts and benign prostatic hyperplasia tissue homogenates. This is independent academic research from the University of Wales (Evans et al., 1995). CRITICAL: This evidence is for biochanin A (the red clover extract), NOT for acetyl tetrapeptide-3 (the peptide).",
+      "finding": "At 100 micromolar concentration, biochanin A caused >80% inhibition of 5-alpha reductase activity. In rat prostate tissue, the IC50 was 140 micromolar. The manufacturer claims a \"93% reduction in DHT\" in their marketing materials, but the source study for this specific number is not publicly available -- it likely comes from a proprietary in vitro assay.",
+      "assessment": "The anti-DHT activity is real and independently confirmed -- but it belongs to the red clover extract, not the peptide. If a product page tells you \"acetyl tetrapeptide-3 reduces DHT,\" that's misleading. The peptide has no demonstrated 5-alpha reductase inhibitory activity. It's an ECM stimulator, not an anti-androgen. Any product containing Capixyl gets its anti-DHT effect from biochanin A, which is a plant isoflavone available in many cheaper formulations.",
+      "assessmentSummary": "Anti-DHT activity is real but belongs to biochanin A (red clover), not the peptide. Products attributing DHT reduction to the peptide are misleading.",
+      "citations": [
+        {
+          "authors": "Evans BAJ et al.",
+          "year": 1995,
+          "title": "Inhibition of 5-alpha reductase in genital skin fibroblasts and prostate tissue by dietary lignans and isoflavonoids",
+          "journal": "J Endocrinol",
+          "pmid": "7490559",
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7490559/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 5,
+      "title": "Clinical trials show Capixyl improves hair growth comparable to minoxidil",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Human RCTs (N=30 manufacturer; N=32 and N=106 independent but multi-ingredient)",
+      "evidenceWeight": "Low to Moderate",
+      "weightRationale": "Clinical evidence exists but is thin: one small manufacturer-sponsored RCT, one independent study comparing a multi-ingredient formula to only 3% minoxidil, and one triple-combination study in a questionable journal.",
+      "model": "Multiple human trials, but with important caveats:\n\nStudy A (manufacturer, 2013): N=30, RCT, 5% Capixyl lotion vs placebo, 4 months. Anagen density +13%, telogen density -29%, A/T ratio +46%. Manufacturer-sponsored (Loing et al.).\n\nStudy B (independent, 2020): N=32, triple-blind RCT, herbal combo containing Capixyl components + ginseng vs 3% minoxidil, 24 weeks. Hair count: herbal +8.3% vs minoxidil +8.68% (not significant). Hair Mass Index: herbal +13.8% vs minoxidil +31.48% (not significant). (Lueangarun & Panchaprateep.)\n\nStudy C (2019): N=106, RCT, Redensyl+Capixyl+Procapil (RCP) vs 5% minoxidil, 24 weeks. RCP group scored higher by researcher and photographic assessment. Published in a questionable journal. Tests triple combination.",
+      "finding": "The manufacturer study shows a real difference vs placebo. The independent study shows rough comparability to 3% minoxidil (not the standard 5%). The RCP study shows a triple-ingredient combination outperforming minoxidil, but you can't attribute that to Capixyl specifically.",
+      "assessment": "The clinical evidence is real but thin. Key problems: (1) The manufacturer study (N=30) is small, short (4 months), and funded by the company that sells Capixyl. (2) The independent study compared against only 3% minoxidil (not the standard 5%) and included ginseng extract in the formula. (3) The RCP study tested three ingredients together. (4) No study has tested acetyl tetrapeptide-3 alone in humans. (5) The placebo group in the manufacturer study inexplicably worsened significantly (-33% A/T ratio), which inflates the apparent treatment effect. Bottom line: there's enough signal to say Capixyl probably does something, but the evidence is nowhere near the standard of proof for minoxidil or finasteride.",
+      "assessmentSummary": "Real but thin clinical evidence: one small manufacturer RCT, and independent studies only tested multi-ingredient formulas.",
+      "citations": [
+        {
+          "authors": "Loing E et al.",
+          "year": 2013,
+          "title": "A new strategy to fight androgenetic alopecia beyond the androgen pathway",
+          "journal": "J Cosmet Sci",
+          "pmid": "23449130",
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23449130/"
+        },
+        {
+          "authors": "Lueangarun S, Panchaprateep R",
+          "year": 2020,
+          "title": "An herbal extract combination (Capixyl) is comparable to 3% minoxidil solution for hair growth in men with androgenetic alopecia",
+          "journal": "J Cosmet Dermatol",
+          "pmid": "33584955",
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33584955/"
+        },
+        {
+          "authors": "Karaca N, Akpolat ND",
+          "year": 2019,
+          "title": "Comparison of Redensyl, Capixyl, Procapil combination vs minoxidil 5%",
+          "journal": "Hilaris Publisher",
+          "pmid": "",
+          "doi": "",
+          "url": ""
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 6,
+      "title": "Acetyl tetrapeptide-3 has skin anti-aging benefits",
+      "evidenceLevel": "in-vitro",
+      "evidenceLevelLabel": "In vitro only (MRC5 fibroblasts) -- same data as ECM claim, no clinical anti-aging trials",
+      "evidenceWeight": "Very Low",
+      "weightRationale": "No dedicated skin anti-aging clinical trials exist for acetyl tetrapeptide-3. The in vitro ECM data is being extrapolated beyond its scope.",
+      "model": "In vitro only -- MRC5 fibroblasts showing collagen III and laminin stimulation (same data as Claim 3). No dedicated skin anti-aging clinical trials on acetyl tetrapeptide-3 were identified.",
+      "finding": "The collagen III and laminin increases seen in vitro theoretically translate to firmer, more structured skin. But this has not been tested clinically for facial anti-aging.",
+      "assessment": "The peptide is marketed almost exclusively for hair. Its ECM-stimulating mechanism could theoretically benefit skin, but without clinical data, this remains speculative. The parent peptide sequence (KGHK) is structurally related to GHK (which has extensive skin evidence when complexed with copper), but acetyl tetrapeptide-3 is not GHK-Cu and shouldn't inherit its evidence base.",
+      "assessmentSummary": "Theoretical only -- no clinical skin anti-aging data. The peptide should not inherit evidence from the related GHK-Cu peptide.",
+      "citations": [
+        {
+          "authors": "Loing E et al.",
+          "year": 2013,
+          "title": "A new strategy to fight androgenetic alopecia beyond the androgen pathway",
+          "journal": "J Cosmet Sci",
+          "pmid": "23449130",
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23449130/"
+        }
+      ],
+      "hairSpecific": false
+    }
+  ],
+  "missingEvidence": [
+    "Any clinical trial testing acetyl tetrapeptide-3 alone (without red clover) in humans for hair.",
+    "Independent replication of the manufacturer's in vitro ECM data.",
+    "A properly powered, independent RCT comparing Capixyl to standard-dose (5%) minoxidil with a placebo arm.",
+    "Any data on whether biochanin A's in vitro 5-alpha reductase inhibition translates to meaningful DHT reduction when applied topically to human scalp at the concentrations present in Capixyl serums.",
+    "Verifiable sources for the two most-cited claims (17% diameter increase, 67% growth boost).",
+    "Hair diameter or density data measured by any method other than TrichoScan in the manufacturer's study."
+  ],
+  "bottomLine": {
+    "summary": "Capixyl is one of the more popular cosmetic hair-care ingredients, and it's not without merit: the manufacturer's RCT showed a real difference vs placebo, the ECM mechanism is plausible, and the red clover component has genuine (independent) anti-androgenic activity in vitro. It's a reasonable ingredient to include in a hair care routine.\n\nBut the marketing overstates the evidence significantly. The two most-cited statistics (17% diameter, 67% growth boost) can't be traced to verifiable sources. The \"anti-DHT\" activity belongs to the plant extract, not the peptide. And virtually all clinical data tests multi-ingredient formulations, making it impossible to know how much the peptide contributes.\n\nThere is enough signal to say Capixyl probably does something, but the evidence is nowhere near the standard of proof for minoxidil or finasteride. The strongest case for Capixyl is as a cosmetic maintenance ingredient -- not as a primary treatment for hair loss.",
+    "keyTakeaway": "Capixyl contains two components with plausible hair-support mechanisms -- an ECM-stimulating peptide and an anti-androgenic isoflavone -- and one small manufacturer-sponsored RCT showed improvement vs placebo. It's a reasonable cosmetic maintenance ingredient, but it should not be considered a substitute for proven treatments, and you should be skeptical of specific efficacy numbers that can't be independently verified.",
+    "verdict": "Interesting cosmeceutical, insufficient evidence as standalone treatment"
+  },
+  "efficacy": {
+    "keyTrials": [
+      {
+        "name": "Loing et al. 2013 (Manufacturer RCT)",
+        "year": 2013,
+        "design": "Randomized, placebo-controlled",
+        "population": "30 men with AGA (15 Capixyl, 15 placebo)",
+        "duration": "4 months",
+        "intervention": "5% Capixyl lotion applied daily",
+        "primaryOutcome": "Anagen/telogen (A/T) ratio: +46% in Capixyl group vs -33% in placebo",
+        "secondaryOutcomes": [
+          "Anagen density: +13%",
+          "Telogen density: -29%"
+        ],
+        "limitations": "Small sample (N=30), manufacturer-sponsored, short duration (4 months), placebo group worsened inexplicably (-33% A/T ratio) which inflates the apparent treatment effect. TrichoScan-only measurement.",
+        "pmid": "23449130",
+        "sponsoredByManufacturer": true
+      },
+      {
+        "name": "Lueangarun & Panchaprateep 2020 (Independent RCT)",
+        "year": 2020,
+        "design": "24-week, prospective, randomized, triple-blind, controlled trial",
+        "population": "32 subjects (16 male, 16 female) with mild-to-moderate AGA (Norwood III-IV / Ludwig I-II)",
+        "duration": "24 weeks",
+        "intervention": "Herbal extract combination (biochanin A + acetyl tetrapeptide-3 + ginseng extracts) vs 3% minoxidil, 1 mL twice daily",
+        "primaryOutcome": "Terminal hair count: herbal +8.3% vs minoxidil +8.68% (P=0.306, no significant difference between groups)",
+        "secondaryOutcomes": [
+          "Hair Mass Index: herbal +13.8% vs minoxidil +31.48% (P=0.158, not significant between groups)",
+          "Photographic assessment: both groups showed 100% response at vertex at week 24"
+        ],
+        "limitations": "Comparator was only 3% minoxidil (not standard 5%). Formula included ginseng extract, so results cannot be attributed to Capixyl alone. No placebo arm. Small sample size (N=32).",
+        "pmid": "33584955",
+        "sponsoredByManufacturer": false
+      },
+      {
+        "name": "Karaca & Akpolat 2019 (RCP Combination RCT)",
+        "year": 2019,
+        "design": "Randomized controlled trial",
+        "population": "106 men with AGA",
+        "duration": "24 weeks",
+        "intervention": "Redensyl + Capixyl + Procapil (RCP) combination vs 5% minoxidil",
+        "primaryOutcome": "RCP group scored higher on global photographic evaluation (88.9%) vs minoxidil (60%)",
+        "secondaryOutcomes": [],
+        "limitations": "Triple-ingredient combination -- impossible to attribute results to Capixyl specifically. Published in a questionable journal (Hilaris Publisher). Cannot isolate contribution of any single ingredient.",
+        "pmid": "",
+        "sponsoredByManufacturer": false
+      },
+      {
+        "name": "Eslahi et al. 2022 (Trust Tonic Combination)",
+        "year": 2022,
+        "design": "Comparative study, 24 weeks",
+        "population": "Male subjects, average age 45",
+        "duration": "24 weeks",
+        "intervention": "Trust tonic (Capixyl + Procapil + rosemary extract) vs 2% minoxidil, 1 mL twice daily",
+        "primaryOutcome": "Photographic method: 57% improvement (Trust tonic) vs 8% improvement (minoxidil)",
+        "secondaryOutcomes": [
+          "Self-assessment: 64% (Trust tonic) vs 36% (minoxidil)",
+          "Staff assessment: 60% (Trust tonic) vs 30% (minoxidil)"
+        ],
+        "limitations": "Multi-ingredient formula (Capixyl + Procapil + rosemary). Compared to substandard 2% minoxidil (not 5%). Cannot attribute results to Capixyl alone.",
+        "pmid": "",
+        "sponsoredByManufacturer": false
+      },
+      {
+        "name": "Lucas Meyer Cosmetics 2024 (Rinse-Off Pilot)",
+        "year": 2024,
+        "design": "Open-label pilot study (manufacturer)",
+        "population": "23 volunteers",
+        "duration": "90 days",
+        "intervention": "1.5% Capixyl in rinse-off formulation, applied every 2 days",
+        "primaryOutcome": "Anagen/telogen ratio: +88%",
+        "secondaryOutcomes": [
+          "Anagen phase increase: up to +22%",
+          "Telogen phase decrease: up to -79%",
+          ">75% of volunteers perceived denser-looking hair after 90 days"
+        ],
+        "limitations": "Manufacturer-sponsored, no placebo control, open-label, very small sample (N=23). Results from rinse-off formulation may not be directly comparable to leave-on studies.",
+        "pmid": "",
+        "sponsoredByManufacturer": true
+      }
+    ],
+    "inVitroHighlights": [
+      "Collagen III expression: +65% vs untreated control in MRC5 fibroblasts (lung-derived, not scalp cells) -- Loing et al. 2013",
+      "Laminin expression: +285% vs control in MRC5 fibroblasts -- Loing et al. 2013",
+      "Collagen VII at dermal-epidermal junction restored after corticoid-induced reduction (ex vivo human skin explants) -- Loing et al. 2013",
+      "Biochanin A: >80% inhibition of 5-alpha reductase at 100 micromolar in human genital skin fibroblasts -- Evans et al. 1995 (independent)",
+      "Manufacturer claims 93% DHT reduction and 48% reduction in IL-8 inflammation marker (proprietary assays, not independently published)"
+    ],
+    "timeToEffect": "45-90 days based on manufacturer data. The Loing et al. RCT measured at 4 months. The Lueangarun study measured at 24 weeks. No rigorous dose-response or time-course data from independent studies.",
+    "peakEffect": "Unknown. The longest controlled study is 24 weeks (Lueangarun). No data on whether effects continue to improve beyond 6 months.",
+    "maintenanceRequired": true,
+    "discontinuationEffect": "No published discontinuation data. As a cosmeceutical acting on ECM maintenance and (via biochanin A) local DHT levels, effects are presumed to reverse upon stopping use, similar to other topical hair treatments. However, this has not been formally studied.",
+    "overallEfficacyAssessment": "The Capixyl combination (peptide + biochanin A) has plausible mechanisms and shows a consistent signal across small studies. However, every clinical study is either manufacturer-sponsored, tests a multi-ingredient formula, or compares against sub-standard minoxidil concentrations. No study has isolated the peptide component in humans. The magnitude of effect -- roughly comparable to 3% minoxidil in the best independent data -- is modest and should not be overstated."
+  },
+  "sideEffects": {
+    "commonAEs": [
+      {
+        "name": "Local scalp irritation",
+        "rate": "Very rare (not reported in clinical studies)",
+        "notes": "No local adverse reactions were reported in the Lueangarun 2020 RCT (N=32) or the Loing 2013 manufacturer study (N=30). Individual sensitivity is possible but appears uncommon."
+      },
+      {
+        "name": "Eye irritation",
+        "rate": "Not quantified",
+        "notes": "The peptide can irritate eyes on direct contact. Standard precaution: wash hands after application to scalp."
+      }
+    ],
+    "seriousAEs": [],
+    "seriousAENote": "No serious adverse events have been reported in any Capixyl clinical study or in post-market surveillance. This is a cosmetic peptide + plant extract combination with an excellent safety record, though the total number of studied subjects is small (fewer than 200 across all published trials).",
+    "discontinuationRate": "0% in published studies. In the Lueangarun 2020 RCT, all 32 subjects completed the 24-week trial. In the Loing 2013 study, no dropouts were reported. By contrast, one subject in the minoxidil comparator arm of Lueangarun developed scalp eczema.",
+    "contraindications": [
+      "Known allergy to any component (acetyl tetrapeptide-3, Trifolium pratense / red clover extract, biochanin A)",
+      "Known sensitivity to isoflavones or phytoestrogens (theoretical, based on biochanin A content)"
+    ],
+    "drugInteractions": [
+      {
+        "drug": "Hormonal therapies (oral contraceptives, estrogen, progesterone)",
+        "severity": "Theoretical / low concern for topical use",
+        "notes": "Biochanin A is a phytoestrogen. Systemic interactions are documented for oral red clover supplements, but topical application at cosmetic concentrations delivers negligible systemic exposure. The concern is largely theoretical for topical Capixyl."
+      },
+      {
+        "drug": "Topical minoxidil or other topical hair treatments",
+        "severity": "None expected",
+        "notes": "No known interaction. Capixyl is commonly layered with minoxidil in consumer regimens without reported issues."
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "No formal reproductive toxicity studies have been conducted on Capixyl. Biochanin A is a phytoestrogen and red clover is contraindicated orally during pregnancy. While topical application delivers minimal systemic exposure, the precautionary principle suggests avoiding use during pregnancy and lactation until safety data are available.",
+      "women": "Studied in women in the Lueangarun 2020 trial (16 female subjects, Ludwig I-II AGA). No sex-specific adverse events reported. Considered safe for topical use in women.",
+      "children": "No clinical data in children. European regulations do not restrict acetyl tetrapeptide-3 concentration in cosmetics. Some sources note topical application is not discouraged for children over 3 years old, but no pediatric hair loss studies exist."
+    },
+    "blackBoxWarning": "",
+    "regulatoryStatus": "Classified as a cosmetic ingredient, not a drug. No FDA or EMA approval for hair loss treatment. No concentration limits under EU cosmetic regulations. EWG Skin Deep rates acetyl tetrapeptide-3 with a top safety score.",
+    "overallSafetyAssessment": "Capixyl has an excellent safety profile based on available data. No adverse events were reported in any published clinical trial. The peptide component is a short biomimetic tetrapeptide with no known toxicity. The biochanin A component is a well-characterized plant isoflavone. The main caveat is that total clinical exposure data is limited (fewer than 200 subjects across all studies), so rare adverse events would not have been detected. For a cosmeceutical, this is a normal limitation."
+  },
+  "articleUrl": "/evidence/acetyl-tetrapeptide-3",
+  "pubmedSearchUrl": "https://pubmed.ncbi.nlm.nih.gov/?term=acetyl+tetrapeptide-3+hair",
+  "lastUpdated": "2026-03-18",
+  "version": "1.0",
+  "author": "Anagen Research Team",
+  "reviewedBy": ""
+}

@@ -1,0 +1,456 @@
+{
+  "id": "minoxidil",
+  "name": "Minoxidil",
+  "genericName": "minoxidil",
+  "brandNames": ["Rogaine", "Regaine", "various generics"],
+  "category": "FDA-Approved",
+  "subcategory": "Potassium Channel Opener / Vasodilator",
+  "summaryOneLiner": "The most widely used hair growth drug in the world, with 35+ years of RCT evidence showing statistically significant regrowth in both men and women — now with a rapidly growing oral low-dose evidence base.",
+  "overallVerdict": "Proven",
+  "evidenceRating": 9,
+  "mechanismOfAction": "Minoxidil is a prodrug converted to its active form (minoxidil sulfate) by sulfotransferase enzymes — SULT1A1 in hair follicles (topical) and SULT2A1 in the liver (oral). The active metabolite opens ATP-sensitive potassium channels (Kir6/SUR2), causing cell membrane hyperpolarization. Downstream effects include dose-dependent upregulation of VEGF (up to 6x in dermal papilla cells), activation of the Wnt/beta-catenin pathway (prolonging anagen), stimulation of prostaglandin E2 synthesis via PGHS-1, and induction of growth factors (HGF, IGF-1) from dermal papilla cells. The net effect is prolonged anagen phase, shortened telogen, increased follicular blood supply, and reversal of miniaturization in responsive patients.",
+  "keyStats": {
+    "fdaApproved": true,
+    "fdaApprovalYear": 1988,
+    "approvedIndication": "Androgenetic alopecia (male and female pattern hair loss)",
+    "topicalConcentrations": "2% and 5% (solution and foam)",
+    "oralDoses": "0.25-5 mg/day (off-label for hair loss)",
+    "topical5PctHairCountMen": "+18.6 nonvellus hairs/cm² at 48 weeks (vs +3.9 placebo, Olsen 2002)",
+    "topical5PctHairCountWomen": "+24.5 nonvellus hairs/cm² at 48 weeks (vs +9.4 placebo, Lucky 2004)",
+    "combinationTherapyImprovementRate": "94.1% with finasteride + minoxidil vs 80.5% finasteride alone vs 59% minoxidil alone (Hu 2015)",
+    "estimatedNonResponderRate": "30-40% (due to low follicular SULT1A1 sulfotransferase activity)",
+    "oralSafetyStudySize": "1,404 patients (Randolph & Tosti 2021)",
+    "oralDiscontinuationRate": "1.7% due to adverse effects",
+    "hypertrichosisRateOral": "15.1%",
+    "microneedlingSynergyHairCount": "+91.4 hairs (microneedling + minoxidil) vs +22.2 hairs (minoxidil alone) at 12 weeks (Dhurat 2013)"
+  },
+  "claims": [
+    {
+      "number": 1,
+      "title": "Topical 5% minoxidil is superior to 2% for regrowing hair in men",
+      "model": "48-week, double-blind, placebo-controlled RCT of 393 men with AGA (Olsen et al. 2002). Subjects randomized to 5% minoxidil, 2% minoxidil, or placebo twice daily.",
+      "modelType": "Human RCT",
+      "finding": "At 48 weeks, 5% produced +18.6 nonvellus hairs/cm², 2% produced +12.7, and placebo +3.9. The 5% concentration showed 45% more regrowth than 2%. Earlier onset of response with 5% (detectable at week 8). More pruritus and local irritation with 5%.",
+      "evidenceWeight": "Highest",
+      "weightExplanation": "Large, well-designed, placebo-controlled RCT published in JAAD. Gold standard evidence. Treatment effect is real and statistically significant.",
+      "citations": [
+        "Olsen EA, Dunlap FE, Funicella T, et al. J Am Acad Dermatol. 2002;47(3):377-385."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Topical minoxidil works for women — both 2% and 5%",
+      "model": "48-week, double-blind, placebo-controlled RCT of 381 women with FPHL (Lucky et al. 2004). Randomized to 5%, 2%, or placebo twice daily.",
+      "modelType": "Human RCT",
+      "finding": "Mean nonvellus hair count changes at 48 weeks: +24.5 (5%), +20.7 (2%), +9.4 (placebo). Both active treatments significantly outperformed placebo (p<0.001). The 5%/2% difference was smaller in women than in men.",
+      "evidenceWeight": "Highest",
+      "weightExplanation": "Large, well-designed, placebo-controlled RCT confirming minoxidil efficacy in women. Absolute gains actually larger in women than men in this trial.",
+      "citations": [
+        "Lucky AW, Piacquadio DJ, Ditre CM, et al. J Am Acad Dermatol. 2004;50(4):541-553."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "5% minoxidil foam matches solution efficacy with less irritation",
+      "model": "16-week, double-blind, placebo-controlled RCT of 352 men with AGA (Olsen et al. 2007). 5% minoxidil topical foam vs placebo foam. 52-week open-label extension for safety.",
+      "modelType": "Human RCT",
+      "finding": "Statistically significant increase in hair counts vs placebo (p<0.0001) and subjective improvement (p<0.0001) at 16 weeks. Foam eliminates propylene glycol, which causes contact dermatitis in ~7% of solution users. Well tolerated over 52 weeks.",
+      "evidenceWeight": "Highest",
+      "weightExplanation": "Pivotal RCT establishing foam vehicle as equivalent in efficacy while removing the most common irritant. Shorter primary endpoint (16 weeks) but long-term safety data available.",
+      "citations": [
+        "Olsen EA, Whiting D, Bergfeld W, et al. J Am Acad Dermatol. 2007;57(5):767-774."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Minoxidil upregulates VEGF in dermal papilla cells dose-dependently",
+      "model": "In vitro — human hair dermal papilla cells treated with minoxidil at concentrations from 0.2 to 24 micromol/L (Lachgar et al. 1998).",
+      "modelType": "In vitro",
+      "finding": "Dose-dependent increase in VEGF mRNA — 24 micromol/L produced 6x more VEGF mRNA than controls. VEGF protein also increased in cell extracts and conditioned media. Supports the hypothesis that minoxidil maintains follicular vascularization.",
+      "evidenceWeight": "Low",
+      "weightExplanation": "In vitro data in cultured cells, not in vivo scalp tissue. However, multiple groups have replicated VEGF upregulation findings. Provides mechanistic support for the clinically proven drug.",
+      "citations": [
+        "Lachgar S, Charveron M, Gall Y, Bonafe JL. Br J Dermatol. 1998;138(3):407-411."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Minoxidil activates beta-catenin signaling in dermal papilla cells, prolonging anagen",
+      "model": "In vitro (human dermal papilla cells) + in vivo (mouse topical application). Kwack et al. 2011 measured beta-catenin pathway activation and anagen duration.",
+      "modelType": "In vitro + In vivo animal",
+      "finding": "Minoxidil activated beta-catenin transcriptional reporter (pTopflash), induced nuclear beta-catenin accumulation, increased GSK3-beta/PKA/PKB phosphorylation, and upregulated Wnt target genes Axin2 and Lef-1 in human DPCs. Modest anagen extension in mice.",
+      "evidenceWeight": "Low to Moderate",
+      "weightExplanation": "In vitro DPC data tests the right cell type. Mouse in vivo adds support but mouse hair cycling differs from human. Provides molecular explanation for anagen prolongation seen clinically.",
+      "citations": [
+        "Kwack MH, Kang BM, Kim MK, et al. J Dermatol Sci. 2011;62(3):154-159."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Sulfotransferase activity predicts minoxidil response — many patients are non-responders",
+      "model": "Human observational + enzyme assay. Roberts et al. 2014 measured SULT1A1 activity in plucked hair follicles and correlated with clinical response in women with AGA.",
+      "modelType": "Human observational",
+      "finding": "Cut-off value of 0.4 OD 405 for low sulfotransferase activity predicted responders with 95% sensitivity and 73% specificity. Women >0.6 AU had meaningfully better results. SULT1A1 was significantly lower in non-responders. An estimated 30-40% of patients may be non-responders.",
+      "evidenceWeight": "Moderate-High",
+      "weightExplanation": "Real human data from plucked follicles measuring a biologically validated enzyme pathway. Explains the well-known clinical observation that many patients fail topical minoxidil. Assay not yet widely adopted clinically.",
+      "citations": [
+        "Roberts J, Desai N, McCoy J, Bhoyrul S. Dermatol Ther. 2014;27(4):252-254.",
+        "Goren A, et al. Dermatol Ther. 2015;28(1):13-16."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Combining minoxidil with finasteride is more effective than either alone",
+      "model": "Human RCT (randomized, comparative). Hu et al. 2015: 450 Chinese men with AGA randomized to finasteride 1 mg (n=160), 5% minoxidil (n=130), or combination (n=160) for 12 months.",
+      "modelType": "Human RCT",
+      "finding": "Improvement rates at 12 months: combination 94.1%, finasteride 80.5%, minoxidil 59.0%. Combination produced earlier visible improvement (detectable at 3 months). Adverse reactions rare: finasteride 1.8%, minoxidil 6.1%.",
+      "evidenceWeight": "High",
+      "weightExplanation": "Large (n=450), well-powered comparative trial with 12-month endpoint. Not placebo-controlled but demonstrates clear superiority of combination over monotherapy. Complementary mechanisms well-established.",
+      "citations": [
+        "Hu R, Xu F, Sheng Y, et al. Dermatol Ther. 2015;28(5):303-308."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Low-dose oral minoxidil has an acceptable safety profile for hair loss",
+      "model": "Human multicenter retrospective. Randolph & Tosti 2021: 1,404 patients (943 women, 461 men; mean age 43) on LDOM for at least 3 months across multiple centers.",
+      "modelType": "Human open-label/retrospective",
+      "finding": "Hypertrichosis 15.1% (0.5% discontinued). Systemic effects: lightheadedness 1.7%, fluid retention 1.3%, tachycardia 0.9%, headache 0.4%, periorbital edema 0.3%, insomnia 0.2%. Only 1.7% required discontinuation. No pericardial effusion or serious cardiovascular events at low doses.",
+      "evidenceWeight": "Moderate-High",
+      "weightExplanation": "Largest real-world safety dataset for LDOM. Retrospective, so primarily addresses safety rather than efficacy. Reassuring cardiovascular profile at hair-loss doses (0.25-5 mg/day) vs hypertensive doses (10-40 mg).",
+      "citations": [
+        "Randolph M, Tosti A. J Am Acad Dermatol. 2021;84(6):1758-1764."
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Oral minoxidil 5 mg is comparable to topical 5% for male AGA",
+      "model": "Human RCT. Penha et al. 2024: 24-week trial comparing daily oral minoxidil 5 mg with twice-daily topical 5% in 90 men with AGA. Published in JAMA Dermatology.",
+      "modelType": "Human RCT",
+      "finding": "No statistically significant difference in terminal hair count increases: frontal +3.1 hairs/cm² difference (p=0.27), total -2.6 hairs/cm² (p=0.32). Photography suggested modest vertex advantage for oral (24% vs 12%) but not significant overall. Hypertrichosis more common with oral.",
+      "evidenceWeight": "Highest",
+      "weightExplanation": "First head-to-head RCT of oral vs topical minoxidil, published in a top-tier journal. Establishes oral as a legitimate alternative, not superior. Relatively small sample (n=90) and 24-week endpoint.",
+      "citations": [
+        "Penha MA, Fabbri TR, Weffort F, et al. JAMA Dermatol. 2024;160(5):507-513."
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Microneedling dramatically boosts minoxidil's effectiveness",
+      "model": "Human RCT (evaluator-blinded). Dhurat et al. 2013: 100 men with mild-to-moderate AGA randomized to weekly microneedling (1.5 mm) + 5% minoxidil or 5% minoxidil alone for 12 weeks.",
+      "modelType": "Human RCT",
+      "finding": "Mean hair count increase: +91.4 (microneedling + minoxidil) vs +22.2 (minoxidil alone) — roughly 4x difference. On 7-point VAS, 40 patients (82%) in microneedling group achieved +2 to +3 response; zero in minoxidil-only group. 82% of microneedling patients reported >50% improvement vs 4.5% for minoxidil only.",
+      "evidenceWeight": "High",
+      "weightExplanation": "Evaluator-blinded RCT with strikingly large effect sizes. Limitations: 12-week duration, single-center, aggressive 1.5 mm needle depth. Subsequent meta-analyses confirm synergy with more modest effect sizes.",
+      "citations": [
+        "Dhurat R, Sukesh MS, Avhad G, et al. Int J Trichology. 2013;5(1):6-11."
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Oral minoxidil works for women, including some topical non-responders",
+      "model": "Human open-label/observational. Sinclair 2018: 100 women with FPHL (Sinclair stage 2-5), oral minoxidil 0.25 mg + spironolactone 25 mg daily for 12 months. Ramos 2019: RCT of oral minoxidil 1 mg vs topical 5% in women, 24 weeks.",
+      "modelType": "Human open-label",
+      "finding": "Sinclair 2018: hair loss severity improved 0.85 points at 6 months, 1.3 at 12 months; shedding scores improved 2.3 and 2.6 respectively. Mild side effects in 8 patients. Ramos 2019: oral minoxidil 1 mg increased hair density 12% vs 7.2% for topical (non-significant). Oral may bypass follicular sulfotransferase via hepatic SULT2A1 activation.",
+      "evidenceWeight": "Moderate-High",
+      "weightExplanation": "Observational (no placebo) and small comparison trial. But growing clinical experience supports oral as an option for topical non-responders. Hypertrichosis is more common in women on oral, affecting adherence.",
+      "citations": [
+        "Sinclair RD. Int J Dermatol. 2018;57(1):104-109.",
+        "Ramos PM, et al. J Am Acad Dermatol. 2020;82(1):252-253."
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Stopping minoxidil causes hair loss — sometimes below pre-treatment baseline",
+      "model": "Human observational. Discontinuation studies in men on topical minoxidil 2-3% for at least 4 months who stopped treatment and were followed for hair count changes.",
+      "modelType": "Human observational",
+      "finding": "Hair counts approximately doubled on treatment but most recruited hairs were lost upon discontinuation. 4 of 10 men had nonvellus hair counts that fell below pre-treatment baseline. Hair loss resumes within 3-6 months of stopping. Synchronized telogen entry of previously anagen-maintained hairs creates a dramatic shedding event.",
+      "evidenceWeight": "High",
+      "weightExplanation": "Real human data consistent with universal clinical experience. Minoxidil is a maintenance treatment, not a cure. The below-baseline finding is especially important for treatment planning.",
+      "citations": [
+        "Bazzano GS, Terezakis N, Galen W. J Am Acad Dermatol. 1986;15:880-893.",
+        "Price VH. N Engl J Med. 1999;341:964-973."
+      ]
+    }
+  ],
+  "missingEvidence": [
+    "No large Phase III RCTs of low-dose oral minoxidil for hair loss — most evidence is retrospective or open-label",
+    "No validated, widely available sulfotransferase responder test in routine clinical use, despite a 95%-sensitive assay existing since 2014",
+    "No long-term RCT data beyond 48 weeks for topical minoxidil — patients use this drug for decades",
+    "No definitive RCT comparing once-daily vs twice-daily 5% topical minoxidil application",
+    "Limited cardiac safety data for oral minoxidil beyond 12-24 months in otherwise healthy patients",
+    "The 'dread shed' (temporary shedding at weeks 2-8) has not been rigorously quantified in prospective controlled studies",
+    "No head-to-head trials establishing optimal microneedling depth and frequency for enhancing minoxidil"
+  ],
+  "bottomLine": "Minoxidil is the most extensively studied hair growth agent in the world. Topical 5% has gold-standard RCT evidence showing significant regrowth in both men and women. Oral low-dose minoxidil is rapidly emerging as a legitimate alternative — comparable in efficacy to topical, potentially effective in topical non-responders via a different metabolic activation pathway, but with higher hypertrichosis rates and need for cardiovascular monitoring. The biggest limitation is not efficacy but permanence: stop it, and gains reverse within months. An estimated 30-40% of topical users are partial or non-responders due to low follicular sulfotransferase activity — for these patients, oral minoxidil or combination with finasteride may be the better path.",
+  "comparisonNotes": "Minoxidil is complementary to finasteride — they work through completely different mechanisms (growth stimulation vs hormonal blockade). Combination therapy produces the highest improvement rates (94.1% in Hu 2015). For patients who cannot tolerate or prefer to avoid systemic antiandrogens, minoxidil alone remains effective. Microneedling appears to substantially enhance minoxidil efficacy (up to 4x in the Dhurat 2013 pilot). Compared to newer agents (latanoprost, GHK-Cu, etc.), minoxidil has an incomparably larger and more robust evidence base — it is the standard against which all other hair growth agents should be measured.",
+  "efficacy": {
+    "keyTrials": [
+      {
+        "name": "Olsen 2002 — Topical 5% vs 2% vs Placebo in Men",
+        "design": "48-week, double-blind, placebo-controlled RCT",
+        "population": "393 men (ages 18-49) with androgenetic alopecia",
+        "arms": "5% minoxidil (n=157), 2% minoxidil (n=158), placebo (n=78), twice daily",
+        "primaryOutcome": "Change in nonvellus target area hair count (TAHC) at 48 weeks",
+        "results": {
+          "topical5Pct": "+18.6 nonvellus hairs/cm²",
+          "topical2Pct": "+12.7 nonvellus hairs/cm²",
+          "placebo": "+3.9 nonvellus hairs/cm²",
+          "superiorityOf5PctVs2Pct": "45% more regrowth with 5% vs 2%",
+          "onsetOfResponse": "Detectable at week 8 with 5%; later with 2%",
+          "pValue": "p<0.001 for both active arms vs placebo"
+        },
+        "citation": "Olsen EA, Dunlap FE, Funicella T, et al. J Am Acad Dermatol. 2002;47(3):377-385."
+      },
+      {
+        "name": "Lucky 2004 — Topical 5% vs 2% vs Placebo in Women",
+        "design": "48-week, double-blind, placebo-controlled RCT",
+        "population": "381 women (ages 18-49) with female pattern hair loss",
+        "arms": "5% minoxidil (n=153), 2% minoxidil (n=154), placebo (n=74), twice daily",
+        "primaryOutcome": "Change in nonvellus TAHC at 48 weeks",
+        "results": {
+          "topical5Pct": "+24.5 nonvellus hairs/cm²",
+          "topical2Pct": "+20.7 nonvellus hairs/cm²",
+          "placebo": "+9.4 nonvellus hairs/cm²",
+          "note": "Both active arms significantly superior to placebo (p<0.001). 5%/2% difference smaller in women than men.",
+          "pValue": "p<0.001 for both active arms vs placebo"
+        },
+        "citation": "Lucky AW, Piacquadio DJ, Ditre CM, et al. J Am Acad Dermatol. 2004;50(4):541-553."
+      },
+      {
+        "name": "Olsen 2007 — 5% Foam vs Placebo Foam in Men",
+        "design": "16-week, double-blind, placebo-controlled RCT (52-week open-label extension)",
+        "population": "352 men with androgenetic alopecia",
+        "arms": "5% minoxidil foam vs placebo foam, once daily",
+        "primaryOutcome": "Change in TAHC at 16 weeks",
+        "results": {
+          "hairCountVsPlacebo": "Statistically significant increase (p<0.0001)",
+          "subjectiveImprovement": "Statistically significant (p<0.0001)",
+          "tolerability": "Eliminates propylene glycol — primary irritant in solution. Well tolerated over 52 weeks."
+        },
+        "citation": "Olsen EA, Whiting D, Bergfeld W, et al. J Am Acad Dermatol. 2007;57(5):767-774."
+      },
+      {
+        "name": "Hu 2015 — Combination Finasteride + Minoxidil vs Monotherapy",
+        "design": "12-month randomized comparative trial",
+        "population": "450 Chinese men with androgenetic alopecia",
+        "arms": "Finasteride 1 mg (n=160), 5% minoxidil (n=130), combination (n=160)",
+        "primaryOutcome": "Improvement rate at 12 months",
+        "results": {
+          "combination": "94.1% improvement rate",
+          "finasterideAlone": "80.5% improvement rate",
+          "minoxidilAlone": "59.0% improvement rate",
+          "note": "Combination produced earlier visible improvement detectable at 3 months"
+        },
+        "citation": "Hu R, Xu F, Sheng Y, et al. Dermatol Ther. 2015;28(5):303-308."
+      },
+      {
+        "name": "Penha 2024 — Oral 5 mg vs Topical 5% in Men (Head-to-Head RCT)",
+        "design": "24-week, randomized clinical trial",
+        "population": "90 men with androgenetic alopecia",
+        "arms": "Oral minoxidil 5 mg daily vs topical 5% minoxidil twice daily",
+        "primaryOutcome": "Change in terminal hair count at 24 weeks",
+        "results": {
+          "frontalDifference": "+3.1 hairs/cm² in favor of oral (p=0.27, not significant)",
+          "totalDifference": "-2.6 hairs/cm² (p=0.32, not significant)",
+          "photographicAssessment": "Modest vertex advantage for oral (24% vs 12%) but not statistically significant overall",
+          "note": "Establishes oral as comparable, not superior, to topical. Hypertrichosis more common with oral."
+        },
+        "citation": "Penha MA, Fabbri TR, Weffort F, et al. JAMA Dermatol. 2024;160(5):507-513."
+      },
+      {
+        "name": "Sinclair 2018 — Low-Dose Oral Minoxidil in Women (FPHL)",
+        "design": "12-month open-label observational study",
+        "population": "100 women with female pattern hair loss (Sinclair stage 2-5)",
+        "arms": "Oral minoxidil 0.25 mg + spironolactone 25 mg daily",
+        "primaryOutcome": "Change in hair loss severity score and shedding score",
+        "results": {
+          "severityImprovement6mo": "-0.85 points on severity scale",
+          "severityImprovement12mo": "-1.3 points on severity scale",
+          "sheddingImprovement6mo": "-2.3 points on shedding score",
+          "sheddingImprovement12mo": "-2.6 points on shedding score",
+          "adverseEffects": "Mild side effects in 8 patients"
+        },
+        "citation": "Sinclair RD. Int J Dermatol. 2018;57(1):104-109."
+      },
+      {
+        "name": "Ramos 2020 — Oral Minoxidil 1 mg vs Topical 5% in Women",
+        "design": "24-week randomized clinical trial",
+        "population": "Women with female pattern hair loss",
+        "arms": "Oral minoxidil 1 mg daily vs topical 5% minoxidil",
+        "primaryOutcome": "Hair density change at 24 weeks",
+        "results": {
+          "oralMinoxidil": "+12% hair density increase",
+          "topicalMinoxidil": "+7.2% hair density increase",
+          "note": "Difference not statistically significant. Oral may bypass follicular SULT1A1 via hepatic SULT2A1 pathway."
+        },
+        "citation": "Ramos PM, et al. J Am Acad Dermatol. 2020;82(1):252-253."
+      },
+      {
+        "name": "Randolph & Tosti 2021 — LDOM Safety Multicenter Study",
+        "design": "Multicenter retrospective safety study",
+        "population": "1,404 patients (943 women, 461 men; mean age 43) on LDOM for >=3 months",
+        "arms": "Oral minoxidil 0.25-5 mg/day",
+        "primaryOutcome": "Safety and adverse event profile",
+        "results": {
+          "hypertrichosis": "15.1% (0.5% discontinued)",
+          "lightheadedness": "1.7%",
+          "fluidRetention": "1.3%",
+          "tachycardia": "0.9%",
+          "overallDiscontinuationDueToAE": "1.7%",
+          "seriousCardiovascularEvents": "None reported at low doses"
+        },
+        "citation": "Randolph M, Tosti A. J Am Acad Dermatol. 2021;84(6):1758-1764."
+      },
+      {
+        "name": "Dhurat 2013 — Microneedling + Minoxidil vs Minoxidil Alone",
+        "design": "12-week, evaluator-blinded RCT",
+        "population": "100 men with mild-to-moderate androgenetic alopecia",
+        "arms": "Weekly microneedling (1.5 mm) + 5% minoxidil vs 5% minoxidil alone",
+        "primaryOutcome": "Change in hair count at 12 weeks",
+        "results": {
+          "microneedlingPlusMinoxidil": "+91.4 hairs",
+          "minoxidilAlone": "+22.2 hairs",
+          "foldDifference": "~4x difference",
+          "over50PercentImprovement": "82% microneedling group vs 4.5% minoxidil alone"
+        },
+        "citation": "Dhurat R, Sukesh MS, Avhad G, et al. Int J Trichology. 2013;5(1):6-11."
+      }
+    ],
+    "responseRate": {
+      "topicalOverall": "~60% of patients show meaningful regrowth; 30-40% are partial or non-responders due to low follicular SULT1A1 sulfotransferase activity",
+      "topical5PctMen": "~62% achieve moderate to dense regrowth at 48 weeks (Olsen 2002)",
+      "topical5PctWomen": "Both 5% and 2% significantly outperform placebo in women; absolute hair count gains larger in women than men (Lucky 2004)",
+      "oralLowDose": "Comparable to topical 5% in head-to-head trial (Penha 2024); may benefit topical non-responders via hepatic SULT2A1 pathway",
+      "combinationWithFinasteride": "94.1% improvement rate at 12 months (vs 59% minoxidil alone, Hu 2015)",
+      "combinationWithMicroneedling": "~4x hair count increase vs minoxidil alone at 12 weeks (Dhurat 2013)",
+      "predictorOfResponse": "Follicular SULT1A1 sulfotransferase activity — assay exists (Roberts 2014, 95% sensitivity, 73% specificity) but not widely available clinically"
+    },
+    "timeToEffect": "Initial shedding ('dread shed') commonly occurs at weeks 2-8 as telogen hairs are pushed out by new anagen hairs. Earliest measurable regrowth detectable at week 8 with 5% topical (Olsen 2002). Visible cosmetic improvement typically begins at 2-4 months. Most patients see clear results by 4-6 months.",
+    "peakEffect": "Peak hair count improvements occur at approximately 12 months of continuous use. The Olsen 2002 trial measured through 48 weeks, with counts still improving between weeks 24 and 48. Some patients continue to see incremental gains up to 18-24 months.",
+    "maintenanceRequired": true,
+    "discontinuationEffect": "Hair loss resumes within 3-6 months of stopping. In observational data, most regrown hairs were lost upon discontinuation, and 4 of 10 men fell below their pre-treatment baseline hair counts (Bazzano 1986). Synchronized telogen entry of previously anagen-maintained hairs creates a dramatic shedding event. Minoxidil is a maintenance treatment, not a cure."
+  },
+  "sideEffects": {
+    "commonAEs": [
+      {
+        "name": "Scalp pruritus/irritation (topical)",
+        "rate": "6-19% depending on formulation and concentration",
+        "notes": "More common with 5% vs 2% solution. Primarily caused by propylene glycol in solution formulations. 5% foam eliminates propylene glycol and significantly reduces irritation."
+      },
+      {
+        "name": "Contact dermatitis (topical)",
+        "rate": "~6.5% for solution formulations",
+        "notes": "Can be allergic or irritant. Patch testing shows propylene glycol is the allergen in ~17% of cases, minoxidil itself in ~5.5%. Switching to foam (propylene glycol-free) or oral resolves most cases."
+      },
+      {
+        "name": "Hypertrichosis — topical",
+        "rate": "3-5% (more common in women and with 5%)",
+        "notes": "Facial hypertrichosis reported more in women using topical, especially with solution that drips. Usually resolves 3-4 months after discontinuation."
+      },
+      {
+        "name": "Hypertrichosis — oral",
+        "rate": "15.1% overall (Randolph 2021, n=1,404). Dose-dependent: 28.9% at 0.25-0.75 mg/day, 30.4% at 1-1.25 mg/day, 86.8% at 2.5-5 mg/day",
+        "notes": "Most common adverse effect of oral minoxidil. Higher incidence in women. Affects face, arms, legs. Led to discontinuation in only 0.5%. Often manageable with hair removal methods. This is the main tolerability barrier for oral minoxidil."
+      },
+      {
+        "name": "Initial shedding ('dread shed')",
+        "rate": "Common but not rigorously quantified; estimated in most patients to some degree",
+        "notes": "Occurs weeks 2-8 as telogen hairs are shed to make way for new anagen hairs. Temporary and actually a sign the drug is working. Not rigorously studied in controlled settings."
+      },
+      {
+        "name": "Lightheadedness/dizziness (oral)",
+        "rate": "1.7% (Randolph 2021)",
+        "notes": "Related to vasodilatory mechanism. Dose-dependent. Usually mild and transient."
+      },
+      {
+        "name": "Fluid retention/peripheral edema (oral)",
+        "rate": "1.3-10% depending on dose and population (Randolph 2021: 1.3% overall)",
+        "notes": "More common in women. Typically occurs within 1-3 months of starting treatment. Weight gain of 1-2 kg possible. Dose-dependent: 4.0% at 0.25-0.75 mg/day, 10.8% at 1-1.25 mg/day, 34.2% at 2.5-5 mg/day."
+      },
+      {
+        "name": "Tachycardia/increased heart rate (oral)",
+        "rate": "0.9% (Randolph 2021)",
+        "notes": "Reflex tachycardia secondary to vasodilation. More common at higher doses. Usually mild at hair-loss doses (0.25-5 mg)."
+      },
+      {
+        "name": "Headache (oral)",
+        "rate": "0.4% (Randolph 2021)",
+        "notes": "Related to vasodilatory mechanism. Usually transient."
+      },
+      {
+        "name": "Periorbital edema (oral)",
+        "rate": "0.3% (Randolph 2021)",
+        "notes": "Mild facial/periorbital puffiness. Dose-dependent. Resolves with discontinuation."
+      }
+    ],
+    "seriousAEs": [
+      {
+        "name": "Pericardial effusion (oral)",
+        "rate": "Extremely rare at low doses; no cases in Randolph 2021 (n=1,404). Reported in case reports, mostly linked to compounding errors or higher doses.",
+        "notes": "At hypertensive doses (10-40 mg), pericardial effusion was observed in ~3% of patients in early studies. At hair-loss doses (0.25-5 mg), risk appears negligible. More frequently reported in men. May not be strictly dose-dependent. Baseline echocardiogram recommended by some experts before starting oral minoxidil."
+      },
+      {
+        "name": "Severe hypotension (oral)",
+        "rate": "Not reported at hair-loss doses in Randolph 2021",
+        "notes": "Theoretical risk, especially with concurrent antihypertensives or vasodilators. Blood pressure monitoring recommended when initiating oral minoxidil."
+      },
+      {
+        "name": "Pleural effusion/anasarca (oral)",
+        "rate": "Isolated case reports only at low doses",
+        "notes": "Extremely rare. Documented in case reports, usually resolving with discontinuation. Pre-existing cardiac or renal conditions may increase risk."
+      }
+    ],
+    "discontinuationRate": {
+      "topical": "High real-world dropout: up to 86.3% discontinue over time (survey data), primarily due to lack of perceived efficacy, inconvenience, and scalp irritation. In clinical trials, discontinuation due to adverse effects is much lower (~2-5%).",
+      "oral": "1.7% due to adverse effects (Randolph 2021, n=1,404). 0.5% discontinued specifically for hypertrichosis. 1.2% discontinued for systemic side effects (lightheadedness, fluid retention, tachycardia)."
+    },
+    "contraindications": [
+      "Pheochromocytoma (oral) — minoxidil may stimulate catecholamine secretion from the tumor via its antihypertensive action",
+      "Pregnancy (FDA Category C) — animal studies show adverse fetal effects; contraindicated in pregnant women",
+      "Breastfeeding — minoxidil is excreted in breast milk; not recommended in nursing mothers, especially with preterm or neonatal infants. Topical may pose lower risk to older full-term infants, but caution still advised.",
+      "Hypersensitivity to minoxidil or any component of the formulation",
+      "Pre-existing pericardial effusion (oral) — risk of worsening fluid accumulation",
+      "Significant cardiovascular disease or heart failure (oral) — fluid retention and reflex tachycardia may worsen cardiac status. Careful risk-benefit assessment required.",
+      "Pulmonary hypertension secondary to mitral stenosis (oral)"
+    ],
+    "drugInteractions": [
+      {
+        "drug": "Guanethidine",
+        "severity": "Major",
+        "mechanism": "Profound orthostatic hypotension. If starting oral minoxidil, guanethidine must be discontinued 1-3 weeks beforehand. If transition cannot be managed outpatient, hospitalize."
+      },
+      {
+        "drug": "Other antihypertensives (beta-blockers, CCBs, ACE inhibitors, ARBs)",
+        "severity": "Moderate",
+        "mechanism": "Additive hypotensive effects. Blood pressure monitoring recommended when combining oral minoxidil with antihypertensives. Dose adjustment may be needed."
+      },
+      {
+        "drug": "Other vasodilators (e.g., iloprost, nitrates, PDE5 inhibitors)",
+        "severity": "Moderate",
+        "mechanism": "Additive vasodilation. Increased risk of hypotension, dizziness, and syncope."
+      },
+      {
+        "drug": "NSAIDs (ibuprofen, naproxen, etc.)",
+        "severity": "Moderate",
+        "mechanism": "NSAIDs cause sodium and water retention, potentially counteracting minoxidil and its companion diuretic. May also reduce topical minoxidil effectiveness by inhibiting prostaglandin synthesis (PGHS-1 pathway relevant to minoxidil's mechanism)."
+      },
+      {
+        "drug": "Low-dose aspirin",
+        "severity": "Low-Moderate",
+        "mechanism": "Aspirin inhibits SULT1A1 sulfotransferase, the enzyme required to convert topical minoxidil to its active form (minoxidil sulfate). Daily low-dose aspirin may reduce topical minoxidil efficacy. Does not affect oral minoxidil (which uses hepatic SULT2A1)."
+      },
+      {
+        "drug": "Corticosteroids and estrogens",
+        "severity": "Low",
+        "mechanism": "May potentiate fluid retention when combined with oral minoxidil."
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "Contraindicated. FDA Pregnancy Category C. Animal studies demonstrate adverse fetal effects including reduced pup survival and developmental abnormalities. No adequate controlled studies in humans. Must not be used during pregnancy.",
+      "women": "FDA-approved for topical use in women (2% solution and 5% foam). Topical 5% produces larger absolute hair count gains in women than men (+24.5 vs +18.6 nonvellus hairs/cm²). Hypertrichosis rates higher in women, especially with oral formulations — this is the primary tolerability concern. Oral minoxidil 0.25-2.5 mg is used off-label. Spironolactone is often co-prescribed (Sinclair 2018) both for additive anti-androgen benefit and to counter fluid retention. Women on oral minoxidil must use reliable contraception.",
+      "children": "Not FDA-approved for patients under 18. Limited but growing evidence: a systematic review found low-dose oral minoxidil (up to 2.5 mg/day) appears safe in pediatric patients, with hypertrichosis in 12.1% and zero discontinuations due to adverse effects. Used off-label for alopecia areata, loose anagen syndrome, and other pediatric hair disorders. Moderate-to-high doses (3-15 mg/day) carry greater risk, including pericardial effusion (9.5%) and reflex tachycardia — these doses should be avoided."
+    },
+    "blackBoxWarning": "Oral minoxidil tablets carry an FDA black box warning (for the antihypertensive indication at 10-40 mg/day): can cause pericardial effusion, occasionally progressing to tamponade, and can exacerbate angina pectoris. Must normally be administered with a beta-blocker and diuretic. This warning was written for hypertensive doses 10-40 mg/day — substantially higher than hair loss doses (0.25-5 mg/day). At hair-loss doses, pericardial effusion was not observed in the largest safety study (Randolph 2021, n=1,404). The black box warning does not apply to topical formulations."
+  }
+}

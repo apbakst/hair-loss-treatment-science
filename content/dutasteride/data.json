@@ -1,0 +1,323 @@
+{
+  "id": "dutasteride",
+  "name": "Dutasteride",
+  "category": "Off-Label",
+  "subcategory": "Dual 5\u03b1-Reductase Inhibitor",
+  "overallVerdict": "Proven",
+  "evidenceRating": 8,
+  "summaryLine": "The most potent 5-alpha reductase inhibitor available, with multiple RCTs showing superiority over finasteride for hair count, hair width, and miniaturization reversal. FDA-approved for BPH only; approved for AGA in South Korea, Japan, and Taiwan.",
+  "mechanism": "Dutasteride competitively and irreversibly inhibits both Type I and Type II 5-alpha reductase isoenzymes, blocking the conversion of testosterone to dihydrotestosterone (DHT). Type I is found in sebaceous glands, sweat glands, and scalp keratinocytes (~33% of circulating DHT). Type II is found in the prostate and male genital tract (~66% of circulating DHT). By blocking both, dutasteride achieves ~90-98% serum DHT suppression at 0.5mg daily, compared to ~70% for finasteride (Type II only). Dutasteride is approximately 3x more potent than finasteride at inhibiting Type I and 100x more potent at inhibiting Type II.",
+  "approvalStatus": {
+    "FDA": "Approved for BPH only (brand name Avodart). NOT approved for androgenetic alopecia in the United States.",
+    "SouthKorea": "Approved for male AGA at 0.5mg daily since 2009.",
+    "Japan": "Approved for male AGA at 0.5mg daily since 2015.",
+    "Taiwan": "Approved for male AGA.",
+    "Europe": "Not approved for AGA. Off-label use only.",
+    "offLabelNote": "Widely prescribed off-label for AGA globally. The lack of FDA approval for AGA reflects a commercial decision by GlaxoSmithKline, not an absence of clinical evidence."
+  },
+  "claims": [
+    {
+      "id": 1,
+      "claim": "Dutasteride inhibits both Type I and Type II 5-alpha reductase, achieving ~90-98% serum DHT suppression",
+      "model": "In vivo (human pharmacokinetic/pharmacodynamic studies)",
+      "finding": "Dutasteride at 0.5mg daily suppresses serum DHT by approximately 90-98%, compared to ~70% for finasteride 1mg. Dutasteride is 3x more potent than finasteride at inhibiting Type I 5AR and 100x more potent at Type II. Scalp DHT is also suppressed to a greater degree than with finasteride.",
+      "evidenceWeight": "Highest",
+      "citation": "Clark RV et al., 2004 (J Clin Endocrinol Metab); Marks et al., 2004 (J Urol); StatPearls NBK603726"
+    },
+    {
+      "id": 2,
+      "claim": "Dutasteride 0.5mg is superior to finasteride 1mg for hair count and width in the largest head-to-head RCT (n=917)",
+      "model": "Human RCT (Phase III, double-blind, placebo- and active-controlled)",
+      "finding": "At 24 weeks, dutasteride 0.5mg significantly increased hair count (p=0.003), hair width (p=0.004), and global photographic assessment (p=0.002) versus finasteride 1mg. All dutasteride doses were superior to placebo. Hair count and width increases were dose-dependent. Adverse events were similar across all groups.",
+      "evidenceWeight": "Highest",
+      "citation": "Gubelin Harcha W et al., JAAD, 2014;70(3):489-498. PMID: 24411083. NCT01231607"
+    },
+    {
+      "id": 3,
+      "claim": "Dose-ranging data shows a direct relationship between DHT suppression and hair count increase",
+      "model": "Human RCT (Phase II, double-blind, placebo-controlled)",
+      "finding": "In 416 men, dutasteride (0.05-2.5mg) increased hair count dose-dependently. Dutasteride 2.5mg was superior to finasteride 5mg at both 12 and 24 weeks. Serum and scalp DHT suppression was inversely correlated with hair count improvement.",
+      "evidenceWeight": "Highest",
+      "citation": "Olsen EA et al., JAAD, 2006;55(6):1014-1023. PMID: 17110217"
+    },
+    {
+      "id": 4,
+      "claim": "A Korean Phase III trial confirmed dutasteride 0.5mg efficacy with +12.2 hairs/cm2 vs +4.7 for placebo",
+      "model": "Human RCT (Phase III, double-blind, placebo-controlled)",
+      "finding": "In 153 Korean men, dutasteride 0.5mg daily for 24 weeks increased hair count by 12.2/cm2 versus 4.7/cm2 for placebo (p=0.0319). Significantly higher efficacy by self-assessment, investigator assessment, and panel photography. This trial contributed to South Korean regulatory approval.",
+      "evidenceWeight": "Highest",
+      "citation": "Eun HC et al., JAAD, 2010;63(2):252-258. PMID: 20605255"
+    },
+    {
+      "id": 5,
+      "claim": "Dutasteride is superior to finasteride in both hair regrowth (+23 vs +4/cm2) and miniaturization reversal",
+      "model": "Human RCT (open-label, evaluator-blinded)",
+      "finding": "In 90 men over 24 weeks, dutasteride increased total hair count by 23 hairs/cm2 vs 4 for finasteride. Miniaturized hair decreased by 8/cm2 vs 1 for finasteride. Side effect profiles were similar between groups.",
+      "evidenceWeight": "High",
+      "citation": "Shanshanwal SJ, Dhurat RS. IJDVL, 2017;83(1):47-54. PMID: 27549867"
+    },
+    {
+      "id": 6,
+      "claim": "Long-term use shows ~90% improvement rate and ~94% disease-prevention rate at 5 years",
+      "model": "Retrospective chart review (multicenter, South Korea)",
+      "finding": "In 467 Korean men, 89.9% of dutasteride-treated patients showed improvement and 93.9% achieved prevention of disease progression over 5 years. Dutasteride showed significantly greater improvement than finasteride in BASP basic M and specific V pattern types.",
+      "evidenceWeight": "High",
+      "citation": "Shin JW et al., Ann Dermatol, 2022;34(5):349-359. PMC9561294. Also: Lee S et al., 5-year follow-up, 2024. PMID: 38321615"
+    },
+    {
+      "id": 7,
+      "claim": "Intermittent dosing (2-3x/week) may match daily finasteride due to dutasteride's long half-life",
+      "model": "Human RCT (pilot, investigator-blinded, active-controlled)",
+      "finding": "In 60 men over 24 weeks: thrice-weekly dutasteride +17.43 hairs/cm2, daily finasteride +12.81 hairs/cm2, twice-weekly dutasteride +7.74 hairs/cm2. Thrice-weekly dutasteride showed 35% moderate-to-marked improvement vs 21% for daily finasteride. Sexual side effects were similar across all groups.",
+      "evidenceWeight": "High",
+      "citation": "Rathnayake D et al., JAAD Int, 2025. PMID: 41140354. PMC12547282"
+    },
+    {
+      "id": 8,
+      "claim": "Topical dutasteride 0.05% outperforms oral finasteride 1mg with minimal systemic absorption",
+      "model": "Human RCT (Phase II, double-blind, placebo- and active-controlled)",
+      "finding": "In 135 men over 24 weeks: topical dutasteride 0.05% achieved +75.52 hairs/cm2, oral finasteride +41.21, placebo +0.07. Patient-reported improvement: 93.1% vs 71.4%. Plasma dutasteride levels near or below quantification limits (max 169 pg/mL). Serum DHT decreased only ~11% (vs ~27% for oral finasteride). Zero adverse events reported in any active group.",
+      "evidenceWeight": "High",
+      "citation": "Mundhe G et al., Cureus, 2025;17(8):e75228. PMC12405733"
+    },
+    {
+      "id": 9,
+      "claim": "Dutasteride mesotherapy shows improvement with no systemic hormone changes",
+      "model": "Mixed: prospective pilot study (n=6), retrospective clinical series, controlled trial in women (n=126)",
+      "finding": "In the pilot study, all 6 patients showed increased hair density and diameter with no changes in serum hormone levels. In 126 women, 62.8% showed improvement vs 17.5% in saline control. Treatment protocol: intradermal 0.01% dutasteride, 1mL every 3 months. No adverse effects recorded.",
+      "evidenceWeight": "Moderate",
+      "citation": "Saceda-Corralo D et al., 2017 (JEADV); Fernandez-Nieto D et al., 2020 (Actas Dermosifiliogr); PMC5596657"
+    },
+    {
+      "id": 10,
+      "claim": "Low-dose dutasteride (0.2mg) is as effective as 0.5mg with a safety profile comparable to placebo",
+      "model": "Human RCT (Phase III, double-blind, placebo-controlled)",
+      "finding": "In 139 Korean men over 24 weeks, 0.2mg dutasteride matched 0.5mg on all efficacy endpoints (hair count, photographic assessment, subjective improvement). Adverse event incidence in the 0.2mg group was not statistically different from placebo.",
+      "evidenceWeight": "Highest",
+      "citation": "Lee WS et al., Ann Dermatol, 2025. PMC12318778. NCT04825561"
+    }
+  ],
+  "keyStats": {
+    "serumDHTReduction": "~90-98% (vs ~70% for finasteride 1mg)",
+    "largestRCT": "917 men, Phase III, dutasteride 0.5mg statistically superior to finasteride 1mg (p=0.003 for hair count, p=0.004 for hair width, p=0.002 for global photo assessment)",
+    "hairCountIncrease": "+12.2 hairs/cm2 vs +4.7 placebo (Phase III, 153 men); +23 hairs/cm2 vs +4 for finasteride (Shanshanwal 2017); +75.52 hairs/cm2 for topical 0.05% vs +41.21 for oral finasteride (Phase II topical)",
+    "longTermEfficacy": "89.9% improvement rate, 93.9% disease-prevention rate at 5 years (retrospective, Korea)",
+    "halfLife": "4-5 weeks (vs 6-8 hours for finasteride)",
+    "timeToSteadyState": "~6 months",
+    "washoutPeriod": "6+ months; blood donation prohibited for 6 months after last dose",
+    "sexualSideEffects": "Comparable to finasteride in RCTs (decreased libido ~1-6%, erectile dysfunction ~1-5%, ejaculation disorders ~1-5%); however, side effects take longer to resolve due to long half-life",
+    "networkMetaAnalysis": "Ranked as the most effective monotherapy for male AGA (2024 network meta-analysis)"
+  },
+  "missingEvidence": [
+    "No FDA approval for AGA despite positive Phase III data (commercial decision, not evidence gap)",
+    "No head-to-head RCT data beyond 24 weeks comparing dutasteride to finasteride",
+    "Limited long-term safety data (>5 years) in young men (20-40) who are the primary AGA population",
+    "Topical dutasteride Phase III results not yet published (ongoing trials)",
+    "Long half-life (4-5 weeks) means slow washout -- side effects persist much longer than with finasteride",
+    "Extremely limited data in women with female pattern hair loss (Category X, teratogenic)",
+    "Post-finasteride syndrome concerns remain unresolved for all 5-alpha reductase inhibitors",
+    "Mesotherapy protocols are not standardized (concentration, volume, frequency vary across studies)",
+    "No data on long-term topical dutasteride safety or whether systemic absorption increases over years"
+  ],
+  "bottomLine": "Dutasteride is probably the most effective single drug for androgenetic alopecia based on RCT evidence. Multiple large trials demonstrate clear superiority over finasteride for hair count, hair width, and miniaturization reversal. A 2024 network meta-analysis ranked it as the most effective monotherapy. Its off-label status in the US and Europe, long half-life (4-5 weeks), and more limited long-term safety data in young men compared to finasteride mean it is typically used as a second-line option or for patients seeking maximum potency. Topical dutasteride and low-dose oral dutasteride are promising developments that may change the risk-benefit calculation.",
+  "comparisonNotes": {
+    "vsFinasteride": {
+      "efficacy": "Superior. Dutasteride 0.5mg outperforms finasteride 1mg on hair count (p=0.003), hair width (p=0.004), and global photography (p=0.002) in the 917-patient ARIA trial. Shanshanwal 2017 showed +23 vs +4 hairs/cm2 and meaningful miniaturization reversal.",
+      "safety": "Comparable sexual side effect rates in RCTs. However, dutasteride's 4-5 week half-life means side effects take much longer to resolve (weeks-months vs days for finasteride).",
+      "regulatoryStatus": "Finasteride is FDA-approved for AGA (1mg, since 1997). Dutasteride is not. Dutasteride is approved for AGA in South Korea, Japan, and Taiwan.",
+      "halfLife": "Dutasteride: 4-5 weeks. Finasteride: 6-8 hours. This affects washout time, side effect duration, and enables intermittent dutasteride dosing.",
+      "longTermData": "Finasteride has more long-term safety data in the AGA population (25+ years). Dutasteride's long-term AGA-specific data is primarily from Korean studies (up to 5 years).",
+      "cost": "Finasteride is widely available as a generic and is typically less expensive."
+    },
+    "vsMinoxidil": "Different mechanisms entirely. Dutasteride is an antiandrogen (blocks DHT); minoxidil is a vasodilator/potassium channel opener. They are complementary and commonly combined. Network meta-analysis suggests dutasteride 0.5mg is more effective than oral minoxidil 5mg as monotherapy.",
+    "topicalVsOral": "Topical dutasteride 0.05% showed +75.52 hairs/cm2 vs +41.21 for oral finasteride in Phase II, with minimal systemic absorption (plasma levels near LLOQ, serum DHT reduction only ~11%). If Phase III confirms, topical may offer best of both worlds: superior efficacy with minimal systemic exposure."
+  },
+  "dosing": {
+    "standardOral": "0.5mg once daily (standard approved dose in South Korea/Japan)",
+    "lowDoseOral": "0.2mg once daily (shown effective in Phase III; not yet a commercially available dose)",
+    "intermittentOral": "0.5mg 2-3 times per week (pilot RCT data suggests thrice-weekly may match daily finasteride)",
+    "topical": "0.05% w/v solution once daily (Phase II data; not yet commercially standardized; compounded formulations vary)",
+    "mesotherapy": "0.01% intradermal injection, 1mL per session, every 3 months (small study data; not standardized)"
+  },
+  "safetyProfile": {
+    "commonSideEffects": [
+      "Decreased libido (~1-6%)",
+      "Erectile dysfunction (~1-5%)",
+      "Ejaculation disorders (~1-5%)",
+      "Gynecomastia (~0.3%)"
+    ],
+    "seriousConcerns": [
+      "Category X: absolutely contraindicated in pregnancy due to teratogenic risk (feminization of male fetus)",
+      "Blood donation prohibited for 6 months after last dose",
+      "Long half-life means side effects persist weeks-months after discontinuation",
+      "Theoretical concerns about persistent sexual side effects (post-finasteride syndrome) remain unresolved"
+    ],
+    "comparedToFinasteride": "RCTs show comparable rates of sexual dysfunction between dutasteride 0.5mg and finasteride 1mg. In one meta-analysis, 17% of dutasteride patients reported drug-related sexual AEs vs 20% for finasteride (not statistically different). The key practical difference is that dutasteride side effects take much longer to resolve due to the 4-5 week half-life."
+  },
+  "efficacy": {
+    "keyTrials": [
+      {
+        "name": "Olsen 2006 (Phase II dose-ranging)",
+        "citation": "Olsen EA et al., JAAD, 2006;55(6):1014-1023. PMID: 17110217",
+        "design": "Phase II, double-blind, placebo-controlled, dose-ranging RCT",
+        "population": "416 men aged 21-45 with AGA",
+        "duration": "24 weeks",
+        "arms": "Dutasteride 0.05mg, 0.1mg, 0.5mg, 2.5mg vs finasteride 5mg vs placebo",
+        "keyResults": "Hair count increased dose-dependently with dutasteride. Dutasteride 2.5mg was statistically superior to finasteride 5mg at both 12 and 24 weeks. Dutasteride 0.1mg yielded +78.5 hairs/inch2 vs +75.6 for finasteride 5mg at 24 weeks. Serum and scalp DHT suppression were inversely correlated with hair count improvement, establishing the DHT-hair loss dose-response relationship.",
+        "significance": "First major dose-ranging trial proving dual 5AR inhibition is superior; established pharmacologic rationale for dutasteride in AGA"
+      },
+      {
+        "name": "Gubelin Harcha 2014 / ARIA Trial (Phase III)",
+        "citation": "Gubelin Harcha W et al., JAAD, 2014;70(3):489-498. PMID: 24411083. NCT01231607",
+        "design": "Phase III, double-blind, placebo- and active-controlled, multinational RCT",
+        "population": "917 men aged 20-50 with AGA (largest head-to-head trial)",
+        "duration": "24 weeks",
+        "arms": "Dutasteride 0.02mg, 0.1mg, 0.5mg vs finasteride 1mg vs placebo",
+        "keyResults": "Dutasteride 0.5mg was statistically superior to finasteride 1mg on hair count (p=0.003), hair width (p=0.004), and global photographic assessment (p=0.002). All dutasteride doses superior to placebo. Hair count and width increased dose-dependently. Adverse events were similar across all groups including placebo.",
+        "significance": "Largest head-to-head RCT; definitive evidence of dutasteride superiority over finasteride for AGA"
+      },
+      {
+        "name": "Eun 2010 (Korean Phase III)",
+        "citation": "Eun HC et al., JAAD, 2010;63(2):252-258. PMID: 20605255",
+        "design": "Phase III, double-blind, placebo-controlled RCT",
+        "population": "153 Korean men with AGA",
+        "duration": "24 weeks",
+        "arms": "Dutasteride 0.5mg vs placebo",
+        "keyResults": "+12.2 hairs/cm2 for dutasteride vs +4.7 for placebo (p=0.0319). Significant improvement in self-assessment, investigator assessment, and panel photography.",
+        "significance": "Pivotal trial contributing to South Korean regulatory approval for AGA"
+      },
+      {
+        "name": "Shanshanwal 2017 (Head-to-head with miniaturization data)",
+        "citation": "Shanshanwal SJ, Dhurat RS. IJDVL, 2017;83(1):47-54. PMID: 27549867",
+        "design": "Open-label, evaluator-blinded, randomized controlled trial",
+        "population": "90 men with AGA",
+        "duration": "24 weeks",
+        "arms": "Dutasteride 0.5mg vs finasteride 1mg",
+        "keyResults": "Total hair count: dutasteride +23 hairs/cm2 (baseline 223, week 24: 246) vs finasteride +4 hairs/cm2 (baseline 227, week 24: 231). Miniaturized hair: dutasteride -8/cm2 (65 to 57) vs finasteride -1/cm2 (67 to 66). Hair thickness improved significantly more with dutasteride (53 to 63 micrometers vs 52 to 53 micrometers). Side effect profiles were similar.",
+        "significance": "Demonstrated dutasteride superiority in both regrowth and miniaturization reversal; one of the clearest head-to-head comparisons"
+      },
+      {
+        "name": "Shin 2022 / Lee 2024 (Long-term Korean multicenter)",
+        "citation": "Shin JW et al., Ann Dermatol, 2022;34(5):349-359. PMC9561294; Lee S et al., 2024. PMID: 38321615",
+        "design": "Retrospective multicenter chart review (South Korea)",
+        "population": "467 Korean men with AGA",
+        "duration": "Up to 5 years",
+        "arms": "Dutasteride vs finasteride (long-term real-world data)",
+        "keyResults": "89.9% of dutasteride patients showed improvement; 93.9% achieved disease-prevention (no further progression) at 5 years. Dutasteride was significantly superior to finasteride in BASP basic M and specific V pattern types.",
+        "significance": "Best available long-term data; demonstrates sustained efficacy over years"
+      },
+      {
+        "name": "Lee 2025 (Low-dose Phase III)",
+        "citation": "Lee WS et al., Ann Dermatol, 2025. PMC12318778. NCT04825561",
+        "design": "Phase III, double-blind, placebo-controlled, parallel-group RCT",
+        "population": "139 Korean men with AGA",
+        "duration": "24 weeks",
+        "arms": "Dutasteride 0.2mg vs 0.5mg vs placebo",
+        "keyResults": "0.2mg matched 0.5mg on all efficacy endpoints (hair count, photographic assessment, subjective improvement). Adverse event incidence in the 0.2mg group was not statistically different from placebo.",
+        "significance": "Opens possibility of lower-dose regimens with improved safety profile"
+      }
+    ],
+    "responseRates": {
+      "shortTerm24Weeks": "Statistically significant improvement over placebo in all RCTs at 24 weeks. In the ARIA trial, dutasteride 0.5mg was superior to both finasteride 1mg and placebo on all primary endpoints.",
+      "longTerm5Years": "89.9% improvement rate and 93.9% disease-prevention rate at 5 years (Korean multicenter data). Sustained benefit requires continued treatment.",
+      "vsFinasteride": "Consistently superior to finasteride across all head-to-head comparisons. ARIA trial (n=917): p=0.003 for hair count. Shanshanwal (n=90): +23 vs +4 hairs/cm2. Hair thickness improvement also significantly greater."
+    },
+    "timeToEffect": "DHT suppression begins immediately, but clinical hair changes require 3-6 months to become visible. Most RCTs assess at 24 weeks. Initial shedding may occur in the first 1-3 months as miniaturized hairs are replaced. Due to the 4-5 week half-life, steady-state serum concentration is not reached until approximately 6 months (65% at 1 month, 90% at 3 months). Clinical improvement continues beyond 6 months, with optimal results typically at 12+ months.",
+    "peakEffect": "Most clinical trials measure at 24 weeks and show robust efficacy. Long-term data suggests continued improvement up to 12 months, with stabilization/maintenance thereafter. The 5-year Korean data (89.9% improvement rate) suggests sustained benefit with no tachyphylaxis. Peak hair count improvement likely occurs at 12-24 months based on the pharmacokinetic profile and hair cycle biology.",
+    "maintenanceRequired": true,
+    "maintenanceNotes": "Continuous treatment is required to maintain results. Hair loss resumes upon discontinuation. However, due to the 4-5 week half-life, the effect tapers very gradually -- one week after cessation, dutasteride still maintains ~90% DHT suppression (vs finasteride which loses most effect within days). Full reversal of treatment benefit takes 6-12+ months after stopping.",
+    "discontinuationEffect": "Hair loss resumes gradually after discontinuation but much more slowly than with finasteride due to the 4-5 week half-life. One week post-cessation, dutasteride maintains ~90% serum DHT suppression (mean 38.3 pg/mL) vs finasteride which shows only 35% suppression (mean 324.8 pg/mL). Detectable drug levels persist 4-6 months after last dose. Full washout takes 6+ months. Blood donation is prohibited for 6 months after last dose due to teratogenic risk."
+  },
+  "sideEffects": {
+    "commonAEs": [
+      {
+        "name": "Decreased libido",
+        "rate": "1-6% (AGA trials); 3% vs 1.4% placebo (BPH prescribing information, first 6 months)",
+        "notes": "Most common early in treatment. Incidence decreases over time: from ~3% in year 1 to <1% in year 4 of BPH trials. Rates in AGA trials are comparable to finasteride. In the low-dose (0.2mg) Phase III trial, libido effects were not statistically different from placebo."
+      },
+      {
+        "name": "Erectile dysfunction",
+        "rate": "1-5% (AGA trials); 4.7% vs 1.7% placebo (BPH prescribing information, first 6 months); 3.57% at 0.2mg, 14.29% at 0.5mg (small Korean Phase III)",
+        "notes": "Most frequently reported sexual AE. Rates vary across trials, likely influenced by nocebo effect (sexual AE rates in placebo arms are 5-8%). The 0.2mg dose showed rates comparable to placebo. Most cases are mild-to-moderate and resolve during treatment or after discontinuation."
+      },
+      {
+        "name": "Ejaculation disorders (decreased volume, retrograde)",
+        "rate": "1-5% (AGA trials); 1.4% vs 0.5% placebo (BPH prescribing information, first 6 months)",
+        "notes": "Includes decreased ejaculate volume and altered ejaculation. Consistent with mechanism (DHT is involved in seminal vesicle function). Generally mild."
+      },
+      {
+        "name": "Breast disorders (gynecomastia and/or breast tenderness)",
+        "rate": "0.3-1% (AGA trials); 0.5% vs 0.2% placebo (BPH prescribing information, first 6 months); up to 1.9% in the REDUCE BPH trial",
+        "notes": "Gynecomastia results from increased testosterone-to-estrogen conversion when DHT pathway is blocked. Generally reversible on discontinuation. Incidence is low at AGA doses."
+      },
+      {
+        "name": "Semen parameter changes",
+        "rate": "Decreased sperm count and semen volume reported in healthy volunteer studies",
+        "notes": "Total sperm count decreased at 26 weeks. Semen volume decreased at 52 weeks. Short-term use (<17 months): effects appear reversible after discontinuation. Long-term use (>17-20 months): may persistently impair semen volume and sperm motility. Effects on fertility are formally unknown. Men planning to conceive should discuss with physician."
+      }
+    ],
+    "seriousAEs": [
+      {
+        "name": "High-grade prostate cancer signal (REDUCE trial)",
+        "rate": "In the REDUCE BPH prevention trial (n=6,729): 12 Gleason 8-10 tumors in dutasteride group vs 1 in placebo group (p<0.003) during years 3-4",
+        "notes": "This was a BPH cancer prevention trial in older men (mean age ~62), not an AGA trial. Overall prostate cancer was reduced by 22.5% with dutasteride. The high-grade signal is debated -- may reflect detection bias (dutasteride shrinks the prostate, making biopsies more likely to sample aggressive tumors). FDA added a warning to the label. Relevance to young men using dutasteride for AGA at 0.5mg is uncertain but should be disclosed."
+      },
+      {
+        "name": "Persistent sexual dysfunction (post-5ARI syndrome)",
+        "rate": "Unknown; not established in controlled trials. Reported in case series and pharmacovigilance databases.",
+        "notes": "A subset of patients report persistent sexual, neurological, and psychological symptoms after discontinuation of 5-alpha reductase inhibitors. This is recognized by the EMA but not fully characterized. Causality is debated. Dutasteride's long half-life means any side effects take much longer to resolve (weeks-months vs days for finasteride), which may confound reports of 'persistence.'"
+      },
+      {
+        "name": "Depression / mood changes",
+        "rate": "~1-2% in pharmacovigilance data; no consistent signal in RCTs",
+        "notes": "Less evidence linking dutasteride to depression compared to finasteride. Monitoring for mood changes is recommended. No direct causal link established in controlled trials. Neurosteroid disruption from 5AR inhibition (allopregnanolone depletion) is a proposed mechanism."
+      },
+      {
+        "name": "Allergic reactions (angioedema, urticaria)",
+        "rate": "Rare (<0.1%)",
+        "notes": "Reported in post-marketing surveillance. Includes angioedema, localized edema, skin rash, pruritus, and urticaria."
+      }
+    ],
+    "discontinuationRate": "In BPH trials, 4-6% discontinued due to adverse events (combination therapy 6% vs monotherapy 4%). Erectile dysfunction was the most common reason for withdrawal (1-1.5%). In AGA-specific trials, discontinuation rates due to AEs are generally low. In the 52-week Korean AGA study, 15.8% reported sexual AEs but most continued treatment; of these, 5% resolved during treatment and 10.8% resolved within 6 months of stopping. Overall drug-related AE incidence in AGA trials: 2-17%, varying by dose and trial design.",
+    "contraindications": [
+      "Pregnancy or potential pregnancy -- absolutely contraindicated (teratogenic: causes feminization of male fetus external genitalia, decreased prostatic and seminal vesicular weights, nipple development in animal studies)",
+      "Women of childbearing potential must not handle broken or leaking dutasteride capsules (drug is absorbed through skin)",
+      "Hypersensitivity to dutasteride, other 5-alpha reductase inhibitors (including finasteride), or any excipient",
+      "Pediatric patients (safety and efficacy not established in children)",
+      "Blood donation prohibited for at least 6 months after last dose to prevent exposure of pregnant transfusion recipient"
+    ],
+    "drugInteractions": [
+      {
+        "drug": "CYP3A4 inhibitors (strong)",
+        "interaction": "Dutasteride is metabolized by CYP3A4/5. Strong CYP3A4 inhibitors decrease clearance and increase serum dutasteride concentrations.",
+        "examples": "Ritonavir, ketoconazole, itraconazole, ceritinib",
+        "severity": "Use with caution; may increase dutasteride exposure and side effect risk"
+      },
+      {
+        "drug": "CYP3A4 inhibitors (moderate)",
+        "interaction": "Moderate CYP3A4 inhibitors may also increase dutasteride levels.",
+        "examples": "Verapamil, diltiazem, ciprofloxacin, fluconazole, cimetidine",
+        "severity": "Clinical significance uncertain; monitoring recommended"
+      },
+      {
+        "drug": "Alpha-blockers (tamsulosin, doxazosin, terazosin)",
+        "interaction": "No significant pharmacokinetic interaction. Commonly co-prescribed in BPH.",
+        "examples": "Tamsulosin, doxazosin, terazosin",
+        "severity": "No dose adjustment needed"
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "Absolutely contraindicated. Category X (AU TGA). Dutasteride is teratogenic -- exposure during pregnancy causes feminization of male fetus (abnormal external genitalia, decreased prostatic and seminal vesicular weights, nipple development in animal models). Even skin contact with broken capsules poses risk. Blood donation prohibited for 6 months post-treatment. Stricter than finasteride in practice due to the 4-5 week half-life: a man switching from dutasteride to attempt conception needs 6+ months washout, vs days for finasteride.",
+      "women": "Not approved for use in women. Contraindicated in women of childbearing potential. Very limited data from mesotherapy studies (intradermal injection, no systemic absorption). Not studied in oral form for female pattern hair loss. Women must not handle broken capsules.",
+      "children": "Contraindicated. Safety and efficacy not established in pediatric patients.",
+      "elderly": "No dose adjustment required for age >=65. Half-life is longer in elderly men (300 hours for >70 years vs 170 hours for 20-49 years). Not typically relevant for AGA treatment population.",
+      "renalImpairment": "No dose adjustment required. <1% excreted renally.",
+      "hepaticImpairment": "Use with caution in severe hepatic impairment. Dutasteride is extensively hepatically metabolized via CYP3A4/5. No formal dose adjustment in labeling but exposure may be increased.",
+      "fertilityConsiderations": "Decreases total sperm count, semen volume, and sperm motility. Short-term effects (under ~17 months) appear reversible after discontinuation. Long-term use (>17-20 months) may cause persistent impairment of semen volume and motility. Men actively trying to conceive should discuss risks with physician and consider switching to finasteride (shorter half-life, faster washout) or discontinuing."
+    },
+    "halfLifeImplications": "The 4-5 week half-life of dutasteride is the single most important safety consideration differentiating it from finasteride (6-8 hours). Implications: (1) Side effects persist for weeks-months after stopping, not days. (2) Full washout takes 6+ months. (3) Blood donation is prohibited for 6 months post-cessation. (4) Men wanting to attempt conception need prolonged washout. (5) One week after stopping, dutasteride still suppresses DHT by ~90% vs ~35% for finasteride. (6) This makes 'trial and error' dosing riskier -- if you experience side effects, you cannot quickly discontinue and recover. (7) Conversely, the long half-life enables intermittent dosing (2-3x/week) while maintaining efficacy.",
+    "blackBoxWarning": "None. However, the FDA label includes a warning about the increased incidence of high-grade prostate cancer observed in the REDUCE trial (BPH prevention study in older men). This is not a black box warning but is prominently included in prescribing information."
+  },
+  "lastUpdated": "2026-03-19",
+  "publishedOn": "anagen.xyz"
+}

@@ -1,0 +1,476 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://anagen.xyz/schemas/treatment-evidence.json",
+  "title": "Hair Loss Treatment Evidence Data",
+  "description": "Schema for structured evidence breakdown data for a hair loss treatment. Each treatment has one data.json file conforming to this schema. Used by the interactive landing page at anagen.xyz/hair-loss-treatment-science.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "fullName",
+    "category",
+    "categoryLabel",
+    "approvalStatus",
+    "mechanismOfAction",
+    "primaryTargets",
+    "evidenceGrade",
+    "evidenceGradeRationale",
+    "highestEvidenceLevel",
+    "totalClaimsEvaluated",
+    "humanTrialCount",
+    "evidenceLevelCounts",
+    "oneLinerSummary",
+    "strengthOfEvidenceForHair",
+    "keyLimitation",
+    "claims",
+    "missingEvidence",
+    "bottomLine",
+    "lastUpdated"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "URL-safe slug identifier. Lowercase, hyphens only. Must match the directory name in /content/{id}/data.json.",
+      "examples": ["ghk-cu", "finasteride", "bpc-157", "acetyl-tetrapeptide-3"]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 60,
+      "description": "Short display name used in tabs, table rows, and headings.",
+      "examples": ["GHK-Cu", "Finasteride", "BPC-157", "Minoxidil"]
+    },
+    "fullName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Full chemical/pharmaceutical name for the page heading and SEO.",
+      "examples": ["Copper Peptide GHK-Cu (Glycyl-L-Histidyl-L-Lysine Copper Complex)", "Finasteride (Propecia / Proscar)"]
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Alternative names, brand names, or common misspellings. Used for search indexing.",
+      "examples": [["Copper peptide", "GHK copper", "copper tripeptide"], ["Propecia", "Proscar", "fin"]]
+    },
+    "category": {
+      "type": "string",
+      "enum": ["fda-approved", "off-label", "investigational", "peptides-cosmeceuticals"],
+      "description": "Treatment regulatory/classification category. Determines which tab group the treatment appears in."
+    },
+    "categoryLabel": {
+      "type": "string",
+      "enum": ["FDA-Approved", "Off-Label", "Investigational", "Peptides / Cosmeceuticals"],
+      "description": "Human-readable category label for display."
+    },
+    "approvalStatus": {
+      "type": "string",
+      "enum": ["fda-approved", "off-label", "investigational", "none"],
+      "description": "Regulatory approval status. 'fda-approved' = approved for hair loss. 'off-label' = approved for another indication. 'investigational' = in clinical trials. 'none' = cosmeceutical/supplement."
+    },
+    "approvalNote": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Brief note about the approval status, e.g., what indication it is approved for if off-label."
+    },
+    "mechanismOfAction": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500,
+      "description": "Plain-English summary of the treatment's mechanism of action. 1-3 sentences. Should be understandable by a non-scientist."
+    },
+    "primaryTargets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "List of primary biological targets or pathways. Used for comparison and filtering.",
+      "examples": [["5-alpha reductase type II", "DHT reduction"], ["ECM remodeling", "VEGF/angiogenesis", "TGF-beta modulation"]]
+    },
+    "routeOfAdministration": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["oral", "topical", "injection", "mesotherapy injection", "subcutaneous injection", "other"]
+      },
+      "description": "How the treatment is typically administered for hair loss."
+    },
+    "typicalDose": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Typical dosing information as used for hair loss (not medical advice, informational only)."
+    },
+    "evidenceGrade": {
+      "type": "string",
+      "enum": ["A", "B", "C", "D", "F"],
+      "description": "Overall letter grade for the treatment's hair loss evidence. A = strong RCT evidence. B = good evidence (RCT or strong open-label). C = mixed/early (some human data, flawed or preclinical only). D = weak (preclinical only). F = no meaningful evidence."
+    },
+    "evidenceGradeRationale": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500,
+      "description": "1-2 sentence justification for the assigned evidence grade."
+    },
+    "highestEvidenceLevel": {
+      "type": "string",
+      "enum": ["in-silico", "in-vitro", "in-vivo-animal", "ex-vivo", "human-open-label", "human-rct"],
+      "description": "The highest evidence tier that has at least one claim for this treatment."
+    },
+    "totalClaimsEvaluated": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Total number of claims evaluated for this treatment. Must match the length of the claims array."
+    },
+    "humanTrialCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of claims backed by human trial data (open-label + RCT combined)."
+    },
+    "evidenceLevelCounts": {
+      "type": "object",
+      "required": ["in-silico", "in-vitro", "in-vivo-animal", "ex-vivo", "human-open-label", "human-rct"],
+      "properties": {
+        "in-silico": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of claims at the in silico (computational) evidence level."
+        },
+        "in-vitro": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of claims at the in vitro (cell culture) evidence level."
+        },
+        "in-vivo-animal": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of claims at the in vivo animal evidence level."
+        },
+        "ex-vivo": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of claims at the ex vivo (human tissue organ culture) evidence level."
+        },
+        "human-open-label": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of claims at the human open-label trial evidence level."
+        },
+        "human-rct": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of claims at the human randomized controlled trial evidence level."
+        }
+      },
+      "additionalProperties": false,
+      "description": "Count of claims at each evidence level. The sum of all counts must equal totalClaimsEvaluated."
+    },
+    "oneLinerSummary": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200,
+      "description": "One-sentence summary for the comparison table. Should convey the overall evidence picture in ~15 words."
+    },
+    "strengthOfEvidenceForHair": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Numeric strength score for sorting. 1 = no meaningful evidence for hair. 2 = interesting preclinical rationale. 3 = some human evidence but limited/flawed. 4 = good human evidence. 5 = strong RCT evidence (multiple large trials)."
+    },
+    "keyLimitation": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200,
+      "description": "The single most important limitation of the evidence for this treatment. Shown in the comparison table."
+    },
+    "bestFor": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Brief note on what this treatment is best suited for, e.g., 'First-line monotherapy for male AGA' or 'Adjunct to proven treatments'."
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/Claim"
+      },
+      "description": "Array of evidence claims, each evaluated claim-by-claim. Order matters -- present them in a logical narrative order (typically from most fundamental/basic to most clinical)."
+    },
+    "missingEvidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 10
+      },
+      "description": "List of key evidence gaps. Each item is a plain-English description of an important study or evidence type that does not exist. This is the 'Evidence That's Missing' section."
+    },
+    "bottomLine": {
+      "type": "object",
+      "required": ["summary", "keyTakeaway", "verdict"],
+      "properties": {
+        "summary": {
+          "type": "string",
+          "minLength": 50,
+          "maxLength": 2000,
+          "description": "2-4 paragraph summary of the overall evidence picture. Written in the same direct, evidence-based voice as the claims. This is the main 'Bottom Line' text."
+        },
+        "keyTakeaway": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 500,
+          "description": "The single most important sentence for a reader to take away. Highlighted visually on the page. Should be a clear, actionable statement."
+        },
+        "verdict": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 100,
+          "description": "Ultra-short verdict label, e.g., 'Gold standard treatment', 'Promising adjunct', 'Insufficient evidence', 'Not recommended for hair'."
+        }
+      },
+      "additionalProperties": false
+    },
+    "articleUrl": {
+      "type": "string",
+      "pattern": "^/evidence/[a-z0-9-]+$",
+      "description": "Relative URL path to the full standalone evidence breakdown article. Format: /evidence/{slug}. Leave empty string if article does not yet exist."
+    },
+    "pubmedSearchUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct URL to a PubMed search for this treatment and hair loss."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date (YYYY-MM-DD) of the last content update."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$",
+      "description": "Content version number (semver-style major.minor).",
+      "default": "1.0"
+    },
+    "author": {
+      "type": "string",
+      "description": "Author or team that wrote this content.",
+      "default": "Anagen Research Team"
+    },
+    "reviewedBy": {
+      "type": "string",
+      "description": "Reviewer name/title if the content has been peer-reviewed. Empty string if not yet reviewed."
+    },
+    "efficacy": {
+      "type": "object",
+      "properties": {
+        "keyTrials": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "design", "n", "duration", "primaryEndpoint", "result"],
+            "properties": {
+              "name": {"type": "string", "description": "Trial name or author/year identifier"},
+              "design": {"type": "string", "enum": ["rct", "open-label", "retrospective", "case-series", "meta-analysis", "preclinical"], "description": "Study design type"},
+              "n": {"type": "integer", "minimum": 1, "description": "Number of participants/subjects"},
+              "duration": {"type": "string", "description": "Study duration, e.g. '12 months', '24 weeks'"},
+              "population": {"type": "string", "description": "Study population, e.g. 'Men with AGA Norwood III-V'"},
+              "primaryEndpoint": {"type": "string", "description": "Primary endpoint measured"},
+              "result": {"type": "string", "description": "Primary result, e.g. '+15.8 hairs/cm² vs placebo'"},
+              "pValue": {"type": "string", "description": "p-value if reported"},
+              "responderRate": {"type": "string", "description": "% responders if reported"},
+              "responderDefinition": {"type": "string", "description": "How responder was defined"}
+            },
+            "additionalProperties": false
+          },
+          "description": "Key clinical trials or studies with structured results"
+        },
+        "timeToEffect": {"type": "string", "maxLength": 100, "description": "Typical time to see initial results"},
+        "peakEffect": {"type": "string", "maxLength": 100, "description": "Time to reach maximum benefit"},
+        "maintenanceRequired": {"type": "boolean", "description": "Whether ongoing use is needed to maintain results"},
+        "discontinuationEffect": {"type": "string", "maxLength": 300, "description": "What happens when treatment is stopped"}
+      },
+      "additionalProperties": false
+    },
+    "sideEffects": {
+      "type": "object",
+      "properties": {
+        "commonAEs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "rate"],
+            "properties": {
+              "name": {"type": "string"},
+              "rate": {"type": "string", "description": "Incidence rate, e.g. '1.8%' or 'Common' or 'Rare'"},
+              "notes": {"type": "string"}
+            },
+            "additionalProperties": false
+          }
+        },
+        "seriousAEs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Serious adverse events reported"
+        },
+        "discontinuationRate": {"type": "string", "description": "% who stopped due to side effects"},
+        "contraindications": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "drugInteractions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "specialPopulations": {
+          "type": "object",
+          "properties": {
+            "pregnancy": {"type": "string"},
+            "women": {"type": "string"},
+            "children": {"type": "string"}
+          },
+          "additionalProperties": false
+        },
+        "blackBoxWarning": {"type": "string", "description": "FDA black box warning text if any, empty string if none"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "Claim": {
+      "type": "object",
+      "required": [
+        "number",
+        "title",
+        "evidenceLevel",
+        "evidenceWeight",
+        "model",
+        "finding",
+        "assessment",
+        "assessmentSummary",
+        "citations",
+        "hairSpecific"
+      ],
+      "properties": {
+        "number": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Sequential claim number within this treatment. Starts at 1."
+        },
+        "title": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 300,
+          "description": "The claim being evaluated, stated as it appears in literature or marketing. Typically in quotes. Example: 'GHK-Cu modulates Wnt/beta-catenin signaling'."
+        },
+        "evidenceLevel": {
+          "type": "string",
+          "enum": ["in-silico", "in-vitro", "in-vivo-animal", "ex-vivo", "human-open-label", "human-rct"],
+          "description": "The most representative evidence level for the studies behind this claim. If a claim spans multiple levels, use the highest level that the primary evidence reaches."
+        },
+        "evidenceLevelLabel": {
+          "type": "string",
+          "maxLength": 100,
+          "description": "Optional human-readable description of the specific model used, when it doesn't fit neatly into one tier. Example: 'In vivo (human plasma measurements)' or 'In vitro + In vivo animal'."
+        },
+        "evidenceWeight": {
+          "type": "string",
+          "enum": ["Very Low", "Low", "Low to Moderate", "Moderate", "Moderate-High", "High", "Highest"],
+          "description": "Assessed weight of this specific claim's evidence for hair loss. This is the editorial assessment -- it can differ from the raw evidence level if the study has significant limitations or if the finding is particularly strong."
+        },
+        "weightRationale": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Optional one-sentence explanation of why the weight differs from what the evidence level alone would suggest."
+        },
+        "model": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 2000,
+          "description": "Full description of the experimental model(s) used to generate this evidence. Be specific: what cell types, what animal model, what study design, what measurements. This is the 'The model:' section."
+        },
+        "finding": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 2000,
+          "description": "What the experiment(s) actually found. Include key numbers, p-values, effect sizes where available. This is the 'The finding:' section."
+        },
+        "assessment": {
+          "type": "string",
+          "minLength": 50,
+          "maxLength": 5000,
+          "description": "Full editorial assessment of how much weight to give this claim for hair loss decisions. This is the main 'How much weight to give it:' section. Can be multiple paragraphs. Should explain both what the evidence shows and what it doesn't, with specific limitations called out."
+        },
+        "assessmentSummary": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 200,
+          "description": "One-sentence summary of the assessment. Shown in the collapsed/preview state of the claim card. Should be clear and direct."
+        },
+        "citations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/Citation"
+          },
+          "description": "Citations supporting this claim. At minimum, provide authors and year. Full citation details (title, journal, PMID, DOI, URL) are strongly preferred."
+        },
+        "hairSpecific": {
+          "type": "boolean",
+          "description": "True if this claim is specifically about hair growth, hair follicles, or hair loss. False if it is about general biology (wound healing, gene expression, etc.) that is being extrapolated to hair."
+        }
+      },
+      "additionalProperties": false
+    },
+    "Citation": {
+      "type": "object",
+      "required": ["authors", "year"],
+      "properties": {
+        "authors": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Author list. Use 'et al.' for 3+ authors. Example: 'Lee WJ et al.'"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2030,
+          "description": "Publication year."
+        },
+        "title": {
+          "type": "string",
+          "description": "Full title of the paper."
+        },
+        "journal": {
+          "type": "string",
+          "description": "Journal name (abbreviated or full)."
+        },
+        "volume": {
+          "type": "string",
+          "description": "Volume number."
+        },
+        "pages": {
+          "type": "string",
+          "description": "Page range, e.g., '438-443'."
+        },
+        "pmid": {
+          "type": "string",
+          "pattern": "^(PMC)?[0-9]*$",
+          "description": "PubMed ID (numeric) or PubMed Central ID (PMC + numeric). Leave empty string if unavailable."
+        },
+        "doi": {
+          "type": "string",
+          "description": "Digital Object Identifier. Example: '10.5021/ad.2016.28.4.438'. Leave empty string if unavailable."
+        },
+        "url": {
+          "type": "string",
+          "description": "Direct URL to the paper. Prefer PubMed or DOI links. Leave empty string if unavailable."
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

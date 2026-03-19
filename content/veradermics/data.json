@@ -1,0 +1,477 @@
+{
+  "id": "veradermics",
+  "name": "VDPHL01",
+  "fullName": "VDPHL01 (Extended-Release Oral Minoxidil by Veradermics)",
+  "aliases": [
+    "Veradermics",
+    "VDPHL01",
+    "extended-release oral minoxidil",
+    "ER oral minoxidil",
+    "MANE"
+  ],
+  "category": "investigational",
+  "categoryLabel": "Investigational",
+  "approvalStatus": "investigational",
+  "approvalNote": "Not FDA-approved. Currently in Phase 2/3 and Phase 3 clinical trials for male and female pattern hair loss. Pursuing 505(b)(2) NDA pathway. Immediate-release oral minoxidil (Loniten) is FDA-approved for severe hypertension but not for hair loss.",
+  "mechanismOfAction": "VDPHL01 is a proprietary extended-release oral formulation of minoxidil. Minoxidil is a potassium channel opener and vasodilator that, once sulfated to minoxidil sulfate by follicular sulfotransferase, stimulates hair growth through improved follicular blood flow, dermal papilla cell stimulation, and prolongation of anagen. The extended-release gel-matrix technology is designed to sustain plasma minoxidil above hair-growth-promoting concentrations (~1-2 ng/mL) for 15-24 hours while keeping levels below the cardiac activity threshold (~20 ng/mL).",
+  "primaryTargets": [
+    "Potassium channels (K_ATP) on vascular smooth muscle and dermal papilla cells",
+    "Follicular vasculature / blood flow",
+    "Anagen phase prolongation",
+    "Dermal papilla cell proliferation and survival"
+  ],
+  "routeOfAdministration": ["oral"],
+  "typicalDose": "Investigational: 8.5 mg once or twice daily for males; 4.5 mg once or twice daily for females. Not commercially available. For comparison, off-label immediate-release oral minoxidil for hair loss is typically dosed at 0.625-5 mg once daily.",
+  "evidenceGrade": "C",
+  "evidenceGradeRationale": "The active ingredient (minoxidil) has decades of proven hair growth evidence. However, VDPHL01 as a specific extended-release formulation has only open-label Phase 2 data from 21 patients with no placebo control. Pivotal Phase 2/3 and Phase 3 RCT data is expected but not yet reported.",
+  "highestEvidenceLevel": "human-rct",
+  "totalClaimsEvaluated": 7,
+  "humanTrialCount": 7,
+  "evidenceLevelCounts": {
+    "in-silico": 0,
+    "in-vitro": 0,
+    "in-vivo-animal": 0,
+    "ex-vivo": 0,
+    "human-open-label": 3,
+    "human-rct": 4
+  },
+  "oneLinerSummary": "Extended-release oral minoxidil with promising open-label data, but no placebo-controlled results yet for the specific formulation.",
+  "strengthOfEvidenceForHair": 3,
+  "keyLimitation": "All VDPHL01-specific efficacy data comes from a 21-patient open-label Phase 2 study with no placebo control. Pivotal RCT results are pending.",
+  "bestFor": "Patients awaiting a potential FDA-approved oral minoxidil option with optimized pharmacokinetics -- not yet available for clinical use.",
+  "efficacy": {
+    "keyTrials": [
+      {
+        "name": "VDPHL01 Phase 2 Open-Label (NCT06527365)",
+        "phase": "Phase 2",
+        "design": "Open-label, single-arm, multi-center",
+        "population": "21 males with mild-to-moderate AGA",
+        "dose": "8.5 mg BID (17 mg/day total)",
+        "duration": "4 months",
+        "primaryEndpoint": "Change in non-vellus target area hair count (TAHC) from baseline",
+        "result": "+37.5 hairs/cm2 at 2 months; +47.3 hairs/cm2 at 4 months. 90.5% of patients reported 'improved' or 'much improved' hair coverage at 4 months.",
+        "limitation": "No placebo control, only 21 patients, not peer-reviewed. All data reported via company press releases. Without a placebo arm, the true net treatment effect is unknown -- placebo responses in hair loss trials commonly account for +10-15 hairs/cm2.",
+        "status": "Completed (interim data reported October 2025)"
+      },
+      {
+        "name": "'302' Phase 2/3 Pivotal RCT (NCT06724614)",
+        "phase": "Phase 2/3",
+        "design": "Randomized, double-blind, placebo-controlled, multi-center",
+        "population": "519 males with mild-to-moderate AGA",
+        "dose": "VDPHL01 8.5 mg QD vs. 8.5 mg BID vs. placebo",
+        "duration": "52 weeks",
+        "primaryEndpoint": "Co-primary: change in non-vellus hair count and patient-reported hair coverage benefit at 24 weeks",
+        "result": "No results reported yet.",
+        "limitation": "Results pending. Enrollment completed December 2025. Topline data expected H1 2026.",
+        "status": "Enrolled, results pending"
+      },
+      {
+        "name": "'304' Phase 3 Confirmatory RCT",
+        "phase": "Phase 3",
+        "design": "Randomized, double-blind, placebo-controlled, multi-center",
+        "population": "536 males with mild-to-moderate AGA",
+        "dose": "VDPHL01 8.5 mg QD vs. 8.5 mg BID vs. placebo",
+        "duration": "52 weeks",
+        "primaryEndpoint": "Co-primary: change in non-vellus hair count and patient-reported hair coverage benefit at 24 weeks",
+        "result": "No results reported yet.",
+        "limitation": "Results pending. Enrollment completed February 2026. Topline data expected H2 2026.",
+        "status": "Enrolled, results pending"
+      },
+      {
+        "name": "Phase 2/3 Female Pattern Hair Loss RCT (NCT07146022)",
+        "phase": "Phase 2/3",
+        "design": "Randomized, double-blind, placebo-controlled, multi-center",
+        "population": "500+ females with female pattern hair loss",
+        "dose": "VDPHL01 4.5 mg (dosing regimen details pending)",
+        "duration": "52 weeks (anticipated)",
+        "primaryEndpoint": "Safety and efficacy endpoints (details per ClinicalTrials.gov)",
+        "result": "No results reported yet.",
+        "limitation": "Still recruiting as of March 2026. No interim data available for women.",
+        "status": "Actively recruiting"
+      },
+      {
+        "name": "Oral Minoxidil Reference: Ramos et al. 2024 RCT (immediate-release, not VDPHL01)",
+        "phase": "Phase 4 / Investigator-initiated RCT",
+        "design": "Randomized, open-label, active-controlled",
+        "population": "90 males with AGA",
+        "dose": "Oral minoxidil 5 mg QD (immediate-release) vs. topical minoxidil 5% BID",
+        "duration": "24 weeks",
+        "primaryEndpoint": "Change in total hair count; photographic assessment",
+        "result": "Oral minoxidil 5 mg increased total hair count by ~19% from baseline; superior to topical by photographic assessment at vertex (24% improvement). Oral minoxidil comparable or superior to topical in this head-to-head trial.",
+        "limitation": "This is immediate-release oral minoxidil, NOT VDPHL01. Included as reference for the active ingredient's proven efficacy. Open-label design introduces bias.",
+        "status": "Published (JAMA Dermatol 2024)"
+      }
+    ],
+    "timeToEffect": "VDPHL01-specific: Preliminary open-label data showed +37.5 hairs/cm2 at 2 months, increasing to +47.3 hairs/cm2 at 4 months, suggesting onset within 2 months with continued improvement through at least 4 months. For immediate-release oral minoxidil (reference): onset of visible hair growth is typically reported at 3-6 months, with continued improvement up to 12 months. VDPHL01's sustained plasma levels may theoretically accelerate onset, but this has not been proven in controlled trials.",
+    "peakEffect": "Unknown for VDPHL01 specifically. The Phase 2 open-label trial only measured outcomes through 4 months and showed continued improvement between months 2-4, so peak effect was not established. The pivotal trials measure outcomes at 24 and 52 weeks, which will clarify the peak effect timeline. For immediate-release oral minoxidil, peak hair count improvements are generally observed at 6-12 months.",
+    "maintenanceRequired": true,
+    "discontinuationEffect": "Not studied for VDPHL01 specifically. Based on the well-established pharmacology of oral minoxidil: hair gains are expected to reverse upon discontinuation. Minoxidil does not alter the underlying androgen-mediated miniaturization process; it promotes hair growth through vasodilation and anagen prolongation. When the drug is stopped, treated follicles return to their pre-treatment cycling pattern, and regrown hairs are progressively lost over 3-6 months. This is consistent across all forms of minoxidil (topical and oral, immediate-release and extended-release). Continuous use is required to maintain benefits."
+  },
+  "sideEffects": {
+    "note": "VDPHL01-specific adverse event data is extremely limited (21 male patients, 4 months, open-label). The side effect profile below draws primarily from the well-characterized safety data for immediate-release oral minoxidil across thousands of patients, which is the best available proxy. VDPHL01's extended-release formulation is designed to reduce peak-related adverse effects (particularly cardiovascular), but this has not been confirmed in large controlled trials. Rates listed below are from immediate-release oral minoxidil studies unless explicitly noted as VDPHL01-specific.",
+    "commonAEs": [
+      {
+        "name": "Hypertrichosis (unwanted facial/body hair growth)",
+        "rate": "15-49% for immediate-release oral minoxidil (dose-dependent; ~15% at 0.625-1.25 mg, ~23% pooled across doses per meta-analysis, up to 49% at 5 mg in some studies). Each 1 mg dose increase is associated with a ~17.6% increase in hypertrichosis risk. VDPHL01-specific rate at 8.5 mg BID is unknown but expected to be significant given the high total daily dose (17 mg).",
+        "notes": "The most common adverse effect of oral minoxidil by a wide margin. More prevalent in women than men. Affects face (forehead, cheeks, upper lip), arms, legs, and back. Typically mild and manageable with hair removal methods. Only 0.5% of patients discontinued immediate-release oral minoxidil due to hypertrichosis in the Gupta et al. 2022 multicenter study (1,404 patients). Whether VDPHL01's extended-release profile reduces hypertrichosis compared to equivalent total daily doses of immediate-release minoxidil is unknown."
+      },
+      {
+        "name": "Fluid retention / peripheral edema",
+        "rate": "1.3-10% for immediate-release oral minoxidil (dose-dependent). VDPHL01-specific rate unknown.",
+        "notes": "Minoxidil causes sodium and water retention via renal tubular effects. Typically manifests as ankle swelling, weight gain, or facial puffiness. Usually mild at low doses and manageable with dose reduction. At the higher doses used in hypertension (10-40 mg), fluid retention can be significant and is often co-managed with a diuretic. Whether VDPHL01 at 17 mg/day causes less fluid retention than immediate-release at equivalent doses is unproven."
+      },
+      {
+        "name": "Dizziness / lightheadedness",
+        "rate": "<5% for low-dose immediate-release oral minoxidil. VDPHL01-specific rate unknown.",
+        "notes": "Related to minoxidil's vasodilatory mechanism. More likely with concurrent antihypertensive medications. Usually transient and positional (orthostatic). The extended-release formulation's flatter PK curve may theoretically reduce this by avoiding rapid blood pressure drops from Cmax spikes, but this is unproven."
+      },
+      {
+        "name": "Tachycardia (increased heart rate)",
+        "rate": "<5% for low-dose immediate-release oral minoxidil. VDPHL01-specific: no cases reported in 21-patient Phase 2 trial.",
+        "notes": "Reflex tachycardia occurs as a compensatory response to minoxidil-induced vasodilation and blood pressure reduction. At low hair-loss doses (1-5 mg immediate-release), this is typically mild and asymptomatic. At higher hypertension doses, it can be clinically significant and is commonly managed with a beta-blocker. VDPHL01's extended-release design aims to minimize this by avoiding rapid plasma spikes."
+      },
+      {
+        "name": "Headache",
+        "rate": "Reported in low-dose oral minoxidil studies but not consistently quantified. Estimated <5%. VDPHL01-specific rate unknown.",
+        "notes": "Likely related to vasodilatory mechanism. Usually mild and transient."
+      }
+    ],
+    "seriousAEs": [
+      {
+        "name": "Pericardial effusion (fluid accumulation around the heart)",
+        "rate": "~3% at high antihypertensive doses (10-40 mg/day immediate-release); rare at low hair-loss doses (1-5 mg/day). A 2024 echocardiographic study found small, asymptomatic pericardial effusions in 5.8% of low-dose oral minoxidil patients vs. 6% in controls (no significant difference). VDPHL01-specific: no cases in 21 patients over 4 months (statistically underpowered to detect a 3% rate).",
+        "notes": "This is the most clinically concerning potential adverse effect. The Loniten (immediate-release oral minoxidil) FDA label carries a black box warning for pericardial effusion that may progress to cardiac tamponade. At low doses used for hair loss, the risk appears very low but not zero -- rare case reports exist. VDPHL01's extended-release design is specifically intended to keep plasma levels below the cardiac activity threshold (~20 ng/mL per company data), which would theoretically eliminate this risk. This is the central safety claim of the formulation but remains unvalidated in large trials."
+      },
+      {
+        "name": "Cardiac tamponade",
+        "rate": "Extremely rare. Reported primarily in high-dose hypertensive use, especially in patients with renal impairment. No cases reported in low-dose hair loss use in large studies. VDPHL01-specific: no cases.",
+        "notes": "Progression of pericardial effusion. Life-threatening if untreated. Covered by Loniten black box warning. Theoretically very unlikely at VDPHL01's designed plasma concentration range, but the 17 mg/day total dose is closer to hypertensive dosing than typical off-label hair-loss doses."
+      },
+      {
+        "name": "Significant hypotension",
+        "rate": "Rare at low hair-loss doses. More relevant at antihypertensive doses or with concomitant antihypertensive medications. VDPHL01-specific: no cases reported.",
+        "notes": "Minoxidil is a potent vasodilator. At hair-loss doses (1-5 mg IR), clinically significant blood pressure drops are uncommon. At 17 mg/day (VDPHL01 dose), the risk may be higher, though the extended-release profile is designed to mitigate acute drops. Patients on antihypertensives require careful monitoring."
+      },
+      {
+        "name": "Angina pectoris exacerbation",
+        "rate": "Reported in Loniten label for hypertensive patients with pre-existing coronary artery disease. Not reported in low-dose hair loss populations. VDPHL01-specific: not reported.",
+        "notes": "Reflex tachycardia and increased cardiac output from minoxidil can worsen angina in susceptible patients. Relevant mainly for patients with underlying cardiovascular disease."
+      }
+    ],
+    "discontinuationRate": "VDPHL01-specific: not reported from the 21-patient Phase 2 trial. For immediate-release low-dose oral minoxidil: ~1.7% discontinued due to adverse events in the Gupta et al. multicenter study of 1,404 patients. The most common reason for discontinuation was hypertrichosis (0.5% of patients). Pivotal VDPHL01 trial data (expected 2026) will provide definitive discontinuation rates at the 8.5 mg QD and BID doses.",
+    "contraindications": [
+      "Pheochromocytoma (adrenal tumor producing catecholamines -- minoxidil-induced vasodilation can trigger catecholamine release and hypertensive crisis)",
+      "Known hypersensitivity to minoxidil or any excipient in the VDPHL01 formulation",
+      "Pulmonary hypertension secondary to mitral valve stenosis (per Loniten label)",
+      "Concurrent use with guanethidine (risk of severe orthostatic hypotension; guanethidine must be discontinued 1-3 weeks before starting oral minoxidil)",
+      "Pregnancy (FDA pregnancy category C for minoxidil; reports of neonatal hypertrichosis; no VDPHL01-specific reproductive data)",
+      "Breastfeeding (minoxidil is excreted in breast milk)"
+    ],
+    "drugInteractions": [
+      {
+        "drug": "Guanethidine and other potent sympatholytic antihypertensives",
+        "severity": "Major",
+        "mechanism": "Profound orthostatic hypotension due to additive sympathetic blockade. Guanethidine must be discontinued 1-3 weeks before initiating oral minoxidil.",
+        "notes": "This interaction is explicitly warned in the Loniten FDA label."
+      },
+      {
+        "drug": "Other antihypertensive medications (ACE inhibitors, ARBs, calcium channel blockers, beta-blockers, diuretics)",
+        "severity": "Moderate",
+        "mechanism": "Additive blood pressure lowering. May cause symptomatic hypotension, dizziness, or syncope.",
+        "notes": "Dose adjustments of antihypertensives may be needed. Patients on blood pressure medications require careful monitoring when starting oral minoxidil at any dose."
+      },
+      {
+        "drug": "NSAIDs (particularly aspirin and salicylates)",
+        "severity": "Moderate",
+        "mechanism": "NSAIDs inhibit sulfotransferase enzymes that convert minoxidil to its active metabolite (minoxidil sulfate) in hair follicles. This may reduce hair growth efficacy. NSAIDs also counteract minoxidil's antihypertensive effect by promoting sodium retention.",
+        "notes": "Aspirin use may reduce minoxidil's hair growth benefit. Patients should be counseled about this interaction. The clinical significance at typical OTC aspirin doses is not fully established."
+      },
+      {
+        "drug": "Phosphodiesterase-5 inhibitors (sildenafil, tadalafil)",
+        "severity": "Moderate",
+        "mechanism": "Both are vasodilators; combined use may cause additive hypotension.",
+        "notes": "Not specific to VDPHL01 but relevant for the oral minoxidil class."
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "Contraindicated. Minoxidil is FDA pregnancy category C. Animal studies have shown adverse fetal effects. Case reports in humans describe neonatal hypertrichosis following maternal oral minoxidil exposure. No VDPHL01-specific reproductive or teratogenicity data exists. Women of childbearing potential should use effective contraception during treatment.",
+      "women": "VDPHL01 is being studied in women at a lower dose (4.5 mg vs. 8.5 mg in men) in a dedicated Phase 2/3 trial (NCT07146022, 500+ patients, actively recruiting). No female-specific efficacy or safety data for VDPHL01 is available yet. For immediate-release oral minoxidil in women: efficacy is supported by RCTs (e.g., Sinclair 2019, 1 mg oral vs. 5% topical). Women appear more susceptible to hypertrichosis, which is the primary tolerability concern. The lower VDPHL01 dose for women (4.5 mg) reflects this consideration.",
+      "children": "Not studied. Minoxidil is generally contraindicated in patients under 18 for hair loss indications. Accidental oral minoxidil exposure in children has been associated with hypertrichosis in 65% of cases. VDPHL01 clinical trials exclude pediatric patients.",
+      "renalImpairment": "Not specifically studied for VDPHL01. For oral minoxidil generally: patients with renal impairment are at increased risk for fluid retention and pericardial effusion due to reduced drug clearance. The Loniten label specifically notes that pericardial effusion occurs more frequently in patients with compromised renal function. Lower doses and closer monitoring would likely be warranted.",
+      "hepaticImpairment": "Not specifically studied for VDPHL01. Minoxidil is metabolized hepatically (primarily by glucuronidation). Patients with significant hepatic impairment may have altered drug clearance. No dosing guidelines exist for VDPHL01 in this population.",
+      "elderly": "Not specifically studied for VDPHL01. Elderly patients are more likely to have cardiovascular comorbidities, be on antihypertensive medications, and have reduced renal function -- all of which increase risk. No age-specific dosing recommendations exist."
+    },
+    "blackBoxWarning": "VDPHL01 does not yet have its own FDA labeling. However, the reference drug -- immediate-release oral minoxidil (Loniten) -- carries a black box warning stating: 'Minoxidil may produce serious adverse effects. It can cause pericardial effusion, occasionally progressing to tamponade, and angina pectoris may be exacerbated. Minoxidil should be reserved for hypertensive patients who do not respond adequately to maximum therapeutic doses of a diuretic and two other antihypertensive agents.' This black box applies to Loniten at antihypertensive doses (10-40 mg/day), not to low-dose hair loss use. If VDPHL01 receives FDA approval for hair loss, it would receive its own labeling based on pivotal trial safety data. Whether a black box or similar cardiac warning would be applied to the VDPHL01 label is unknown and will depend on the safety findings from the ~1,500-patient pivotal program.",
+    "monitoringRecommendations": "No official monitoring guidelines exist for VDPHL01 (investigational). For off-label oral minoxidil for hair loss, recommended monitoring typically includes: (1) baseline blood pressure and heart rate; (2) baseline ECG in patients with cardiovascular risk factors; (3) periodic blood pressure monitoring, especially in the first 1-3 months; (4) echocardiogram if symptoms of pericardial effusion develop (chest pain, dyspnea, dizziness); (5) assessment for fluid retention (weight gain, peripheral edema). Given VDPHL01's higher total daily dose (17 mg/day BID regimen), more frequent cardiovascular monitoring may be warranted compared to standard low-dose oral minoxidil."
+  },
+  "claims": [
+    {
+      "number": 1,
+      "title": "Oral minoxidil is a proven hair growth agent with decades of clinical evidence",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Multiple human RCTs, systematic reviews, and meta-analyses of oral minoxidil for AGA",
+      "evidenceWeight": "Highest",
+      "weightRationale": "This is not about VDPHL01 specifically but about the active ingredient it contains. Oral minoxidil's efficacy for hair growth is supported by multiple RCTs and a 2025 meta-analysis of 27 studies including 2,933 patients.",
+      "model": "Multiple randomized controlled trials and systematic reviews evaluating low-dose oral minoxidil (0.625-5 mg) for androgenetic alopecia in both men and women. A 2025 meta-analysis pooled data from 27 studies (10 RCTs and 17 single-arm trials) covering 2,933 patients. A head-to-head RCT compared oral minoxidil 5 mg once daily vs. topical minoxidil 5% twice daily over 24 weeks in men.",
+      "finding": "Oral minoxidil produces clinically meaningful hair growth across multiple studies. In a 24-week RCT, oral minoxidil 5 mg increased total hair count by approximately 19% from baseline, with superior results at the vertex compared to topical minoxidil by photographic assessment (24% improvement). A 2025 meta-analysis found oral minoxidil was comparable in efficacy to topical minoxidil for hair density improvements. The most common adverse effect is hypertrichosis (~15-49% depending on dose), with occasional fluid retention (1.3-10%).",
+      "assessment": "This is the strongest foundational evidence for VDPHL01, because VDPHL01 is fundamentally an oral minoxidil product. The active pharmaceutical ingredient has a robust evidence base -- oral minoxidil genuinely grows hair. However, this evidence applies to immediate-release oral minoxidil at various doses, not specifically to the extended-release VDPHL01 formulation. The question is not whether oral minoxidil works (it does), but whether the extended-release formulation offers a meaningful advantage in terms of efficacy, safety, or both. That question remains unanswered by these studies.",
+      "assessmentSummary": "Oral minoxidil's hair growth efficacy is well-established across multiple RCTs and meta-analyses -- but this evidence is for the immediate-release form, not VDPHL01 specifically.",
+      "citations": [
+        {
+          "authors": "Ramos PM et al.",
+          "year": 2024,
+          "title": "Oral Minoxidil vs Topical Minoxidil for Male Androgenetic Alopecia: A Randomized Clinical Trial",
+          "journal": "JAMA Dermatol",
+          "pmid": "38598226",
+          "doi": "10.1001/jamadermatol.2024.0557",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38598226/"
+        },
+        {
+          "authors": "Gupta AK et al.",
+          "year": 2022,
+          "title": "Safety of low-dose oral minoxidil for hair loss: A multicenter study of 1404 patients",
+          "journal": "J Am Acad Dermatol",
+          "pmid": "34757163",
+          "doi": "10.1016/j.jaad.2021.10.054",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34757163/"
+        },
+        {
+          "authors": "Li Y et al.",
+          "year": 2025,
+          "title": "Efficacy and safety of oral minoxidil in the treatment of alopecia: a single-arm rate meta-analysis and systematic review",
+          "journal": "Front Pharmacol",
+          "pmid": "",
+          "doi": "10.3389/fphar.2025.1556705",
+          "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1556705/full"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 2,
+      "title": "VDPHL01's extended-release formulation keeps minoxidil plasma levels in a 'therapeutic window' between hair growth and cardiac thresholds",
+      "evidenceLevel": "human-open-label",
+      "evidenceLevelLabel": "Pharmacokinetic data from Phase 1/2 studies (company-reported, not peer-reviewed)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "The pharmacokinetic concept is scientifically sound, but all PK data is company-reported and not published in peer-reviewed literature. The 'cardiac activity threshold' and 'hair growth threshold' plasma levels have not been independently validated.",
+      "model": "Pharmacokinetic studies in humans as part of VDPHL01 clinical development. According to company disclosures (SEC S-1 filing and press releases), the extended-release gel-matrix formulation was designed to maintain sustained plasma minoxidil concentrations above ~1-2 ng/mL (associated with hair growth) while remaining below ~20 ng/mL (the level associated with cardiac activity onset). The company reports a ~10-fold separation between these thresholds.",
+      "finding": "Veradermics reports that VDPHL01's extended-release profile maintains minoxidil in circulation for 7.5-12 hours with once-daily dosing and 15-24 hours with twice-daily dosing. The formulation purportedly avoids the rapid plasma spikes seen with immediate-release oral minoxidil, which can briefly exceed cardiac thresholds even at low doses. No cardiac adverse events were reported in the Phase 2 trial of 21 male patients receiving 8.5 mg twice daily for 4 months.",
+      "assessment": "The pharmacokinetic rationale is the core innovation claimed by Veradermics. The concept makes biological sense: immediate-release oral minoxidil produces rapid Cmax spikes that can cause transient cardiac effects (pericardial effusion, reflex tachycardia, fluid retention), while the actual hair-growth-promoting plasma level may be much lower. An extended-release formulation that flattens the PK curve could theoretically deliver more total drug exposure in the hair-growth range while staying below the cardiac risk threshold.\n\nHowever, there are important caveats. The specific plasma concentration thresholds cited by the company (1-2 ng/mL for hair growth, 20 ng/mL for cardiac activity) are not established by independent peer-reviewed research as precise cut-points. Minoxidil's cardiac effects are dose-dependent and patient-dependent, not governed by a single bright-line threshold. The pharmacokinetic data itself has not been published in a peer-reviewed journal -- it comes from the company's SEC filing and press releases. Additionally, whether sustained lower-level exposure produces better hair growth than brief higher-level exposure is an assumption that the pivotal trials are designed to test but have not yet proven.",
+      "assessmentSummary": "The PK rationale is scientifically plausible, but the specific thresholds and the claim that sustained-release is superior for hair growth are company assertions, not independently validated findings.",
+      "citations": [
+        {
+          "authors": "Veradermics, Inc.",
+          "year": 2026,
+          "title": "S-1 Registration Statement (SEC Filing)",
+          "journal": "",
+          "pmid": "",
+          "doi": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026001651/veradermicsincs-1.htm"
+        },
+        {
+          "authors": "Veradermics, Inc.",
+          "year": 2025,
+          "title": "Series C Financing Announcement and Preliminary Phase 2 Data",
+          "journal": "",
+          "pmid": "",
+          "doi": "",
+          "url": "https://www.businesswire.com/news/home/20251016863981/en/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 3,
+      "title": "Preliminary Phase 2 data shows +47.3 hairs/cm2 increase from baseline in men at 4 months",
+      "evidenceLevel": "human-open-label",
+      "evidenceLevelLabel": "Phase 2 open-label, single-arm study (no placebo control)",
+      "evidenceWeight": "Low to Moderate",
+      "weightRationale": "The absolute number is impressive, but this is open-label data from 21 patients with no placebo control, no published statistical analysis, and no peer-reviewed publication. Without a placebo arm, the true treatment effect is unknown.",
+      "model": "Open-label, multi-center Phase 2 trial (NCT06527365). 21 male participants with mild-to-moderate androgenetic alopecia received VDPHL01 8.5 mg twice daily. Non-vellus target area hair count (TAHC) was measured from baseline at 2-month and 4-month time points. No placebo arm was included.",
+      "finding": "At 2 months, the 21 male participants achieved a mean increase of +37.5 hairs/cm2 from baseline. At 4 months, the mean increase reached +47.3 hairs/cm2 from baseline. Additionally, 90.5% of patients reported 'improved' or 'much improved' hair coverage at 4 months (55% at 2 months). No serious adverse events were reported, including no cardiac adverse events.",
+      "assessment": "The +47.3 hairs/cm2 at 4 months is a large absolute number -- larger than what topical minoxidil 5% typically achieves in comparable timeframes (typically +15-25 hairs/cm2 including placebo effect). However, this comparison is fundamentally misleading without a placebo arm.\n\nOpen-label trials routinely produce inflated results due to multiple biases: placebo effect, regression to the mean, measurement bias (knowing everyone is on active drug can unconsciously influence hair counting), and selection of patients who are motivated and adherent. In the TDM-105795 Phase 2a trial, the placebo group gained +14 hairs/cm2 -- accounting for 57% of the high-dose group's total change. A similar placebo effect in the VDPHL01 data would substantially reduce the net treatment effect.\n\nThe 90.5% patient-reported improvement rate is even more susceptible to open-label bias -- patients who know they are taking a new hair loss drug and are being closely monitored are highly motivated to perceive improvement.\n\nWith only 21 patients, no placebo, no published standard deviations, no peer review, and data reported only in press releases timed to a $150M Series C financing round, this data should be viewed as a preliminary signal, not evidence of efficacy. The pivotal Phase 2/3 and Phase 3 RCTs with placebo controls will provide the real answer.",
+      "assessmentSummary": "Impressive absolute numbers, but open-label data from 21 patients with no placebo control cannot establish efficacy -- Phase 3 RCT results are needed.",
+      "citations": [
+        {
+          "authors": "Veradermics, Inc.",
+          "year": 2025,
+          "title": "Veradermics Announces Oversubscribed $150 Million Series C Financing; Shares Positive Preliminary Phase 2 Data",
+          "journal": "",
+          "pmid": "",
+          "doi": "",
+          "url": "https://www.businesswire.com/news/home/20251016863981/en/"
+        },
+        {
+          "authors": "ClinicalTrials.gov",
+          "year": 2024,
+          "title": "Safety and Efficacy of VDPHL01 in Males and Females With AGA (NCT06527365)",
+          "journal": "",
+          "pmid": "",
+          "doi": "",
+          "url": "https://clinicaltrials.gov/study/NCT06527365"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 4,
+      "title": "Phase 2/3 and Phase 3 pivotal RCTs are underway with ~1,000 male patients enrolled",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Phase 2/3 and Phase 3 RCTs -- enrollment complete, results pending",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "The trial design is gold standard (randomized, double-blind, placebo-controlled, large enrollment), but no results have been reported yet. The weight reflects the study design, not the findings.",
+      "model": "Two pivotal, multi-center, randomized, double-blind, placebo-controlled trials in male patients with mild-to-moderate pattern hair loss:\n\n(1) '302' Phase 2/3 trial (NCT06724614): 519 male patients, evaluating VDPHL01 8.5 mg once daily vs. twice daily vs. placebo over 52 weeks. Co-primary endpoints: change in non-vellus hair count and patient-reported hair coverage benefit at 24 weeks.\n\n(2) '304' Phase 3 confirmatory trial: 536 male patients with the same design and endpoints.\n\nAn additional Phase 2/3 trial in 500+ female patients (NCT07146022) evaluating VDPHL01 4.5 mg is actively recruiting.",
+      "finding": "No efficacy or safety results have been reported from these placebo-controlled trials. Enrollment was completed for the '302' trial in December 2025 and for the '304' trial in February 2026. Topline data from the '302' trial is anticipated in H1 2026; '304' topline data is expected in H2 2026.",
+      "assessment": "The pivotal trial program is well-designed by conventional standards: randomized, double-blind, placebo-controlled, with adequate enrollment (~500+ per trial), 52-week treatment duration, co-primary endpoints including both objective hair counts and patient-reported outcomes, and conducted across multiple U.S. sites.\n\nThe total enrollment of approximately 1,000 male patients is comparable to (though smaller than) the pivotal finasteride trials (~1,500 men). The 52-week duration is appropriate for a hair loss trial. The inclusion of a patient-reported outcome as a co-primary endpoint is a notable strength -- it means the company must demonstrate that patients perceive meaningful benefit, not just that microscopic hair counts increase.\n\nHowever, these trials have not yet reported results. The design is sound, but the outcome is unknown. It is entirely possible that VDPHL01's extended-release formulation does not outperform placebo, or that it does but with clinically insignificant margins, or that safety signals emerge in the larger population. Until topline data is available, this claim reflects potential, not evidence.",
+      "assessmentSummary": "Large, well-designed pivotal RCTs are enrolled with results expected in 2026 -- the study design is strong, but results are entirely unknown.",
+      "citations": [
+        {
+          "authors": "ClinicalTrials.gov",
+          "year": 2025,
+          "title": "Efficacy and Safety of VDPHL01 in Males With AGA (NCT06724614)",
+          "journal": "",
+          "pmid": "",
+          "doi": "",
+          "url": "https://clinicaltrials.gov/study/NCT06724614"
+        },
+        {
+          "authors": "Veradermics, Inc.",
+          "year": 2025,
+          "title": "Veradermics Completes Enrollment in Phase 2/3 Clinical Trial of VDPHL01 for Male Pattern Hair Loss",
+          "journal": "",
+          "pmid": "",
+          "doi": "",
+          "url": "https://www.businesswire.com/news/home/20251211386584/en/"
+        },
+        {
+          "authors": "Veradermics, Inc.",
+          "year": 2026,
+          "title": "Veradermics Completes Enrollment in Second Pivotal Phase 3 Clinical Trial of VDPHL01",
+          "journal": "",
+          "pmid": "",
+          "doi": "",
+          "url": "https://www.businesswire.com/news/home/20260209938753/en/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 5,
+      "title": "VDPHL01 may be safer than immediate-release oral minoxidil by avoiding cardiac-threshold plasma spikes",
+      "evidenceLevel": "human-open-label",
+      "evidenceLevelLabel": "Phase 2 open-label safety data (21 males) plus PK modeling",
+      "evidenceWeight": "Low to Moderate",
+      "weightRationale": "No cardiac adverse events in 21 patients over 4 months is a positive signal but far too small and short to establish a safety advantage. The dose being tested (8.5 mg BID = 17 mg/day total) is 3-4x higher than typical off-label oral minoxidil doses.",
+      "model": "Safety assessment from the Phase 2 open-label trial (NCT06527365) of 21 male patients receiving VDPHL01 8.5 mg twice daily for 4 months, plus pharmacokinetic modeling data described in the SEC S-1 filing. For context, off-label immediate-release oral minoxidil for hair loss is typically prescribed at 0.625-5 mg once daily. FDA-approved Loniten (for severe hypertension) uses 10-40 mg/day.",
+      "finding": "No serious adverse events were reported in the 21 male Phase 2 participants, including no cardiac adverse events (no pericardial effusion, no reflex tachycardia, no clinically significant blood pressure changes reported). The company reports that the extended-release formulation avoids plasma concentration spikes above the cardiac activity threshold despite delivering a total daily dose of 17 mg (8.5 mg BID).",
+      "assessment": "The absence of cardiac events in 21 patients is a necessary but insufficient safety signal. For perspective: the pivotal safety study of immediate-release oral minoxidil for hypertension enrolled over 1,400 patients to characterize its cardiovascular profile. Pericardial effusion, the most concerning cardiac risk, occurs in approximately 3% of patients at higher doses -- meaning you would expect to see zero events in a group of 21 people purely by chance even if the risk were identical to immediate-release.\n\nThe total daily dose being tested is striking: 17 mg/day (8.5 mg BID) is significantly higher than the 0.625-5 mg/day typically prescribed off-label. If the extended-release formulation truly flattens the PK curve enough to make this safe, that would be a meaningful pharmacological advance. But this claim requires validation in the pivotal trials with hundreds of patients and 12 months of follow-up.\n\nThe 1,404-patient multicenter safety study by Gupta et al. (2022) found that immediate-release low-dose oral minoxidil (typically 1.25-5 mg/day) was generally well-tolerated, with hypertrichosis as the main side effect. The question for VDPHL01 is whether its much higher dose delivered via extended release is truly safer or equivalent, or whether longer exposure reveals adverse effects not seen in 4-month, 21-patient open-label data.",
+      "assessmentSummary": "No cardiac events in 21 patients is reassuring but statistically underpowered to confirm a safety advantage -- pivotal trial safety data is needed.",
+      "citations": [
+        {
+          "authors": "Veradermics, Inc.",
+          "year": 2025,
+          "title": "Series C Financing Announcement and Preliminary Phase 2 Data",
+          "journal": "",
+          "pmid": "",
+          "doi": "",
+          "url": "https://www.businesswire.com/news/home/20251016863981/en/"
+        },
+        {
+          "authors": "Gupta AK et al.",
+          "year": 2022,
+          "title": "Safety of low-dose oral minoxidil for hair loss: A multicenter study of 1404 patients",
+          "journal": "J Am Acad Dermatol",
+          "pmid": "34757163",
+          "doi": "10.1016/j.jaad.2021.10.054",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34757163/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 6,
+      "title": "Extended-release oral delivery could solve the compliance and tolerability problems of topical minoxidil",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Supported by published RCTs comparing oral vs. topical minoxidil (not VDPHL01-specific)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Topical minoxidil compliance issues are well-documented, and oral delivery genuinely avoids scalp irritation and application burden. However, oral minoxidil introduces different tolerability issues (hypertrichosis, fluid retention) that are not solved by extended release.",
+      "model": "Multiple published studies documenting topical minoxidil adherence challenges, plus RCTs comparing oral vs. topical minoxidil. Topical minoxidil requires twice-daily application, can cause scalp irritation (especially propylene glycol-based formulations), leaves residue, and has poor long-term compliance. A 2019 RCT compared oral minoxidil 1 mg vs. topical 5% in women; a 2024 JAMA Dermatology RCT compared oral 5 mg vs. topical 5% in men.",
+      "finding": "Published RCTs show oral minoxidil achieves comparable hair growth to topical minoxidil while eliminating scalp irritation, application residue, and the twice-daily application burden. However, oral administration introduces systemic side effects not seen with topical use: hypertrichosis (unwanted facial/body hair growth) in 15-49% of patients depending on dose, and fluid retention in 1.3-10%.",
+      "assessment": "This is a legitimate advantage of oral over topical delivery and one of the strongest arguments for VDPHL01's commercial proposition. Topical minoxidil has a well-documented compliance problem -- studies consistently show 50%+ discontinuation rates within the first year, partly due to the inconvenience of twice-daily topical application and scalp irritation.\n\nAn oral pill eliminates these barriers. But it introduces different ones. Hypertrichosis (unwanted hair growth on the face, arms, and body) affects a substantial percentage of patients taking oral minoxidil and is particularly problematic for women. At the 8.5 mg BID dose VDPHL01 is testing in men, the hypertrichosis rate could be significant. Whether the extended-release formulation reduces this side effect compared to immediate-release at equivalent total daily doses is unknown and would need to be demonstrated in the pivotal trials.\n\nThe compliance argument is real, the mechanism is sound, but this advantage applies to oral minoxidil generally -- not specifically to VDPHL01's extended-release formulation. Off-label immediate-release oral minoxidil at 2.5-5 mg/day already solves the topical compliance problem at a fraction of the cost.",
+      "assessmentSummary": "Oral delivery genuinely solves topical compliance issues, but this advantage applies to all oral minoxidil, not VDPHL01 specifically -- and introduces systemic side effects like hypertrichosis.",
+      "citations": [
+        {
+          "authors": "Ramos PM et al.",
+          "year": 2024,
+          "title": "Oral Minoxidil vs Topical Minoxidil for Male Androgenetic Alopecia: A Randomized Clinical Trial",
+          "journal": "JAMA Dermatol",
+          "pmid": "38598226",
+          "doi": "10.1001/jamadermatol.2024.0557",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38598226/"
+        },
+        {
+          "authors": "Sinclair RD et al.",
+          "year": 2019,
+          "title": "Minoxidil 1 mg oral versus minoxidil 5% topical solution for the treatment of female-pattern hair loss: A randomized clinical trial",
+          "journal": "J Am Acad Dermatol",
+          "pmid": "31770601",
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31770601/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 7,
+      "title": "VDPHL01 would be the first FDA-approved oral treatment specifically for hair regrowth in both men and women",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Regulatory and market claim based on the current approval landscape",
+      "evidenceWeight": "Low",
+      "weightRationale": "This is a regulatory/commercial claim, not an efficacy claim. Being 'first' to market does not mean the product is superior or even different from existing off-label options. The evidence weight reflects the scientific significance, not the market opportunity.",
+      "model": "Regulatory landscape analysis. Currently, no oral medication is FDA-approved specifically for hair regrowth. Finasteride (Propecia) and dutasteride are approved for benign prostatic hyperplasia, with finasteride also approved for male AGA. Oral minoxidil (Loniten) is approved for severe hypertension. Low-dose oral minoxidil is widely prescribed off-label for hair loss. No oral treatment is FDA-approved for female pattern hair loss.",
+      "finding": "If approved, VDPHL01 would be the first FDA-approved extended-release oral minoxidil and the first non-hormonal oral treatment approved specifically for hair regrowth in both sexes. The female pattern hair loss indication is particularly notable, as no oral treatment is currently FDA-approved for this population. Veradermics is pursuing a 505(b)(2) regulatory pathway, which relies on the FDA's prior findings of safety and efficacy for the reference listed drug (immediate-release minoxidil) combined with new data for the novel formulation.",
+      "assessment": "Being 'first' is a commercial and regulatory milestone, not a scientific one. The relevant question for patients is not whether VDPHL01 is the first FDA-approved oral minoxidil for hair loss, but whether it offers clinically meaningful advantages over the off-label oral minoxidil that thousands of dermatologists already prescribe. Immediate-release oral minoxidil at 1.25-5 mg/day is available now as generic tablets costing a few dollars per month. VDPHL01 would presumably be priced at a significant premium.\n\nThat said, FDA approval carries real value: it provides standardized dosing guidelines, mandates controlled manufacturing, generates large-scale safety data, and importantly, opens the door for insurance coverage and broader physician adoption. Many dermatologists are reluctant to prescribe off-label oral minoxidil due to liability concerns, so an FDA-approved formulation could meaningfully expand patient access. The female PHL indication is especially meaningful given the lack of approved options for women.\n\nThe 505(b)(2) pathway is efficient because the company does not need to replicate all of the basic safety and efficacy data for minoxidil -- it can reference the existing approved product and focus on demonstrating the extended-release formulation's incremental benefit.",
+      "assessmentSummary": "A meaningful regulatory and access milestone, especially for women, but 'first FDA-approved' is a commercial claim -- off-label oral minoxidil is already widely available.",
+      "citations": [
+        {
+          "authors": "Veradermics, Inc.",
+          "year": 2026,
+          "title": "S-1 Registration Statement (SEC Filing)",
+          "journal": "",
+          "pmid": "",
+          "doi": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026001651/veradermicsincs-1.htm"
+        },
+        {
+          "authors": "Villani A et al.",
+          "year": 2024,
+          "title": "Low-Dose Oral Minoxidil for Alopecia: A Comprehensive Review",
+          "journal": "Clin Drug Investig",
+          "pmid": "",
+          "doi": "",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10806356/"
+        }
+      ],
+      "hairSpecific": true
+    }
+  ],
+  "missingEvidence": [
+    "Placebo-controlled efficacy data for VDPHL01. All available efficacy data comes from an open-label Phase 2 study of 21 men. The pivotal Phase 2/3 (519 men) and Phase 3 (536 men) randomized, placebo-controlled trials are enrolled but have not yet reported results. Until this data is available, the efficacy of VDPHL01 over placebo is unknown.",
+    "Head-to-head comparison with immediate-release oral minoxidil. The critical question for patients is whether VDPHL01's extended-release formulation offers a clinically meaningful advantage over generic oral minoxidil at 2.5-5 mg/day, which costs a fraction of what a branded product will cost. No such comparison trial has been conducted or announced.",
+    "Long-term safety data at the 8.5 mg BID (17 mg total daily) dose. The only VDPHL01-specific safety data covers 21 patients over 4 months. At 17 mg/day total, this is 3-4x the typical off-label dose. Long-term cardiovascular safety, hypertrichosis rates, and fluid retention incidence at this dose are unknown.",
+    "Published pharmacokinetic data demonstrating the extended-release profile. The PK claims (sustained plasma levels for 15-24 hours, avoidance of cardiac threshold) come from company press releases and SEC filings, not peer-reviewed publications.",
+    "Female-specific efficacy or safety data. The Phase 2 interim data is from male patients only. The Phase 2/3 trial for female pattern hair loss (NCT07146022) is still recruiting.",
+    "Any peer-reviewed publication of VDPHL01-specific data. As of March 2026, all VDPHL01 evidence comes from company press releases, the SEC S-1 filing, and ClinicalTrials.gov entries. No independent research group has studied the formulation."
+  ],
+  "bottomLine": {
+    "summary": "VDPHL01 is an extended-release oral formulation of minoxidil, a drug whose hair growth efficacy is already well-proven through decades of clinical use. The active ingredient is not new -- what is new is the delivery system. Veradermics' proprietary gel-matrix technology is designed to flatten the pharmacokinetic curve, keeping minoxidil plasma levels in a sustained 'therapeutic window' that promotes hair growth while theoretically avoiding the cardiac side effects associated with plasma spikes from immediate-release formulations.\n\nThe preliminary Phase 2 data from 21 men is attention-grabbing: +47.3 hairs/cm2 from baseline at 4 months, with no cardiac adverse events despite a total daily dose of 17 mg. But this is open-label, uncontrolled data from a tiny cohort, reported in press releases timed to a $150M fundraising round. Without a placebo arm, the true treatment effect is unknown. Without peer review, the data cannot be independently scrutinized.\n\nThe real test is coming: three pivotal randomized, double-blind, placebo-controlled trials enrolling approximately 1,500+ patients across men and women, with topline results expected in 2026. These trials are well-designed, with 52-week treatment duration, co-primary endpoints including patient-reported outcomes, and adequate enrollment. If positive, VDPHL01 could become the first FDA-approved oral treatment for hair regrowth in both sexes -- a genuinely significant regulatory milestone, especially for women with pattern hair loss who have no approved oral options.\n\nThe elephant in the room is that low-dose oral minoxidil is already widely prescribed off-label and costs a few dollars per month. The question VDPHL01 must answer is not whether oral minoxidil works (it does), but whether the extended-release formulation is meaningfully better -- enough to justify FDA approval, a premium price, and the commercial proposition of a publicly traded company valued at over $500 million. The pivotal trial data will determine the answer.",
+    "keyTakeaway": "VDPHL01 is an extended-release formulation of a proven drug (oral minoxidil) with promising but uncontrolled preliminary data. The pivotal placebo-controlled trials are enrolled and results are expected in 2026 -- until then, the specific formulation's advantages over generic oral minoxidil remain unproven.",
+    "verdict": "Promising formulation innovation -- pivotal data pending"
+  },
+  "articleUrl": "/evidence/veradermics",
+  "pubmedSearchUrl": "https://pubmed.ncbi.nlm.nih.gov/?term=oral+minoxidil+extended+release+hair+loss",
+  "lastUpdated": "2026-03-19",
+  "version": "1.1",
+  "author": "Anagen Research Team",
+  "reviewedBy": ""
+}

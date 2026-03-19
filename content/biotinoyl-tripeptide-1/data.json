@@ -1,0 +1,371 @@
+{
+  "id": "biotinoyl-tripeptide-1",
+  "name": "Biotinoyl Tripeptide-1 (Procapil)",
+  "fullName": "Biotinoyl Tripeptide-1 with Oleanolic Acid and Apigenin (marketed as Procapil)",
+  "aliases": [
+    "Procapil",
+    "Biotinyl-GHK",
+    "Biotin-GHK",
+    "Biotinoyl tripeptide",
+    "biotinyl tripeptide-1",
+    "Sederma Procapil"
+  ],
+  "category": "peptides-cosmeceuticals",
+  "categoryLabel": "Peptides / Cosmeceuticals",
+  "approvalStatus": "none",
+  "approvalNote": "Cosmeceutical ingredient. Not approved by any regulatory agency for hair loss. Marketed as a cosmetic active by Sederma (Croda International).",
+  "mechanismOfAction": "Procapil is a three-ingredient complex: biotinoyl tripeptide-1 (biotin-conjugated GHK matrikine peptide that stimulates ECM proteins like laminin-5, collagen IV, and vimentin for hair anchoring and delivers biotin to follicular cells), oleanolic acid (an olive leaf triterpene that inhibits 5-alpha reductase and DHT production), and apigenin (a citrus-derived flavonoid with vasodilatory effects for scalp microcirculation). The anti-DHT activity comes from oleanolic acid, not from the peptide.",
+  "primaryTargets": [
+    "ECM remodeling (laminin-5, collagen IV, vimentin)",
+    "5-alpha reductase inhibition (oleanolic acid, not peptide)",
+    "Scalp microcirculation (apigenin)",
+    "Biotin delivery to follicular cells"
+  ],
+  "routeOfAdministration": ["topical"],
+  "typicalDose": "3% Procapil in topical lotion or serum, applied daily",
+  "evidenceGrade": "D",
+  "evidenceGradeRationale": "No peer-reviewed clinical trial has ever tested biotinoyl tripeptide-1 alone in humans. The only placebo-controlled human trial of the full Procapil complex (N=18 active) was the manufacturer's unpublished pilot. The key marketing claims (58% hair loss reduction, 35% density increase) are misrepresentations of ex vivo and response-rate data.",
+  "highestEvidenceLevel": "human-rct",
+  "totalClaimsEvaluated": 6,
+  "humanTrialCount": 1,
+  "evidenceLevelCounts": {
+    "in-silico": 0,
+    "in-vitro": 1,
+    "in-vivo-animal": 1,
+    "ex-vivo": 2,
+    "human-open-label": 0,
+    "human-rct": 2
+  },
+  "oneLinerSummary": "Three-ingredient complex with plausible biology but widely misrepresented marketing claims and no peer-reviewed human trial of the peptide alone.",
+  "strengthOfEvidenceForHair": 2,
+  "keyLimitation": "The peptide has never been tested alone in a peer-reviewed human trial; the anti-DHT effect comes from oleanolic acid, not the peptide.",
+  "bestFor": "Cosmetic adjunct to proven treatments; not a standalone therapy.",
+  "claims": [
+    {
+      "number": 1,
+      "title": "Biotinoyl tripeptide-1 produces a 58% reduction in hair loss",
+      "evidenceLevel": "ex-vivo",
+      "evidenceLevelLabel": "Ex vivo -- human hair follicle organ culture (14 days)",
+      "evidenceWeight": "Low to Moderate",
+      "weightRationale": "Ex vivo organ culture signal from unpublished manufacturer data; never peer-reviewed; minoxidil outperformed it 2:1 in the same assay.",
+      "model": "Ex vivo -- human hair follicle organ culture (follicles maintained alive in culture medium for 14 days). This experiment was conducted by BIOALTERNATIVES (a contract research organization) on behalf of Sederma. It tested the peptide alone (not the full Procapil complex).",
+      "finding": "At 2 ppm biotinyl-GHK (equivalent to 1% Procapil), hair follicles showed +58% superior hair growth compared to untreated controls at day 14. At 5 ppm, the same +58% increase. For comparison, minoxidil at 2 ppm (10 micromol/L) achieved +121% growth vs control in the same assay.",
+      "assessment": "Here's the critical detail: the \"58%\" refers to hair follicle elongation in an organ culture dish over 14 days. It has been widely repackaged in marketing as a \"58% reduction in hair loss\" -- which sounds like a clinical trial result showing 58% fewer hairs falling out. It's not. It's ex vivo data showing follicles in a lab dish grew 58% longer with the peptide than without it. That's a meaningful biological signal, but (a) it's never been published in a peer-reviewed journal (only in the Sederma technical file), (b) organ culture doesn't replicate the scalp environment (no blood flow, hormones, or immune system), and (c) minoxidil outperformed it 2:1 in the same assay.",
+      "assessmentSummary": "Misrepresented ex vivo follicle elongation data, not clinical hair loss reduction; minoxidil doubled it in the same assay.",
+      "citations": [
+        {
+          "authors": "Sederma / BIOALTERNATIVES",
+          "year": 2012,
+          "title": "Sederma Technical File: Procapil",
+          "journal": "Proprietary (not peer-reviewed)"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 2,
+      "title": "Biotinoyl tripeptide-1 produces a 35% increase in hair density",
+      "evidenceLevel": "human-open-label",
+      "evidenceLevelLabel": "Unverifiable -- the claimed metric does not appear in any identifiable study",
+      "evidenceWeight": "Very Low",
+      "weightRationale": "The number is a misquoted response rate from a multi-ingredient open-label study with no control group, not a measured density increase.",
+      "model": "Unverifiable. After extensive searching, no study was found that reports a 35% increase in measured hair density for biotinoyl tripeptide-1 or Procapil.",
+      "finding": "The number \"35.7%\" does appear in one clinical study (Garre et al., 2018), but it refers to the percentage of participants (35.7% of 56 patients) who were rated as having \"thicker, more voluminous hair\" by clinical assessment -- NOT a 35% increase in hair density. This appears to be the origin of the misquoted claim: \"35.7% of people rated as improved\" was transformed into \"35% increase in density\" somewhere in the marketing pipeline.",
+      "assessment": "Same pattern we saw with Capixyl's claims: a real number gets pulled out of context and transformed into a different, more impressive-sounding metric. 35.7% of patients showing subjective improvement is a very different claim than 35% measured density increase. Be wary of any product citing this number.",
+      "assessmentSummary": "Misquoted response rate from multi-ingredient study; no study reports a 35% measured density increase.",
+      "citations": [
+        {
+          "authors": "Garre et al.",
+          "year": 2018,
+          "title": "Multi-ingredient study (open-label, no control group)",
+          "journal": "Journal of Cosmetic Dermatology"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 3,
+      "title": "Biotinoyl tripeptide-1 strengthens hair anchoring through structural proteins",
+      "evidenceLevel": "ex-vivo",
+      "evidenceLevelLabel": "Ex vivo -- human hair follicle organ culture (14 days) with fluorescent antibody staining and DNA array analysis",
+      "evidenceWeight": "Low to Moderate",
+      "weightRationale": "Biologically interesting protein data in the right targets, but manufacturer-only data that has never been peer-reviewed or independently replicated.",
+      "model": "Ex vivo -- human hair follicle organ culture, 14 days, treated with biotinyl-GHK. Measured via fluorescent antibody staining and DNA array analysis. Conducted by Sederma (proprietary data).",
+      "finding": "Peptide-treated follicles maintained laminin-5 and collagen IV layer thickness, while untreated follicles lost most of their structural proteins over the culture period. DNA array analysis showed adhesion complex proteins (vimentin, desmoglein, desmocollin, fibronectin receptor, laminin-binding protein) and cell proliferation markers were upregulated by 30-90% over baseline.",
+      "assessment": "The protein data is biologically interesting -- these are the right proteins for hair anchoring, and the upregulation is meaningful in magnitude. But: (1) this is manufacturer data that has never been peer-reviewed, (2) it's ex vivo organ culture, not human scalp in vivo, (3) no direct measure of anchoring force (like a pull test) was performed, and (4) whether these protein changes translate to clinically meaningful hair retention on a living scalp is unknown.",
+      "assessmentSummary": "Unpublished manufacturer data showing ECM protein upregulation in organ culture; never validated in vivo or peer-reviewed.",
+      "citations": [
+        {
+          "authors": "Sederma",
+          "year": 2012,
+          "title": "Sederma Technical File: Procapil",
+          "journal": "Proprietary (not peer-reviewed)"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 4,
+      "title": "Procapil inhibits DHT through 5-alpha reductase inhibition",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vitro + in vivo (mouse skin) -- oleanolic acid component, not the peptide",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Moderate for oleanolic acid specifically; the DHT inhibition is real but belongs to the plant-derived component, not the peptide.",
+      "model": "In vitro and in vivo -- the DHT inhibition comes from oleanolic acid (the olive leaf extract component), NOT from biotinoyl tripeptide-1.",
+      "finding": "Oleanolic acid inhibited 5-alpha reductase enzyme by 68% and inactivated 54% of testosterone conversion to DHT in a 3% formulation on skin. In a 2023 mouse study, oleanolic acid reduced DHT, 5-alpha reductase, TNF-alpha, and TGF-beta1 levels in dorsal skin -- reducing DHT to a greater extent than minoxidil. It also stimulated VEGF and Wnt/beta-catenin pathway activity.",
+      "assessment": "Like Capixyl's biochanin A, the anti-DHT effect is real but belongs to the plant-derived component, not the peptide. If you're buying a product \"because of the peptide\" and the mechanism you care about is DHT reduction, you're attributing the effect to the wrong ingredient. Oleanolic acid is widely available and doesn't require an expensive peptide delivery vehicle.",
+      "assessmentSummary": "DHT inhibition is real but comes entirely from oleanolic acid (plant extract), not the peptide component.",
+      "citations": [
+        {
+          "authors": "Sederma",
+          "year": 2012,
+          "title": "Sederma Technical File: Procapil",
+          "journal": "Proprietary"
+        },
+        {
+          "authors": "Mouse skin study authors",
+          "year": 2023,
+          "title": "Oleanolic acid effects on DHT and hair growth pathways in mouse skin",
+          "pmid": "37016778"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 5,
+      "title": "Clinical trials demonstrate Procapil's efficacy for hair loss",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Multiple human studies, all testing multi-ingredient formulations or full Procapil complex",
+      "evidenceWeight": "Low to Moderate",
+      "weightRationale": "The manufacturer's pilot shows a signal vs placebo but was never peer-reviewed (N=18). Independent trials only test Procapil combined with other actives. The one head-to-head with Redensyl was unfavorable.",
+      "model": "Multiple human studies, but all testing multi-ingredient formulations:\n\nStudy A (Sederma pilot, ~2005): N=35 (18 active), RCT, 3% Procapil lotion vs placebo, 4 months. 67% of treated volunteers showed improved anagen/telogen ratio. Never peer-reviewed.\n\nStudy B (Fahim et al., 2024): N=140, RCT, 12 months. 5% Procapil alternated with minoxidil vs minoxidil alone. Combination showed better hair count, satisfaction, and dermatologist assessment. Does not isolate Procapil from minoxidil synergy.\n\nStudy C (Samadi et al., 2024): N=20, single-arm (no control), 12 weeks. Caffeine + Procapil 3%. 84.2% rated as improved. Tested with caffeine, no control group.\n\nStudy D (Pavithra & Rajashekar, 2023): N=54, RCT, 6 months. Procapil+PRP vs Redensyl+PRP. Procapil+PRP showed 11.9% improvement vs Redensyl combo's 21.9% -- Procapil was the LESS effective group.",
+      "finding": "The manufacturer's pilot shows a signal vs placebo. The largest independent RCT (N=140) shows benefit when combined with minoxidil. The head-to-head with Redensyl combination was unfavorable for Procapil.",
+      "assessment": "The clinical evidence is real but weak. Key issues: (1) The only placebo-controlled test of Procapil alone was the manufacturer's unpublished pilot with just 18 active subjects. (2) The strongest independent trial (N=140) tested Procapil WITH minoxidil, not alone. (3) The one head-to-head comparison that included a Procapil arm (Pavithra 2023) showed it performed worse than a Redensyl combination. (4) No study has ever tested biotinoyl tripeptide-1 in isolation in humans.",
+      "assessmentSummary": "Only placebo-controlled test was an unpublished manufacturer pilot (N=18); independent trials combine Procapil with other actives.",
+      "citations": [
+        {
+          "authors": "Sederma",
+          "year": 2005,
+          "title": "Sederma Technical File: Procapil pilot clinical trial",
+          "journal": "Proprietary (not peer-reviewed)"
+        },
+        {
+          "authors": "Fahim et al.",
+          "year": 2024,
+          "title": "Procapil with minoxidil vs minoxidil alone for androgenetic alopecia",
+          "journal": "J Pak Assoc Dermatol"
+        },
+        {
+          "authors": "Samadi et al.",
+          "year": 2024,
+          "title": "Caffeine and Procapil 3% for hair loss",
+          "journal": "J Cosmet Dermatol"
+        },
+        {
+          "authors": "Pavithra & Rajashekar",
+          "year": 2023,
+          "title": "Procapil+PRP vs Redensyl+PRP for androgenetic alopecia",
+          "journal": "Cureus",
+          "pmid": "PMC10246929"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 6,
+      "title": "Biotin-GHK conjugation enhances follicular delivery and has applications in wound healing",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vitro + in vivo (rat dermal wound model)",
+      "evidenceWeight": "Low to Moderate",
+      "weightRationale": "Peer-reviewed and from independent academic labs, which gives it more credibility than the hair-specific claims, but rat wound healing is far from human scalp hair growth.",
+      "model": "In vitro and in vivo (rat dermal wound model). The wound healing evidence comes from Arul et al. (2005, 2007), who incorporated biotinylated GHK into collagenous matrices and tested them on rat dermal wounds. Also: Ferraro et al. (2023) synthesized Cu(II)-BioGHK and demonstrated antioxidant, antiglycant, and anti-amyloid aggregation properties in vitro.",
+      "finding": "Biotinylated GHK in collagen matrices improved wound contraction, increased cell proliferation, and showed high antioxidant enzyme expression in rat wounds. The Cu(II)-BioGHK complex showed greatest anti-aggregant activity against amyloid-beta aggregation, suggesting potential neuroprotective applications. The biotin conjugation preserves GHK's copper-binding ability while potentially enhancing cellular uptake and delivery.",
+      "assessment": "The wound healing data is peer-reviewed and from independent academic labs, which gives it more credibility than the hair-specific claims. The Alzheimer's/amyloid-beta finding is early-stage but interesting. The delivery enhancement rationale (biotin enabling better cellular uptake) is biologically plausible. However, these are rat wounds and test-tube experiments -- translation to human applications needs clinical validation.",
+      "assessmentSummary": "Independent, peer-reviewed wound healing data in rats; delivery enhancement plausible but unproven for human hair.",
+      "citations": [
+        {
+          "authors": "Arul et al.",
+          "year": 2005,
+          "title": "Biotinylated GHK peptide incorporated collagenous matrix for dermal wound healing",
+          "journal": "J Biomed Mater Res",
+          "pmid": "15803494"
+        },
+        {
+          "authors": "Arul et al.",
+          "year": 2007,
+          "title": "Biotinylated GHK peptide in collagen matrix for wound repair",
+          "pmid": "17049946"
+        },
+        {
+          "authors": "Ferraro et al.",
+          "year": 2023,
+          "title": "Cu(II)-BioGHK complex: antioxidant, antiglycant, and anti-amyloid aggregation properties",
+          "journal": "Molecules",
+          "pmid": "PMC10538196"
+        }
+      ],
+      "hairSpecific": false
+    }
+  ],
+  "missingEvidence": [
+    "Any peer-reviewed clinical trial testing biotinoyl tripeptide-1 alone for hair.",
+    "Any peer-reviewed publication of the Sederma pilot clinical trial data.",
+    "An independent, placebo-controlled trial of Procapil alone (not combined with minoxidil, caffeine, or other actives).",
+    "Proof that biotin conjugation actually enhances follicular delivery compared to unconjugated GHK or biotin alone.",
+    "Verifiable sources for the \"58% reduction in hair loss\" and \"35% increase in density\" claims as commonly marketed.",
+    "Head-to-head comparison of Procapil vs standard-of-care (5% minoxidil or finasteride) with adequate sample size."
+  ],
+  "bottomLine": {
+    "summary": "Biotinoyl tripeptide-1 has a plausible mechanism (biotin-conjugated GHK for ECM stimulation and nutrient delivery) and some biological signal in ex vivo organ culture. As part of Procapil, the combination includes oleanolic acid (a genuine DHT inhibitor) and apigenin (a vasodilator), which provide additional hair-relevant mechanisms.\n\nBut the evidence is weaker than almost any other peptide in this guide. The key \"58% reduction in hair loss\" claim is ex vivo organ culture data that has been widely misrepresented as clinical evidence. The \"35% density increase\" appears to be a misquoted response rate. The only placebo-controlled human trial (N=18 active) has never been peer-reviewed. And the peptide has never been tested alone in humans.\n\nThe evidence base is thinner than Capixyl's, and dramatically thinner than GHK-Cu's. The peptide component specifically has never been proven effective in a peer-reviewed human trial.",
+    "keyTakeaway": "Procapil is a three-ingredient complex with plausible biological rationale (ECM stimulation, anti-DHT via oleanolic acid, vasodilation via apigenin). There's enough signal to include it in a cosmetic maintenance routine alongside proven treatments, but its evidence base is thinner than Capixyl's and dramatically thinner than GHK-Cu's. The peptide component has never been proven effective in a peer-reviewed human trial.",
+    "verdict": "Insufficient evidence as a standalone treatment"
+  },
+  "efficacy": {
+    "keyTrials": [
+      {
+        "name": "Sederma Pilot RCT (~2005) — 3% Procapil vs Placebo in Men",
+        "design": "Placebo-controlled RCT (manufacturer-sponsored, never peer-reviewed)",
+        "participants": 35,
+        "arms": "3% Procapil alcohol lotion twice daily (n=18) vs placebo (n=17)",
+        "duration": "4 months",
+        "primaryOutcome": "67% of Procapil-treated volunteers showed significant improvement in anagen/telogen ratio. Manufacturer also claims +9% anagen hair, -17% telogen hair, and +8% hair density (corresponding to ~10,000 new hairs) in 85% of volunteers.",
+        "limitations": "Never peer-reviewed or published in any journal. Only 18 active subjects. The +8% density and +10,000 hairs figures appear only in the Sederma technical file and cannot be independently verified. No objective hair count methodology described. No adverse event data reported.",
+        "notes": "This is the only placebo-controlled study of Procapil alone (not combined with other actives). All data comes from the Sederma proprietary technical file.",
+        "citation": "Sederma Technical File: Procapil (~2005). Proprietary, not peer-reviewed."
+      },
+      {
+        "name": "Fahim et al. 2024 — 5% Procapil + Minoxidil vs Minoxidil Alone",
+        "design": "Randomized controlled trial",
+        "participants": 140,
+        "arms": "5% Procapil alternating with minoxidil vs minoxidil alone",
+        "duration": "12 months",
+        "primaryOutcome": "Combination group showed significantly better hair count, patient satisfaction, and dermatologist assessment scores compared to minoxidil alone.",
+        "limitations": "Does not isolate Procapil from minoxidil synergy. The benefit could be attributable to additive effects of alternating treatments rather than Procapil-specific efficacy. Published in a regional journal (J Pak Assoc Dermatol).",
+        "notes": "Largest RCT involving Procapil, but tests a combination, not Procapil alone.",
+        "citation": "Fahim et al. J Pak Assoc Dermatol. 2024."
+      },
+      {
+        "name": "Samadi et al. 2024 — Caffeine + 3% Procapil for Male AGA",
+        "design": "Single-arm, open-label (no control group)",
+        "participants": 20,
+        "arms": "Topical caffeine + 3% Procapil daily for 12 weeks",
+        "duration": "12 weeks",
+        "primaryOutcome": "84.2% of patients rated hair loss as 'improved' or 'very improved'. Global photographic review by independent physician showed 68.4% with slight/much improvement at week 12. Zero adverse events reported (no dryness, itching, redness, flaking, folliculitis, or burning).",
+        "limitations": "No control group. Only 20 patients. Combined with caffeine, so Procapil effect cannot be isolated. Self-reported outcomes subject to bias.",
+        "notes": "Provides some tolerability data (zero AEs) but cannot establish efficacy without a control group.",
+        "citation": "Samadi et al. J Cosmet Dermatol. 2024. PMID: 37990760."
+      },
+      {
+        "name": "Pavithra & Rajashekar 2023 — Procapil+PRP vs Redensyl+PRP",
+        "design": "Randomized controlled trial",
+        "participants": 54,
+        "arms": "Procapil + PRP (n=27) vs Redensyl + saw palmetto + biotin + PRP (n=27)",
+        "duration": "6 months",
+        "primaryOutcome": "Procapil+PRP group showed 11.9% mean AGA improvement vs 21.9% in the Redensyl combination group. Procapil was the LESS effective arm.",
+        "limitations": "Both arms included PRP, so the isolated effect of Procapil vs Redensyl cannot be determined. The Redensyl arm also included saw palmetto and biotin. Small sample size.",
+        "notes": "The only head-to-head comparison including a Procapil arm showed it performing worse than a Redensyl combination.",
+        "citation": "Pavithra & Rajashekar. Cureus. 2023. PMC10246929."
+      },
+      {
+        "name": "Garre et al. 2018 — Multi-ingredient Lotion (Open-Label)",
+        "design": "6-month, open-label prospective study (no control group)",
+        "participants": 56,
+        "arms": "Topical lotion containing oleanolic acid, apigenin, biotinyl tripeptide-1, diaminopyrimidine oxide, adenosine, biotin, and ginkgo biloba",
+        "duration": "6 months",
+        "primaryOutcome": "Significant increases in total hairs and anagen hairs. Patient-reported outcomes: 79% decrease in hair loss, 86% heightened confidence, 79% less apparent scalp. 35.7% of patients rated as having 'thicker, more voluminous hair'.",
+        "limitations": "No control group. Seven active ingredients — impossible to attribute effects to Procapil components specifically. The 35.7% figure has been widely misquoted as '35% density increase' in marketing. Published in a low-impact journal.",
+        "notes": "This is the source of the misquoted '35% density increase' claim. The actual finding was that 35.7% of participants showed subjective improvement — a response rate, not a measured density change.",
+        "citation": "Garre et al. J Cosmetic Dermatol. 2018."
+      }
+    ],
+    "preclinicalContext": "Sederma's proprietary ex vivo organ culture data (never peer-reviewed) showed biotinyl-GHK at 2-5 ppm produced +58% hair follicle elongation vs untreated controls over 14 days. However, minoxidil at the same concentration (2 ppm) achieved +121% in the same assay — outperforming the peptide 2:1. DNA array analysis showed upregulation of adhesion proteins (laminin-5, collagen IV, vimentin, desmoglein) by 30-90%. Oleanolic acid (the plant-derived component) inhibited 5-alpha reductase by 68% in vitro and reduced DHT conversion by 54% in a 3% formulation on skin. A 2023 mouse study confirmed oleanolic acid reduced DHT to a greater extent than minoxidil in dorsal skin.",
+    "comparisonToStandard": "No head-to-head trials exist comparing Procapil alone to minoxidil or finasteride with adequate methodology. In the Sederma ex vivo assay, minoxidil outperformed biotinyl-GHK 2:1 (+121% vs +58% follicle elongation). The Pavithra 2023 RCT showed Procapil+PRP (11.9% improvement) performing worse than Redensyl+PRP (21.9%). The Karaca et al. RCT (N=106) testing a Redensyl+Capixyl+Procapil combination vs 5% minoxidil showed the RCP combination outperforming minoxidil on subjective endpoints, but this combined three cosmeceuticals and used subjective rather than objective measures.",
+    "timeToEffect": "Unknown from rigorous data. The Sederma pilot measured at 4 months and reported effects at that timepoint. The Samadi 2024 trial showed physician-assessed improvement at 6 weeks. Marketing materials suggest 2-4 months for initial effects, but this is not supported by controlled data for Procapil alone.",
+    "peakEffect": "Unknown. No study has tracked Procapil alone long enough with adequate methodology to establish peak effect. The Fahim 2024 trial (12 months) showed continued benefit through the study period, but tested Procapil combined with minoxidil.",
+    "maintenanceRequired": true,
+    "maintenanceNote": "Assumed to require ongoing use, as with all non-curative hair loss treatments. No discontinuation studies exist for Procapil. Since Procapil does not address the underlying cause of androgenetic alopecia (androgen-mediated follicle miniaturization via genetic susceptibility), any benefit would logically require continued application.",
+    "discontinuationEffect": "Unknown. No published data exists on what happens to hair after stopping Procapil. By analogy with other non-curative topicals (e.g., minoxidil), any gains would likely reverse over months after discontinuation, but this has never been studied for Procapil.",
+    "overallEfficacyRating": "Unproven as a standalone treatment. The only placebo-controlled test of Procapil alone was the manufacturer's unpublished pilot (N=18 active). Independent trials combine Procapil with other actives (minoxidil, caffeine, PRP) making it impossible to isolate Procapil's contribution. The peptide component specifically has never been tested alone in any human trial. There is a biological signal from ex vivo data, but it is weaker than minoxidil in the same assay."
+  },
+  "sideEffects": {
+    "overallSafetyProfile": "Procapil/biotinoyl tripeptide-1 appears to be well-tolerated as a cosmetic ingredient. No adverse events were reported in the Samadi 2024 trial (N=20, 12 weeks) or the Garre 2018 open-label study (N=56, 6 months). The Sederma pilot trial did not report adverse event data. However, the total safety database is extremely small (fewer than 200 patients across all studies), no formal toxicology or pharmacovigilance studies have been published, and no study has specifically evaluated the safety profile of biotinoyl tripeptide-1 when applied to the skin or hair as a standalone ingredient.",
+    "commonAEs": [
+      {
+        "name": "Scalp irritation (redness, itching, dryness)",
+        "rate": "Not formally quantified; zero cases reported in the Samadi 2024 (N=20) and Garre 2018 (N=56) trials",
+        "notes": "Possible with any topical product, particularly in individuals with sensitive skin. More likely related to the vehicle/excipients (alcohol base in Sederma formulations) than to Procapil's active ingredients. Patch testing recommended for sensitive individuals."
+      },
+      {
+        "name": "Contact dermatitis / allergic reaction",
+        "rate": "Not formally quantified; no cases reported in published trials",
+        "notes": "Individuals with known allergies to olive-derived compounds should use caution due to the oleanolic acid component (olive leaf extract). Apigenin (citrus-derived) could theoretically cause reactions in individuals with citrus sensitivities. No published case reports of allergic reactions to Procapil specifically."
+      },
+      {
+        "name": "Changes in hair texture (oiliness or dryness)",
+        "rate": "Anecdotal reports only; not documented in any clinical trial",
+        "notes": "Some consumer reports mention changes in hair texture. This may be attributable to the formulation vehicle rather than the active ingredients."
+      }
+    ],
+    "seriousAEs": [
+      {
+        "name": "None reported in published literature",
+        "rate": "0% across all published studies",
+        "notes": "No serious adverse events have been attributed to Procapil or biotinoyl tripeptide-1 in any published study. However, total patient exposure in published trials is very small (fewer than 200 patients across all studies and indications), so rare events could easily be missed. The absence of reported serious AEs reflects an inadequate safety database rather than a demonstrated superior safety profile."
+      }
+    ],
+    "safetyInTrials": "The Samadi 2024 trial (N=20, 12 weeks) explicitly assessed tolerability and reported zero adverse events — no dryness, itching, redness, flaking, folliculitis, or burning sensation. The Garre 2018 open-label study (N=56, 6 months) of a multi-ingredient lotion containing Procapil components reported no adverse events. The Sederma pilot trial (~2005, N=35) did not report adverse event data in the available technical file summaries.",
+    "discontinuationRate": "Not formally reported in any trial. The Samadi 2024 and Garre 2018 studies reported on all enrolled patients, suggesting minimal or no dropouts, but explicit discontinuation rates were not published.",
+    "contraindications": [
+      {
+        "condition": "Known allergy to olive-derived compounds",
+        "severity": "Relative",
+        "rationale": "Procapil contains oleanolic acid derived from olive leaf extract. Individuals with documented olive or Olea europaea allergy should avoid Procapil products or perform patch testing before use."
+      },
+      {
+        "condition": "Known allergy to citrus-derived compounds",
+        "severity": "Relative",
+        "rationale": "Procapil contains apigenin, a flavonoid derived from citrus. Individuals with citrus sensitivities should exercise caution."
+      },
+      {
+        "condition": "Known hypersensitivity to biotin or any component of the formulation",
+        "severity": "Absolute",
+        "rationale": "Standard contraindication for any cosmetic product. The peptide component is a biotin-conjugated tripeptide."
+      },
+      {
+        "condition": "Active scalp dermatitis, eczema, or psoriasis",
+        "severity": "Relative",
+        "rationale": "No specific data, but individuals with active inflammatory scalp conditions should consult a dermatologist before applying any new topical active. The alcohol-based vehicle used in some Procapil formulations may exacerbate these conditions."
+      }
+    ],
+    "drugInteractions": [
+      {
+        "drug": "None established",
+        "severity": "N/A",
+        "description": "No drug interactions have been formally studied or reported for topical Procapil or biotinoyl tripeptide-1. Systemic absorption from topical scalp application of a peptide at cosmetic concentrations (3%) is expected to be negligible, making clinically significant systemic interactions extremely unlikely."
+      },
+      {
+        "drug": "5-alpha reductase inhibitors (finasteride, dutasteride)",
+        "severity": "Theoretical — likely additive, not harmful",
+        "description": "Oleanolic acid in Procapil inhibits 5-alpha reductase. Co-use with oral 5-ARIs could theoretically produce additive DHT reduction. No interaction data exists, but the topical concentration and low systemic absorption make a clinically meaningful interaction unlikely. More plausibly a rationale for combination therapy than a safety concern."
+      },
+      {
+        "drug": "Biotin supplements (high-dose)",
+        "severity": "Informational",
+        "description": "Biotinoyl tripeptide-1 delivers biotin to follicular cells. Concurrent high-dose oral biotin supplementation is unlikely to interact but represents redundant biotin delivery. Note: high-dose biotin (>5 mg/day) can interfere with laboratory assays (troponin, TSH, etc.) — this is a biotin supplement concern, not a Procapil interaction."
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "No reproductive toxicity studies have been conducted for Procapil or biotinoyl tripeptide-1. The effects on fetal development are completely unknown. Oleanolic acid has shown some reproductive effects in animal studies at high systemic doses, but topical scalp application at 3% concentration involves negligible systemic exposure. Despite the low theoretical risk, the only responsible recommendation is avoidance during pregnancy given the complete absence of safety data.",
+      "women": "No sex-specific safety concerns identified. Procapil has been tested in mixed-sex populations (Garre 2018 included both men and women) without sex-specific adverse signals. The mechanisms (ECM remodeling, 5-AR inhibition via oleanolic acid, vasodilation via apigenin) are not hormone-dependent in a way that would create sex-specific risks. Women are a primary target market for Procapil products.",
+      "children": "Not recommended. No pediatric safety data exists. Procapil products are marketed for adult use only. Hair loss in children warrants medical evaluation, not cosmeceutical treatment."
+    },
+    "blackBoxWarning": "",
+    "monitoringRequired": "None. As a cosmetic ingredient applied topically at low concentrations, no laboratory monitoring is required or recommended. No systemic effects are expected at standard cosmetic use levels.",
+    "overallSafetyVerdict": "Procapil appears to be safe based on its cosmetic ingredient status and the absence of adverse events in the small number of published studies (total N<200). All three components (biotinoyl tripeptide-1, oleanolic acid, apigenin) have long histories of cosmetic or dietary use without safety signals. However, the safety database is extremely thin — no formal toxicology, no pharmacovigilance, and no study designed primarily to assess safety. The favorable safety profile reflects the absence of studied risk rather than demonstrated safety through rigorous evaluation."
+  },
+  "articleUrl": "/evidence/biotinoyl-tripeptide-1",
+  "pubmedSearchUrl": "https://pubmed.ncbi.nlm.nih.gov/?term=biotinoyl+tripeptide+OR+procapil+hair",
+  "lastUpdated": "2026-03-18",
+  "version": "1.0",
+  "author": "Anagen Research Team"
+}

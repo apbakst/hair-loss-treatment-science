@@ -1,0 +1,405 @@
+{
+  "id": "ketoconazole",
+  "name": "Ketoconazole",
+  "category": "Off-Label",
+  "subcategory": "Antifungal / Anti-Androgen",
+  "overallVerdict": "Promising",
+  "verdictSummary": "Ketoconazole shampoo is a well-tolerated adjunctive therapy with strong antifungal/anti-dandruff evidence, moderate human data for hair density improvements, and weaker but interesting anti-androgenic mechanistic data. Best supported as a complement to finasteride and minoxidil, especially in patients with concurrent scalp inflammation or seborrheic dermatitis.",
+  "primaryMechanism": "Antifungal (azole) with secondary anti-inflammatory and potential anti-androgenic properties. Reduces Malassezia-driven perifollicular inflammation, competitively binds the androgen receptor, and inhibits cytochrome P450-dependent steroidogenic enzymes.",
+  "formulations": ["2% shampoo (prescription)", "1% shampoo (OTC)", "2% topical microemulsion (compounded)"],
+  "dosing": "2% ketoconazole shampoo applied to scalp 2-4 times per week, left on for 3-5 minutes before rinsing. OTC 1% shampoo can be used similarly but has less evidence for hair benefits.",
+  "claims": [
+    {
+      "id": "keto-claim-1",
+      "claim": "Ketoconazole shampoo increases hair density and anagen percentage comparably to 2% minoxidil",
+      "model": "Human controlled trial",
+      "finding": "2% ketoconazole shampoo used 2-4x/week for 21 months produced improvements in hair density, follicle size, and anagen percentage 'almost similar' to 2% topical minoxidil in men with grade III vertex AGA (n=39).",
+      "evidenceWeight": "High",
+      "citations": [
+        {
+          "authors": "Pierard-Franchimont C, De Doncker P, Cauwenbergh G, Pierard GE",
+          "title": "Ketoconazole shampoo: effect of long-term use in androgenic alopecia",
+          "journal": "Dermatology",
+          "year": 1998,
+          "volume": "196(4)",
+          "pages": "474-477",
+          "pubmedId": "9669136",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9669136/"
+        }
+      ]
+    },
+    {
+      "id": "keto-claim-2",
+      "claim": "Ketoconazole competitively binds the human androgen receptor",
+      "model": "In vitro",
+      "finding": "Ketoconazole achieved 50% displacement of radiolabeled androgen from the AR at 6.4 x 10^-5 M in cultured human skin fibroblasts. Among imidazole antifungals, only ketoconazole showed this AR interaction. Inui & Itami (2007) proposed this local anti-androgenic activity explains part of its AGA benefit.",
+      "evidenceWeight": "Low",
+      "citations": [
+        {
+          "authors": "Eil C",
+          "title": "Ketoconazole binds to the human androgen receptor",
+          "journal": "Hormone and Metabolic Research",
+          "year": 1992,
+          "volume": "24",
+          "pages": "367-370",
+          "pubmedId": "1526623",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1526623/"
+        },
+        {
+          "authors": "Inui S, Itami S",
+          "title": "Reversal of androgenetic alopecia by topical ketoconazole: relevance of anti-androgenic activity",
+          "journal": "Journal of Dermatological Science",
+          "year": 2007,
+          "volume": "45(1)",
+          "pages": "66-68",
+          "pubmedId": "16997533",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16997533/"
+        }
+      ]
+    },
+    {
+      "id": "keto-claim-3",
+      "claim": "Ketoconazole inhibits steroidogenesis via cytochrome P450 enzyme blockade",
+      "model": "In vitro / In vivo (oral dosing)",
+      "finding": "Ketoconazole inhibits multiple CYP450-dependent steroidogenic enzymes (C17-20 lyase, cholesterol side-chain cleavage, 17-alpha-hydroxylase, aromatase). However, 5-alpha reductase is NOT inhibited. These effects are well-documented at oral/systemic doses but uncertain for topical shampoo application.",
+      "evidenceWeight": "Low-Moderate",
+      "citations": [
+        {
+          "authors": "Pont A, Williams PL, Azhar S, et al.",
+          "title": "Ketoconazole blocks adrenal steroidogenesis by inhibiting cytochrome P450-dependent enzymes",
+          "journal": "Journal of Clinical Investigation",
+          "year": 1982,
+          "volume": "69(5)",
+          "pages": "1099-1102",
+          "pubmedId": "6304148",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC437014/"
+        }
+      ]
+    },
+    {
+      "id": "keto-claim-4",
+      "claim": "Topical ketoconazole stimulates hair regrowth in mouse models",
+      "model": "In vivo animal",
+      "finding": "2% ketoconazole solution applied daily for 3 weeks to C3H/HeN mice produced significantly greater hair regrowth vs vehicle (ratio 0.61, p=0.006). Aldhalimi et al. (2014) confirmed this and found minoxidil was more effective than ketoconazole in mice.",
+      "evidenceWeight": "Moderate",
+      "citations": [
+        {
+          "authors": "Jiang J, Tsuboi R, Kojima Y, Ogawa H",
+          "title": "Topical application of ketoconazole stimulates hair growth in C3H/HeN mice",
+          "journal": "Journal of Dermatology",
+          "year": 2005,
+          "volume": "32(4)",
+          "pages": "243-247",
+          "pubmedId": "15863844",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15863844/"
+        },
+        {
+          "authors": "Aldhalimi MA, Hadi NR, Ghafil FA",
+          "title": "Promotive effect of topical ketoconazole, minoxidil, and minoxidil with tretinoin on hair growth in male mice",
+          "journal": "ISRN Pharmacology",
+          "year": 2014,
+          "volume": "2014",
+          "pages": "575423",
+          "pubmedId": "24734193",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3964684/"
+        }
+      ]
+    },
+    {
+      "id": "keto-claim-5",
+      "claim": "Ketoconazole increases hair shaft diameter and reduces shedding in men with AGA-related telogen effluvium",
+      "model": "Human randomized trial (open-label)",
+      "finding": "In 150 men with AGA-related telogen effluvium and dandruff, 1% ketoconazole shampoo (2-3x/week, 6 months) increased hair shaft diameter by 5.4%, anagen percentage by 4.9%, and reduced hair loss severity by 17.3%. Effects were comparable to piroctone olamine.",
+      "evidenceWeight": "High",
+      "citations": [
+        {
+          "authors": "Pierard-Franchimont C, Goffin V, Henry F, Uhoda I, Braham C, Pierard GE",
+          "title": "Nudging hair shedding by antidandruff shampoos: a comparison of 1% ketoconazole, 1% piroctone olamine and 1% zinc pyrithione formulations",
+          "journal": "International Journal of Cosmetic Science",
+          "year": 2002,
+          "volume": "24(5)",
+          "pages": "249-256",
+          "pubmedId": "18498517",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18498517/"
+        }
+      ]
+    },
+    {
+      "id": "keto-claim-6",
+      "claim": "Topical ketoconazole is effective for female pattern hair loss with fewer side effects than minoxidil",
+      "model": "Human RCT",
+      "finding": "In an RCT of 40 women with FPHL, 2% topical ketoconazole microemulsion achieved significant hair growth by month 6 (delayed vs minoxidil at month 4). Only 10% of ketoconazole patients reported side effects. Patient satisfaction was similar between groups.",
+      "evidenceWeight": "Highest",
+      "citations": [
+        {
+          "authors": "El-Garf A, Mohie M, Salah E",
+          "title": "Trichogenic effect of topical ketoconazole versus minoxidil 2% in female pattern hair loss: a clinical and trichoscopic evaluation",
+          "journal": "Biomedical Dermatology",
+          "year": 2019,
+          "volume": "3",
+          "pages": "14",
+          "url": "https://link.springer.com/article/10.1186/s41702-019-0046-y"
+        }
+      ]
+    },
+    {
+      "id": "keto-claim-7",
+      "claim": "Combination therapy with finasteride and ketoconazole outperforms minoxidil alone",
+      "model": "Human open-label randomized trial",
+      "finding": "In 100 men with Hamilton grade II-IV AGA treated for 1 year, finasteride + ketoconazole produced the second-best results (after finasteride + minoxidil). Both finasteride-containing groups significantly outperformed minoxidil alone (p<0.05). No significant side effects reported.",
+      "evidenceWeight": "High",
+      "citations": [
+        {
+          "authors": "Khandpur S, Suman M, Reddy BS",
+          "title": "Comparative efficacy of various treatment regimens for androgenetic alopecia in men",
+          "journal": "Journal of Dermatology",
+          "year": 2002,
+          "volume": "29(8)",
+          "pages": "489-498",
+          "pubmedId": "12227482",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12227482/"
+        }
+      ]
+    },
+    {
+      "id": "keto-claim-8",
+      "claim": "Ketoconazole reduces Malassezia-driven scalp inflammation, indirectly supporting hair follicle health",
+      "model": "Systematic review / Multiple RCTs",
+      "finding": "Ketoconazole reliably reduces Malassezia colonization, perifollicular inflammation, and associated hair shedding. The Fields et al. (2020) systematic review concluded it is a 'promising adjunctive or alternative therapy' for AGA. Gupta et al. (2025) confirmed clinical superiority over other antidandruff agents and highlighted its broader hair care applications beyond seborrheic dermatitis.",
+      "evidenceWeight": "Highest (for antifungal efficacy); High (for indirect hair benefit)",
+      "citations": [
+        {
+          "authors": "Fields JR, Vonu PM, Monir RL, Schoch JJ",
+          "title": "Topical ketoconazole for the treatment of androgenetic alopecia: a systematic review",
+          "journal": "Dermatologic Therapy",
+          "year": 2020,
+          "volume": "33(1)",
+          "pages": "e13202",
+          "pubmedId": "31858672",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31858672/"
+        },
+        {
+          "authors": "Gupta AK, et al.",
+          "title": "Role of topical ketoconazole in therapeutic hair care beyond seborrhoeic dermatitis and dandruff",
+          "journal": "JEADV Clinical Practice",
+          "year": 2025,
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jvc2.70026"
+        }
+      ]
+    },
+    {
+      "id": "keto-claim-9",
+      "claim": "Topical ketoconazole shampoo has a favorable safety profile with minimal systemic absorption",
+      "model": "FDA label data / Clinical trials / Post-marketing surveillance",
+      "finding": "In 264 patients, irritation and hair loss each occurred in <1% with 2% ketoconazole shampoo. Contact dermatitis is rare (0.01-0.1%). Oral ketoconazole carries serious hepatotoxicity risk (FDA black box warning, 2013), but topical formulations are not associated with liver injury, adrenal suppression, or systemic anti-androgenic side effects.",
+      "evidenceWeight": "Highest",
+      "citations": [
+        {
+          "authors": "FDA",
+          "title": "FDA Drug Safety Communication: FDA limits usage of Nizoral (ketoconazole) oral tablets due to potentially fatal liver injury",
+          "journal": "FDA Drug Safety Communication",
+          "year": 2013,
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-limits-usage-nizoral-ketoconazole-oral-tablets-due-potentially"
+        }
+      ]
+    }
+  ],
+  "safetyProfile": {
+    "topical": {
+      "commonSideEffects": ["Mild scalp irritation or dryness (<1%)", "Contact dermatitis (rare, 0.01-0.1%)", "Abnormal hair texture (rare)", "Scalp pustules (rare)"],
+      "seriousRisks": "None reported for topical/shampoo formulations. No systemic absorption concerns.",
+      "pregnancyCategory": "C (topical)"
+    },
+    "oral": {
+      "warning": "FDA BLACK BOX WARNING: Oral ketoconazole carries risk of potentially fatal hepatotoxicity, adrenal insufficiency, and serious drug interactions. Oral tablets were withdrawn in the EU and Australia (2013) and severely restricted in the US. Oral ketoconazole should NOT be used for hair loss.",
+      "commonSideEffects": ["Nausea", "Headache", "Decreased libido", "Gynecomastia", "Impotence", "Hepatotoxicity"],
+      "seriousRisks": "Fatal liver injury, adrenal insufficiency, dangerous drug interactions via CYP3A4 inhibition"
+    }
+  },
+  "availability": {
+    "otc": "1% ketoconazole shampoo (e.g., Nizoral A-D)",
+    "prescription": "2% ketoconazole shampoo",
+    "compounded": "2% ketoconazole microemulsion or leave-on formulations available through compounding pharmacies"
+  },
+  "keyDistinctions": [
+    "Most evidence is for the shampoo formulation (rinse-off), not leave-on products",
+    "Antifungal/anti-dandruff evidence is strong and well-replicated; direct hair growth evidence is moderate",
+    "Anti-androgenic mechanism is primarily from in vitro data; clinical relevance for topical shampoo is uncertain",
+    "2% formulation has more evidence than 1% OTC version for hair benefits",
+    "Does NOT inhibit 5-alpha reductase -- mechanistically distinct from finasteride/dutasteride",
+    "Best positioned as adjunctive therapy alongside finasteride and/or minoxidil"
+  ],
+  "systematicReviews": [
+    {
+      "authors": "Fields JR, Vonu PM, Monir RL, Schoch JJ",
+      "title": "Topical ketoconazole for the treatment of androgenetic alopecia: a systematic review",
+      "journal": "Dermatologic Therapy",
+      "year": 2020,
+      "conclusion": "Topical ketoconazole is a promising adjunctive or alternative therapy for AGA, though randomized controlled trials are needed. Seven studies (2 animal, 5 human) included in qualitative synthesis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31858672/"
+    }
+  ],
+  "efficacy": {
+    "keyTrials": [
+      {
+        "name": "Pierard-Franchimont et al. 1998 (Landmark AGA Trial)",
+        "design": "Controlled clinical trial comparing 2% ketoconazole shampoo (2-4x/week) vs unmedicated shampoo vs 2% minoxidil. 39 men with Hamilton grade III vertex AGA. Not blinded; longest ketoconazole hair trial published.",
+        "participants": 39,
+        "duration": "21 months",
+        "primaryOutcome": "Hair density, follicle size, and proportion of anagen follicles improved in the ketoconazole group to levels described as 'almost similar' to 2% topical minoxidil. The unmedicated shampoo control group showed declining hair density over the same period. Sebum casual level was also reduced in the ketoconazole group.",
+        "limitations": "Small sample size (n=39, with only 27 in the ketoconazole arm and 12 controls). Not blinded or placebo-controlled in a rigorous sense. Exact hair count numbers not published -- results described qualitatively as 'almost similar' to minoxidil. Comparator was 2% minoxidil (not the more effective 5% formulation). Never replicated at this scale or duration.",
+        "notes": "This remains the most-cited study supporting ketoconazole shampoo for AGA. The 21-month duration is unusually long for this class of evidence. Despite limitations, the directional finding -- ketoconazole improves hair parameters while untreated controls worsen -- is consistent across multiple independent studies.",
+        "citation": "Pierard-Franchimont C et al. Dermatology. 1998;196(4):474-477. PMID: 9669136."
+      },
+      {
+        "name": "Pierard-Franchimont et al. 2002 (Antidandruff Shampoo Comparison)",
+        "design": "Open-label randomized trial comparing 1% ketoconazole, 1% piroctone olamine, and 1% zinc pyrithione shampoos in men with AGA-related telogen effluvium and concurrent dandruff. Used 2-3x/week.",
+        "participants": 150,
+        "duration": "6 months",
+        "primaryOutcome": "1% ketoconazole shampoo increased hair shaft diameter by 5.4%, increased anagen hair percentage by 4.9%, and reduced hair shedding severity by 17.3%. Effects were comparable to piroctone olamine. Sebum output was discretely reduced, and there was a strong correlation between sebum reduction and hair shaft diameter increase.",
+        "limitations": "Open-label design. Used 1% concentration (OTC strength), not the 2% Rx formulation with more hair-specific evidence. Population had concurrent dandruff/seborrheic dermatitis, so benefits may partly reflect anti-inflammatory/antifungal effects rather than direct hair growth stimulation. No placebo arm.",
+        "notes": "Largest ketoconazole hair study by participant count. The correlation between sebum reduction and hair diameter improvement supports the mechanistic hypothesis that Malassezia/inflammation control contributes to hair benefits.",
+        "citation": "Pierard-Franchimont C et al. Int J Cosmet Sci. 2002;24(5):249-256. PMID: 18498517."
+      },
+      {
+        "name": "Inui & Itami 2007 (Case Series / Anti-Androgenic Mechanism)",
+        "design": "Uncontrolled case series. 6 men with AGA treated with 2% ketoconazole lotion applied daily. Clinical photography used to assess response. Mechanistic discussion emphasizing anti-androgenic activity.",
+        "participants": 6,
+        "duration": "Variable (months to 1 year)",
+        "primaryOutcome": "3 of 6 patients demonstrated visible hair regrowth on clinical photographs. One patient with Grade Va AGA showed notable vertex regrowth. One patient experienced relapse after discontinuation, with regrowth resuming upon restarting treatment -- suggesting a maintenance-dependent effect.",
+        "limitations": "Only 6 patients, no controls, no blinding, no quantitative measurements. The primary contribution is the mechanistic argument (anti-androgenic activity via androgen receptor binding), not the clinical data. Cannot distinguish between drug effect and natural fluctuation at this sample size.",
+        "notes": "Important for the mechanistic narrative -- Inui & Itami proposed that ketoconazole's AR binding (demonstrated by Eil 1992) explains its AGA benefit beyond simple antifungal activity. The discontinuation/relapse/resumption observation in one patient is suggestive but anecdotal.",
+        "citation": "Inui S, Itami S. J Dermatol Sci. 2007;45(1):66-68. PMID: 16997533."
+      },
+      {
+        "name": "El-Garf et al. 2019 (Female Pattern Hair Loss RCT)",
+        "design": "Randomized controlled trial comparing 2% topical ketoconazole microemulsion vs 2% topical minoxidil in 40 women with FPHL. Applied daily for 6 months. Assessed by trichoscopy and clinical photography.",
+        "participants": 40,
+        "duration": "6 months",
+        "primaryOutcome": "Both groups showed significant hair growth improvement by month 6. Ketoconazole group had delayed onset of improvement (significant at month 6) compared to minoxidil (significant at month 4). Only 10% of ketoconazole patients reported side effects vs 55% in the minoxidil group. Patient satisfaction was similar between groups.",
+        "limitations": "Small sample size (20 per arm). Used a leave-on microemulsion formulation, not the standard rinse-off shampoo -- results may not generalize to shampoo use. Single-center study. Short duration (6 months) may not capture full treatment arc.",
+        "notes": "One of very few studies examining ketoconazole specifically in women. The markedly lower side effect rate (10% vs 55%) is clinically meaningful and may make ketoconazole an attractive option for women intolerant of minoxidil side effects (scalp irritation, unwanted facial hair).",
+        "citation": "El-Garf A et al. Biomed Dermatol. 2019;3:14."
+      },
+      {
+        "name": "Khandpur et al. 2002 (Combination Therapy Trial)",
+        "design": "Open-label randomized trial with 4 arms: (1) finasteride + minoxidil, (2) finasteride + ketoconazole shampoo, (3) minoxidil alone, (4) ketoconazole shampoo alone. 100 men with Hamilton grade II-IV AGA.",
+        "participants": 100,
+        "duration": "12 months",
+        "primaryOutcome": "Finasteride + ketoconazole produced the second-best results (after finasteride + minoxidil). Both finasteride-containing groups significantly outperformed minoxidil alone (p<0.05). Ketoconazole alone showed some benefit but was inferior to finasteride-containing regimens.",
+        "limitations": "Open-label design. No placebo arm. 25 patients per arm is modest. Assessment methodology not as rigorous as modern standards (no automated hair counts).",
+        "notes": "Key study supporting ketoconazole as an adjunctive therapy. Demonstrates that adding ketoconazole to finasteride provides meaningful benefit, positioning it as a useful third agent in combination protocols.",
+        "citation": "Khandpur S et al. J Dermatol. 2002;29(8):489-498. PMID: 12227482."
+      },
+      {
+        "name": "Fields et al. 2020 (Systematic Review)",
+        "design": "Systematic review of all published studies on topical ketoconazole for AGA. Seven studies met inclusion criteria (2 animal, 5 human). Qualitative synthesis only (no meta-analysis due to heterogeneity).",
+        "participants": "~350 total across included human studies",
+        "duration": "Variable (3 weeks to 21 months)",
+        "primaryOutcome": "Concluded that topical ketoconazole is a 'promising adjunctive or alternative therapy' for AGA. All included human studies reported positive effects on at least one hair parameter (density, diameter, anagen percentage, or shedding). No serious adverse events reported in any study.",
+        "limitations": "No meta-analysis possible due to study heterogeneity. All included studies had methodological limitations (small samples, open-label designs, variable formulations and concentrations). Concluded that randomized controlled trials are still needed.",
+        "notes": "The most comprehensive review of ketoconazole for hair loss. Useful for confirming the consistency of positive signals across diverse study designs, populations, and formulations.",
+        "citation": "Fields JR et al. Dermatol Ther. 2020;33(1):e13202. PMID: 31858672."
+      }
+    ],
+    "preclinicalContext": "Ketoconazole has three distinct preclinical mechanisms relevant to hair: (1) potent antifungal activity against Malassezia spp., reducing perifollicular inflammation that accelerates hair loss; (2) competitive binding to the androgen receptor demonstrated in human skin fibroblasts (Eil 1992, IC50 ~6.4 x 10^-5 M); (3) inhibition of CYP450-dependent steroidogenic enzymes (C17-20 lyase, aromatase, 17-alpha-hydroxylase) -- though notably NOT 5-alpha reductase. Mouse models (Jiang 2005, Aldhalimi 2014) confirm hair growth stimulation with daily topical application. The antifungal mechanism is best supported for shampoo formulations; the anti-androgenic mechanism requires concentrations that may not be achieved with brief shampoo contact time.",
+    "comparisonToStandard": "In the only head-to-head comparison (Pierard-Franchimont 1998), 2% ketoconazole shampoo produced results described as 'almost similar' to 2% minoxidil over 21 months. However, the comparator was the less-effective 2% minoxidil (not the standard 5% formulation). Ketoconazole is generally considered less potent than either finasteride or 5% minoxidil as a standalone treatment, but additive in combination. In the Khandpur 2002 trial, finasteride + ketoconazole was the second-best regimen, outperforming minoxidil alone.",
+    "timeToEffect": "Scalp condition improvements (reduced flaking, sebum, inflammation) begin within 2-4 weeks. Reduced hair shedding may be noticeable by 1-2 months. Measurable improvements in hair diameter and anagen percentage emerge by 4-6 months (Pierard-Franchimont 2002 measured at 6 months; El-Garf 2019 found significant improvement at month 6 for the ketoconazole group). This is slower onset than minoxidil, which showed significance at month 4 in the El-Garf trial.",
+    "peakEffect": "Not precisely defined. The Pierard-Franchimont 1998 study ran for 21 months and showed continued benefit, suggesting effects may continue to accrue beyond 6 months. Most studies measuring at 6 months show ongoing improvement at the final timepoint, so peak effect likely occurs at 12-18 months of consistent use, similar to other hair loss treatments.",
+    "maintenanceRequired": true,
+    "maintenanceNote": "Continuous use required for sustained benefit. In the Inui & Itami 2007 case series, one patient relapsed after discontinuing ketoconazole and regrew hair upon resuming treatment. Since ketoconazole addresses downstream effects (inflammation, Malassezia, local androgen activity) but does not cure the underlying androgen sensitivity of hair follicles, ongoing use is necessary. Standard maintenance frequency is 2-4x/week.",
+    "discontinuationEffect": "Hair benefits are expected to gradually reverse upon discontinuation, as the underlying AGA process resumes. The Inui & Itami 2007 case series documented relapse in one patient after stopping treatment. The anti-inflammatory/antifungal benefits (reduced dandruff, sebum control) will revert within weeks of stopping. Hair parameter improvements likely reverse over 3-6 months, though formal discontinuation studies have not been conducted.",
+    "overallEfficacyRating": "Moderate as monotherapy; strong as adjunctive therapy. The evidence base includes multiple positive human studies but suffers from small sample sizes, open-label designs, and lack of standardized quantitative endpoints. No study has demonstrated the magnitude of hair regrowth seen with finasteride or 5% minoxidil. Best-supported use is as a complementary treatment in combination with finasteride and/or minoxidil, especially in patients with concurrent scalp inflammation or seborrheic dermatitis."
+  },
+  "sideEffects": {
+    "overallSafetyProfile": "Ketoconazole shampoo (topical) has an excellent safety profile based on extensive clinical trial data, FDA label data, and decades of post-marketing surveillance. In the largest controlled dataset (11 double-blind trials, n=264), adverse events occurred in <1% of patients. The shampoo formulation has no detectable systemic absorption, eliminating the hepatotoxicity, adrenal suppression, and drug interaction risks associated with oral ketoconazole. The FDA black box warning applies ONLY to oral ketoconazole tablets, not to topical/shampoo formulations.",
+    "commonAEs": [
+      {
+        "name": "Scalp irritation or itching",
+        "rate": "<1% (from 11 double-blind trials, n=264)",
+        "notes": "Mild and transient in the vast majority of cases. More likely with frequent use (>4x/week) or prolonged contact time. Resolves with discontinuation or reduced frequency. In the El-Garf 2019 RCT, only 10% of women using 2% ketoconazole microemulsion (a leave-on formulation) reported any side effects, vs 55% with minoxidil."
+      },
+      {
+        "name": "Scalp dryness",
+        "rate": "~1-3% (from open-label safety trials and post-marketing reports)",
+        "notes": "The shampoo vehicle can be drying, particularly with frequent use. More common in individuals with naturally dry scalp or those using other drying hair products. Can be mitigated by using a conditioner after treatment and limiting use to 2-3x/week."
+      },
+      {
+        "name": "Abnormal hair texture",
+        "rate": "Rare (1/41 in open-label safety trial; also in post-marketing reports)",
+        "notes": "Reported in one patient in the open-label safety trial (6-month, 4-10x weekly shampooing). Hair may feel coarser or more brittle during treatment. Post-marketing reports include hair discoloration (mainly in chemically treated or gray hair) and texture changes."
+      },
+      {
+        "name": "Scalp pustules",
+        "rate": "Rare (1/41 in open-label safety trial)",
+        "notes": "Single occurrence in the extended-use open-label trial. Causality not definitively established. If pustules develop, discontinue and evaluate for folliculitis or contact reaction."
+      },
+      {
+        "name": "Contact dermatitis",
+        "rate": "Rare (0.01-0.1% from post-marketing surveillance)",
+        "notes": "Allergic contact dermatitis to ketoconazole itself is rare. May be more related to vehicle ingredients (surfactants, preservatives) than the active ingredient. Presents as erythema, scaling, and pruritus beyond expected treatment effects. Requires discontinuation."
+      },
+      {
+        "name": "Hair discoloration",
+        "rate": "Rare (post-marketing reports only, not seen in clinical trials)",
+        "notes": "Primarily reported in patients with chemically treated, permed, or gray hair. The reddish-orange color of the shampoo may temporarily stain light or damaged hair. Generally reversible upon discontinuation."
+      },
+      {
+        "name": "Oiliness or dryness of hair and scalp",
+        "rate": "Uncommon (post-marketing reports)",
+        "notes": "Ketoconazole reduces sebum production, which is generally beneficial for AGA patients but may result in perceived dryness in some individuals. Paradoxical oiliness has been rarely reported, possibly due to rebound sebum production."
+      }
+    ],
+    "seriousAEs": [
+      {
+        "name": "Angioedema / severe hypersensitivity",
+        "rate": "Extremely rare (post-marketing reports only, not observed in clinical trials)",
+        "notes": "Isolated post-marketing reports of angioedema and urticaria exist. These are idiosyncratic hypersensitivity reactions, not dose-dependent. Discontinue immediately and seek medical attention if facial/lip swelling or difficulty breathing occurs."
+      },
+      {
+        "name": "Paradoxical alopecia (increased hair loss)",
+        "rate": "<1% (from FDA label: 'increase in normal hair loss' in <1% of 264 patients)",
+        "notes": "Rare reports of increased hair shedding during use. May represent initial telogen effluvium from scalp adjustment, irritant-driven shedding, or coincidental AGA progression. Generally transient. If persistent beyond 2-3 months, discontinue and reassess."
+      }
+    ],
+    "safetyInPierard1998Trial": "No adverse events specifically reported in the 39-patient, 21-month trial. The study focused on efficacy endpoints and did not provide a detailed adverse event analysis, but the absence of reported side effects over nearly 2 years of use is reassuring.",
+    "safetyInFDALabel": "In 11 double-blind trials (n=264) for dandruff/seborrheic dermatitis: irritation and increased hair loss each occurred in <1%. In 3 open-label safety trials (n=41, shampooing 4-10x/week for 6 months): abnormal hair texture, scalp pustules, mild skin dryness, and itching each occurred once. In a tinea versicolor trial (n=318): drug-related adverse events occurred in 5-7% of active treatment groups vs 4% placebo.",
+    "discontinuationRate": "Not formally reported across hair loss trials. The Pierard-Franchimont 1998 trial retained all patients over 21 months, suggesting tolerability was not a limiting factor. In the FDA label tinea versicolor trial, the 5-7% adverse event rate was comparable to placebo (4%), and discontinuation due to adverse events was not a significant issue. Overall, the low rate of side effects suggests discontinuation due to intolerability is rare (<2%).",
+    "contraindications": [
+      {
+        "condition": "Known hypersensitivity to ketoconazole or any excipient in the formulation",
+        "severity": "Absolute",
+        "rationale": "Per FDA label. Patients with documented allergy to ketoconazole or other imidazole antifungals should not use ketoconazole shampoo."
+      },
+      {
+        "condition": "Open wounds or severely inflamed/broken scalp skin",
+        "severity": "Relative",
+        "rationale": "While not an absolute contraindication, applying ketoconazole shampoo to broken or acutely inflamed skin may increase irritation and theoretical systemic absorption. Allow acute scalp conditions to resolve before initiating ketoconazole shampoo treatment."
+      }
+    ],
+    "drugInteractions": [
+      {
+        "drug": "None established for topical/shampoo formulations",
+        "severity": "N/A",
+        "description": "The FDA label for ketoconazole 2% shampoo lists no drug interactions. Ketoconazole is not detected in plasma after chronic shampooing, so the potent CYP3A4 inhibition that makes oral ketoconazole dangerous (QT prolongation with cisapride, terfenadine; increased levels of statins, benzodiazepines, cyclosporine, etc.) does not apply to topical use."
+      },
+      {
+        "drug": "Oral ketoconazole (systemic)",
+        "severity": "Note -- NOT applicable to shampoo",
+        "description": "Oral ketoconazole is a potent CYP3A4 inhibitor with dangerous drug interactions (FDA black box). This is irrelevant for shampoo use due to negligible systemic absorption, but patients and providers should be aware of the distinction. The shampoo and oral tablet have completely different risk profiles."
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "FDA Pregnancy Category C (topical). Animal reproduction studies with oral ketoconazole showed adverse effects (syndactyly, oligodactyly in rats at 80 mg/kg/day -- 10x the maximum recommended human oral dose). No adequate studies in pregnant women. However, ketoconazole is not detected in plasma after chronic shampooing, suggesting negligible fetal exposure from shampoo use. Expert opinion considers topical ketoconazole likely safe in pregnancy when used in limited areas for brief periods (Murase 2014), but should be used only if the potential benefit justifies the potential risk. Not recommended specifically for hair loss during pregnancy.",
+      "women": "Ketoconazole shampoo is considered safe for women. The El-Garf 2019 RCT specifically studied women with FPHL and found only 10% reported side effects (vs 55% with minoxidil). Ketoconazole does not cause the hypertrichosis (unwanted facial/body hair growth) that is a common minoxidil side effect in women, making it a potentially better-tolerated adjunctive option for female patients.",
+      "children": "Safety and effectiveness in children have not been established per FDA label. The 2% shampoo is generally not recommended for children under 12 years without physician guidance. Post-market data suggests it has been safely used in children as young as 3 years for seborrheic dermatitis, but formal pediatric studies for hair loss indications do not exist. Hair loss in children typically requires specialized evaluation rather than empiric ketoconazole use.",
+      "elderly": "No specific age-related concerns identified. Ketoconazole shampoo can be used in elderly patients for both seborrheic dermatitis and as adjunctive AGA therapy. No dose adjustment needed. The lack of systemic absorption makes it safer than many other medications in elderly patients on multiple drugs.",
+      "nursingMothers": "No adequate studies in nursing women. However, since ketoconazole is not detected in plasma after chronic shampooing, exposure through breast milk from shampoo use is expected to be negligible. Exercise caution; the FDA label recommends consideration of risk vs benefit."
+    },
+    "blackBoxWarning": "None for topical/shampoo formulations. The FDA black box warning (2013) applies ONLY to oral ketoconazole tablets, citing risks of potentially fatal hepatotoxicity, adrenal insufficiency, and dangerous CYP3A4-mediated drug interactions. Oral ketoconazole tablets were withdrawn in the EU and Australia and severely restricted in the US. These risks do not apply to ketoconazole shampoo.",
+    "monitoringRequired": "None required for topical/shampoo use. No liver function tests, adrenal function tests, or drug level monitoring needed. The lack of systemic absorption makes laboratory monitoring unnecessary, in contrast to oral ketoconazole which requires hepatic monitoring.",
+    "oralVsTopicalSafetyNote": "It is critical to distinguish between oral and topical ketoconazole safety profiles. Oral ketoconazole (200-400 mg/day) carries serious risks: hepatotoxicity (incidence ~1 in 500 to 1 in 15,000, potentially fatal), adrenal insufficiency, gynecomastia, impotence, and dangerous CYP3A4 drug interactions. Topical ketoconazole shampoo shares NONE of these risks because plasma concentrations are undetectable after shampooing. Oral ketoconazole should NEVER be used for hair loss.",
+    "overallSafetyVerdict": "Ketoconazole shampoo is one of the safest interventions in the AGA treatment toolkit. With adverse event rates consistently <1% in controlled trials, no systemic absorption, no hepatotoxicity risk, no hormonal side effects, and no drug interactions, it has a safety profile comparable to cosmetic hair products. This favorable risk-benefit ratio is a key advantage for its use as adjunctive therapy, particularly in patients who are concerned about side effects of finasteride or oral minoxidil."
+  },
+  "lastUpdated": "2026-03-19"
+}

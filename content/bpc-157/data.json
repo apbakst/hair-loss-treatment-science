@@ -1,0 +1,486 @@
+{
+  "id": "bpc-157",
+  "name": "BPC-157",
+  "fullName": "Body Protection Compound-157 (BPC-157)",
+  "aliases": [
+    "BPC 157",
+    "Body Protection Compound",
+    "Bepecin",
+    "PL-10",
+    "PL14736"
+  ],
+  "category": "peptides-cosmeceuticals",
+  "categoryLabel": "Peptides / Cosmeceuticals",
+  "approvalStatus": "none",
+  "approvalNote": "No regulatory approval for any indication. A Phase II trial for ulcerative colitis (PL14736) was conducted in Croatia but full results were never published.",
+  "mechanismOfAction": "BPC-157 is a synthetic 15-amino acid peptide derived from a protein found in human gastric juice. It promotes tissue repair primarily through upregulation of VEGFR2 (a blood vessel growth receptor), activation of the FAK-paxillin cell migration pathway, and modulation of nitric oxide synthesis. It has no demonstrated activity on any hair-loss-specific pathway.",
+  "primaryTargets": [
+    "VEGFR2/angiogenesis",
+    "FAK-paxillin (cell migration)",
+    "Nitric oxide synthesis",
+    "Growth hormone receptor"
+  ],
+  "routeOfAdministration": [
+    "oral",
+    "injection",
+    "topical",
+    "subcutaneous injection"
+  ],
+  "typicalDose": "No established dosing for hair loss. In preclinical studies, doses range from 6 µg/kg to 20 mg/kg across multiple routes. No human dosing guidance exists for any indication.",
+  "evidenceGrade": "D",
+  "evidenceGradeRationale": "Zero published studies on BPC-157 and hair growth in any model. No mechanism overlap with androgenetic alopecia pathways (DHT, Wnt/beta-catenin, follicle miniaturization). Preclinical tissue repair evidence is strong but entirely irrelevant to hair biology.",
+  "highestEvidenceLevel": "in-vivo-animal",
+  "totalClaimsEvaluated": 8,
+  "humanTrialCount": 1,
+  "evidenceLevelCounts": {
+    "in-silico": 2,
+    "in-vitro": 0,
+    "in-vivo-animal": 5,
+    "ex-vivo": 0,
+    "human-open-label": 1,
+    "human-rct": 0
+  },
+  "oneLinerSummary": "Strong tissue repair peptide with zero evidence for hair loss — a category error when applied to the scalp.",
+  "strengthOfEvidenceForHair": 1,
+  "keyLimitation": "No study in any model has ever tested BPC-157 on hair follicles, hair cycling, or hair growth. Over 80% of all BPC-157 research comes from a single lab (University of Zagreb).",
+  "bestFor": "Gut healing and musculoskeletal tissue repair (preclinical only). Not a hair loss treatment.",
+  "claims": [
+    {
+      "number": 1,
+      "title": "BPC-157 promotes hair growth through improved blood flow to follicles",
+      "evidenceLevel": "in-silico",
+      "evidenceLevelLabel": "No model — pure theoretical extrapolation from angiogenesis data",
+      "evidenceWeight": "Very Low",
+      "weightRationale": "No study has tested this claim in any experimental system. The connection to hair is entirely hypothetical.",
+      "model": "No model — this claim has zero published, peer-reviewed evidence. No study on PubMed has tested BPC-157 on hair follicles, hair cycling, or hair growth as a primary endpoint. The claim is entirely extrapolated from BPC-157's proven pro-angiogenic (blood-vessel-forming) activity in wound healing models.",
+      "finding": "There is no finding to report. No researcher has published data showing BPC-157 stimulates hair growth in any model — not in cell culture, not in mice, not in humans. The theoretical link is: BPC-157 upregulates VEGFR2 (a blood vessel growth receptor) → more blood vessels → better follicle nutrition. But this chain of logic has never been tested in hair tissue.",
+      "assessment": "This is pure extrapolation. VEGF-mediated angiogenesis is a real mechanism (it's part of how minoxidil works), but \"increases blood flow in a rat hind limb\" does not mean \"regrows hair on your scalp.\" BPC-157 has no demonstrated connection to any hair-specific pathway: no Wnt/β-catenin signaling, no DHT modulation, no follicle stem cell activation, no dermal papilla cell data. If someone is selling you BPC-157 specifically for hair regrowth, they are extrapolating from tissue repair studies that never examined hair.",
+      "assessmentSummary": "Pure extrapolation from tissue repair studies — zero direct evidence for hair growth in any model.",
+      "citations": [
+        {
+          "authors": "N/A",
+          "year": 2026,
+          "title": "No peer-reviewed studies exist for BPC-157 and hair growth"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 2,
+      "title": "BPC-157 addresses the pathways that drive androgenetic alopecia",
+      "evidenceLevel": "in-silico",
+      "evidenceLevelLabel": "No model — claim is unsupported by published evidence",
+      "evidenceWeight": "Very Low",
+      "weightRationale": "BPC-157's known mechanisms have zero overlap with the pathways that drive pattern hair loss.",
+      "model": "No model. This claim is false based on current published evidence.",
+      "finding": "BPC-157's demonstrated mechanisms — VEGFR2-mediated angiogenesis, nitric oxide synthesis, anti-inflammatory cytokine modulation — do not address DHT (the primary driver of androgenetic alopecia), follicle miniaturization, or Wnt/β-catenin signaling (the pathway that tells follicles to enter anagen). More blood flow to a miniaturizing follicle doesn't reverse the miniaturization.",
+      "assessment": "BPC-157 may be a great peptide for other applications, but its mechanism of action has no overlap with the pathways that drive pattern hair loss. This is the central problem: you can have a potent, well-studied compound that simply doesn't target the right biology. As the evidence stands, BPC-157 for hair loss is a category error.",
+      "assessmentSummary": "BPC-157's mechanism of action has zero overlap with the pathways that drive pattern hair loss.",
+      "citations": [
+        {
+          "authors": "N/A",
+          "year": 2026,
+          "title": "The claim itself is unsupported — no studies link BPC-157 to AGA pathways"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 3,
+      "title": "BPC-157 protects the gut lining and heals ulcers",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (Wistar rats) — multiple ulcer models, 30+ years of data",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "Extensive and consistent preclinical data across multiple models, but the Phase II human trial was never fully published.",
+      "model": "In vivo — Wistar rats. Multiple ulcer models tested: restraint stress (48 hours), subcutaneous cysteamine, intragastric 96% ethanol, colitis, ischemia/reperfusion, colocutaneous fistulas, and ileoileal anastomosis. This is BPC-157's most extensively studied domain — dozens of rat studies spanning 30+ years.",
+      "finding": "BPC-157 consistently showed gastroprotection across all ulcer models. In colitis models, it reduced inflammation and promoted mucosal healing. In fistula models, it accelerated closure. In anastomosis models, it promoted intestinal healing. A Phase II clinical trial for mild-to-moderate ulcerative colitis (PL14736, conducted by Pliva pharmaceutical in Croatia) was described as \"effective with no toxicity\" — but the full data from this trial has never been published in a standalone peer-reviewed paper.",
+      "assessment": "The gut healing data is the strongest in BPC-157's portfolio. Multiple models, consistent results over decades, and biological plausibility (BPC-157 is derived from gastric juice protein). The major limitation is that the Phase II human trial results were never fully published — they're referenced only in passing in other Sikiric review articles. Without seeing the actual data (endpoints, effect sizes, adverse events), you can't evaluate the human evidence. No Phase III trial was ever conducted.",
+      "assessmentSummary": "Best-supported use case — extensive preclinical data, but the only human trial was never fully published.",
+      "citations": [
+        {
+          "authors": "Sikiric et al.",
+          "year": 1993,
+          "title": "Original characterization of BPC-157",
+          "pmid": "8298609"
+        },
+        {
+          "authors": "Sikiric et al.",
+          "year": 1994,
+          "title": "Gastroprotection studies",
+          "pmid": "7904712"
+        },
+        {
+          "authors": "Sikiric et al.",
+          "year": 2012,
+          "title": "Ulcerative colitis review",
+          "pmid": "22300085"
+        },
+        {
+          "authors": "Klicek et al.",
+          "year": 2008,
+          "title": "Fistula healing",
+          "pmid": "18818478"
+        },
+        {
+          "authors": "Duzel et al.",
+          "year": 2017,
+          "title": "Colitis model",
+          "pmid": "29358856"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 4,
+      "title": "BPC-157 accelerates tendon and ligament healing",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (rat tendon/ligament) + In vitro (fibroblasts). Independently replicated.",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "Independent replication of key mechanisms from Taiwan strengthens this beyond typical single-lab preclinical data.",
+      "model": "In vivo — rats (Achilles tendon transection, MCL ligament transection). Also in vitro — rat tendon fibroblasts and tendon explant outgrowth assays. Importantly, two key mechanistic studies (FAK-paxillin pathway, growth hormone receptor upregulation) were independently replicated by Chang Gung University in Taiwan — not from the Zagreb group.",
+      "finding": "BPC-157 improved Achilles tendon healing biomechanically (increased load of failure), functionally (higher Achilles Functional Index), and microscopically (better collagen organization). MCL healing improved over 90 days regardless of administration route (IP, oral, or topical cream). Mechanistically, BPC-157 activates the FAK-paxillin pathway for cell migration and upregulates growth hormone receptor expression in tendon fibroblasts.",
+      "assessment": "This is probably BPC-157's second-strongest evidence area after gut healing. The independent replication from Taiwan is significant — it means the FAK-paxillin mechanism isn't just one lab's finding. The 90-day MCL study showing effectiveness across multiple routes of administration is also compelling. However, there are zero human trials for tendon/ligament healing with BPC-157. A 2025 systematic review (Vasireddi et al., PMID 40756949) found 36 studies on BPC-157 for musculoskeletal healing: 35 were preclinical, 1 was a small retrospective chart review.",
+      "assessmentSummary": "Second-strongest use case — independently replicated mechanism, but zero human trials for this indication.",
+      "citations": [
+        {
+          "authors": "Staresinic et al.",
+          "year": 2003,
+          "title": "Achilles tendon healing",
+          "pmid": "14554208"
+        },
+        {
+          "authors": "Chang et al.",
+          "year": 2011,
+          "title": "FAK-paxillin pathway (independent replication)",
+          "pmid": "21030672"
+        },
+        {
+          "authors": "Chang et al.",
+          "year": 2014,
+          "title": "Growth hormone receptor upregulation (independent replication)",
+          "pmid": "25415472"
+        },
+        {
+          "authors": "Cerovecki et al.",
+          "year": 2010,
+          "title": "MCL ligament healing",
+          "pmid": "20225319"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 5,
+      "title": "BPC-157 promotes blood vessel formation through VEGFR2 activation",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vitro (HUVECs) + In vivo (CAM assay, rat ischemia). Key paper independently conducted in Taiwan.",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "The single most important mechanistic paper — independently replicated, clear and specific mechanism. But angiogenesis does not address hair loss pathways.",
+      "model": "In vitro — human vascular endothelial cells (HUVECs). In vivo — chick chorioallantoic membrane (CAM) assay and rat hind limb ischemia model. This is the key mechanistic paper (Hsieh et al., 2017), independently conducted at Chang Gung University/Taipei Medical University in Taiwan.",
+      "finding": "BPC-157 increased VEGFR2 expression (but not VEGF-A itself) in human endothelial cells, promoted VEGFR2 internalization, and activated the VEGFR2-Akt-eNOS signaling cascade. In the CAM assay, it increased vessel density. In ischemic rat limbs, it accelerated blood flow recovery.",
+      "assessment": "This is the single most important paper for understanding how BPC-157 works. The mechanism is clear and specific: BPC-157 upregulates the VEGF receptor (not the ligand), promoting angiogenesis. The independent replication from Taiwan gives this extra credibility. However, the clinical relevance depends entirely on the application — angiogenesis matters for wound healing and ischemic tissue, but as discussed above, it doesn't address the mechanisms driving hair loss.",
+      "assessmentSummary": "Key mechanistic paper with independent replication — but angiogenesis alone does not address hair loss biology.",
+      "citations": [
+        {
+          "authors": "Hsieh et al.",
+          "year": 2017,
+          "title": "VEGFR2 activation and angiogenesis",
+          "pmid": "27847966"
+        },
+        {
+          "authors": "Hsieh et al.",
+          "year": 2020,
+          "title": "Src-Cav1-eNOS signaling pathway",
+          "pmid": "33051481"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 6,
+      "title": "BPC-157 accelerates muscle healing after injury",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (rats — quadriceps crush injury model)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Consistent animal data but all from the Zagreb group with no human validation.",
+      "model": "In vivo — rats (quadriceps crush injury model, force 0.727 Ns/cm²). Routes tested: intraperitoneal or local cream application, immediately after injury.",
+      "finding": "BPC-157 improved muscle healing across all measured parameters: macroscopic (less hematoma, edema, no leg contracture), microscopic (better tissue organization), functional (improved movement), and biochemical (reduced creatine kinase, LDH, AST, ALT — all markers of muscle damage). A separate study showed it also counteracted corticosteroid-induced impairment of muscle healing.",
+      "assessment": "Consistent animal data showing real muscle repair benefits, but these are all rat studies from the Zagreb group. No human trial has ever tested BPC-157 for muscle healing. The corticosteroid interaction data is interesting clinically, since many patients deal with steroid-impaired healing, but it hasn't been validated in humans.",
+      "assessmentSummary": "Consistent rat data for muscle repair, but single-lab and no human trials.",
+      "citations": [
+        {
+          "authors": "Novinscak et al.",
+          "year": 2008,
+          "title": "Muscle healing after crush injury",
+          "pmid": "18668315"
+        },
+        {
+          "authors": "Sikiric et al.",
+          "year": 2010,
+          "title": "Counteracting corticosteroid-impaired muscle healing",
+          "pmid": "20190676"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 7,
+      "title": "BPC-157 has neuroprotective effects and interacts with the dopamine system",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (rats and mice — multiple neurological injury models)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Intriguing preclinical data across multiple neurological models, but all animal studies with no human validation.",
+      "model": "In vivo — rats and mice. Models include: amphetamine-induced stereotypy, sciatic nerve transection, spinal cord compression injury, and traumatic brain injury (TBI by falling weight). Administration routes varied (IP, intragastric, local).",
+      "finding": "In the dopamine studies, BPC-157 attenuated amphetamine-induced stereotypic behavior and blocked haloperidol-induced supersensitivity. In nerve injury, it promoted faster axonal regeneration with increased density of myelinated fibers and thicker myelin sheaths. After spinal cord injury, a single IP injection produced significantly higher motor scores and less grey matter damage. After TBI, it reduced brain damage and improved early outcomes.",
+      "assessment": "The neuroprotection data is intriguing but all preclinical. The dopamine system interaction is particularly interesting because it suggests BPC-157 could have applications beyond simple tissue repair — potentially in neurodegenerative or psychiatric contexts. But these are animal models, and the distance from \"reduced stereotypy in amphetamine-treated rats\" to any human neurological treatment is enormous.",
+      "assessmentSummary": "Intriguing neuroprotection data across multiple models, but entirely preclinical and far from clinical application.",
+      "citations": [
+        {
+          "authors": "Jelovac et al.",
+          "year": 1998,
+          "title": "Dopamine system interaction",
+          "pmid": "9547930"
+        },
+        {
+          "authors": "Gjurasin et al.",
+          "year": 2010,
+          "title": "Sciatic nerve regeneration",
+          "pmid": "19903499"
+        },
+        {
+          "authors": "Perovic et al.",
+          "year": 2019,
+          "title": "Spinal cord injury",
+          "pmid": "31266512"
+        },
+        {
+          "authors": "Comprehensive review",
+          "year": 2022,
+          "title": "Neural regeneration review",
+          "journal": "Neural Regen Res",
+          "pmid": "34380875"
+        }
+      ],
+      "hairSpecific": false
+    },
+    {
+      "number": 8,
+      "title": "BPC-157 is extremely safe with no known toxic dose",
+      "evidenceLevel": "human-open-label",
+      "evidenceLevelLabel": "Preclinical tox (4 species) + limited human data (~75 subjects, small trials)",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "Preclinical safety is exceptional (no LD50 in any species), but total human exposure is only ~75 subjects across very small studies.",
+      "model": "Preclinical toxicology — mice, rats, rabbits, and dogs, at doses from 6 µg/kg to 20 mg/kg across multiple routes (IM, IP, IV, oral). Also limited human data: a Phase II UC trial (unpublished details), a 2-person IV safety pilot, a 17-patient knee injection retrospective, and a 12-patient interstitial cystitis pilot.",
+      "finding": "No LD50 has ever been established — meaning researchers could not find a lethal dose in any species. No acute toxicity, no organ damage (liver, kidney, brain, etc.), no genetic toxicity, no embryo-fetal toxicity. In the limited human data, no serious adverse events were reported across approximately 75 total subjects.",
+      "assessment": "The preclinical safety profile is genuinely remarkable — it's rare for a compound to have no identifiable toxic dose across four species. However, the total human exposure is extremely small (~75 subjects across all trials, most in very small studies). The IV safety pilot tested only 2 people. The Phase II UC trial never published full safety data. Also critical: all three US-based human studies were conducted by the same author (Lee E.) and published in the same low-impact CAM journal. More independent human safety data is needed before drawing firm conclusions.",
+      "assessmentSummary": "Exceptional preclinical safety (no LD50 in any species), but total human data covers only ~75 subjects.",
+      "citations": [
+        {
+          "authors": "Xu et al.",
+          "year": 2020,
+          "title": "Preclinical toxicology review",
+          "pmid": "32334036"
+        },
+        {
+          "authors": "Lee et al.",
+          "year": 2021,
+          "title": "Knee injection retrospective",
+          "pmid": "34324435"
+        },
+        {
+          "authors": "Lee et al.",
+          "year": 2024,
+          "title": "Interstitial cystitis pilot",
+          "pmid": "39325560"
+        },
+        {
+          "authors": "Lee & Burgess",
+          "year": 2025,
+          "title": "IV safety pilot",
+          "pmid": "40131143"
+        }
+      ],
+      "hairSpecific": false
+    }
+  ],
+  "efficacy": {
+    "hairEfficacyDisclaimer": "NO human trials exist for BPC-157 and hair loss. NO preclinical studies exist for BPC-157 and hair growth in any model. The following data reflects BPC-157's general preclinical efficacy profile (wound healing, angiogenesis, tissue repair), which is sometimes extrapolated to hair by marketers and self-experimenters. This extrapolation has zero scientific basis.",
+    "keyTrials": [
+      {
+        "name": "No hair trials exist",
+        "year": "N/A",
+        "design": "N/A",
+        "participants": "N/A",
+        "duration": "N/A",
+        "primaryEndpoint": "N/A",
+        "result": "Zero published studies have tested BPC-157 on hair follicles, hair cycling, or hair growth in any model — not in vitro, not in animals, not in humans.",
+        "notes": "This is not a case of insufficient evidence. It is a case of NO evidence. No researcher has ever investigated this use case."
+      },
+      {
+        "name": "VEGFR2 angiogenesis study (Hsieh et al.) — extrapolated to hair by marketers",
+        "year": 2017,
+        "design": "In vitro (HUVECs) + in vivo (CAM assay, rat hind limb ischemia)",
+        "participants": "Cell cultures and animal models (no humans)",
+        "duration": "Acute studies",
+        "primaryEndpoint": "VEGFR2 expression, vessel density, blood flow recovery",
+        "result": "BPC-157 upregulated VEGFR2, increased vessel density in CAM assay, accelerated blood flow recovery in ischemic rat limbs. Independently conducted in Taiwan (not the Zagreb group).",
+        "notes": "This is the paper most frequently cited to justify BPC-157 for hair. However, angiogenesis in a rat hind limb does not translate to hair follicle biology. VEGF-mediated blood flow is part of minoxidil's mechanism, but minoxidil also has direct effects on potassium channels in hair follicle cells — BPC-157 does not.",
+        "pmid": "27847966",
+        "hairRelevance": "None — extrapolation only"
+      },
+      {
+        "name": "Wound healing / tissue repair studies (Sikiric lab, 30+ years)",
+        "year": "1993-2025",
+        "design": "Multiple in vivo rat models (skin wounds, tendons, muscle crush injuries, gut ulcers)",
+        "participants": "Rats (primarily Wistar strain), mice, rabbits, dogs",
+        "duration": "Varies by model (acute to 90 days)",
+        "primaryEndpoint": "Tissue repair endpoints (wound closure, biomechanical strength, histology)",
+        "result": "Consistent acceleration of tissue repair across dozens of models. Skin wound healing, tendon repair, muscle healing, and gut mucosal healing all improved with BPC-157 treatment.",
+        "notes": "While impressive for tissue repair, skin wound healing and hair follicle biology are fundamentally different processes. Wound closure involves fibroblast migration and collagen deposition; hair growth involves follicle cycling driven by Wnt/beta-catenin signaling and dermal papilla cell activity. BPC-157 addresses the former, not the latter.",
+        "hairRelevance": "None — wound healing is not hair growth"
+      },
+      {
+        "name": "Self-experimentation community reports (forums, Reddit, biohacker communities)",
+        "year": "2018-2026",
+        "design": "Uncontrolled self-reports, no standardized dosing or measurement",
+        "participants": "Unknown number of self-experimenters",
+        "duration": "Varies widely",
+        "primaryEndpoint": "Subjective assessment (photos, self-reported satisfaction)",
+        "result": "Scattered anecdotal reports of perceived improvement in hair thickness or scalp health. No consistent pattern. No standardized before/after documentation. Impossible to separate from placebo, natural fluctuation, or concurrent treatments (most self-experimenters use BPC-157 alongside finasteride, minoxidil, or microneedling).",
+        "notes": "Anecdotal community reports are not scientific evidence. They are subject to confirmation bias, placebo effect, concurrent treatment confounders, and selective reporting (people who see no result are less likely to post). These reports should not be used to make treatment decisions.",
+        "hairRelevance": "Anecdotal only — not scientific evidence"
+      }
+    ],
+    "timeToEffect": "Unknown for hair (no data exists). For tissue repair in animal models, effects are typically observed within days to weeks depending on the injury model. Self-experimenters who claim hair benefits typically report waiting 2-4 months, but this timeline is indistinguishable from placebo or concurrent treatment effects.",
+    "peakEffect": "Unknown for hair (no data exists). No dose-response curve has been established for any hair-related endpoint because no such study has ever been conducted.",
+    "maintenanceRequired": "Unknown. Since there is no demonstrated hair effect, the question of maintenance is moot. Theoretically, if BPC-157 had any hair benefit via angiogenesis, it would require ongoing use since new blood vessel formation regresses without continued stimulus.",
+    "discontinuationEffect": "Unknown for hair. No study has examined what happens when BPC-157 is stopped in any context related to hair or scalp health.",
+    "comparisonToStandardOfCare": "BPC-157 has zero evidence for hair loss. By contrast, finasteride (Grade A evidence) reduces DHT by ~70% with consistent regrowth in RCTs, and minoxidil (Grade A evidence) has decades of RCT data showing efficacy. Comparing BPC-157 to these treatments for hair loss is not a valid comparison — it would be like comparing an untested compound to an FDA-approved drug."
+  },
+  "sideEffects": {
+    "humanSafetyDisclaimer": "NO adequate human safety trials exist for BPC-157 for any indication. Total human exposure in published literature is approximately 75 subjects across very small studies. The side effect profile below is compiled from: (1) limited human data from small pilot studies, (2) extensive preclinical animal toxicology, (3) anecdotal self-experimentation reports (not scientific evidence), and (4) theoretical risks based on mechanism of action. This is NOT a validated safety profile.",
+    "commonAEs": [
+      {
+        "name": "Injection site reactions (if injected)",
+        "rate": "Unknown — no controlled trial data; commonly reported anecdotally",
+        "notes": "Redness, soreness, and mild swelling at the subcutaneous injection site are the most frequently reported side effects in self-experimentation communities. These are typical of any subcutaneous peptide injection and not unique to BPC-157."
+      },
+      {
+        "name": "Nausea / GI discomfort",
+        "rate": "Unknown — reported anecdotally, especially at higher doses",
+        "notes": "Mild nausea and stomach upset are commonly reported in self-experimentation communities, particularly during the first few days of use. This is ironic given BPC-157's gastroprotective properties in animal models, but no controlled human data exists to quantify the rate."
+      },
+      {
+        "name": "Dizziness / lightheadedness",
+        "rate": "Unknown — reported anecdotally",
+        "notes": "Commonly reported in self-experimentation forums, typically mild and transient. May be related to BPC-157's nitric oxide modulation and potential vasodilatory effects. No formal incidence data exists."
+      },
+      {
+        "name": "Headache",
+        "rate": "Unknown — reported anecdotally",
+        "notes": "Mild headaches reported by some users, especially when initiating use. Could be related to angiogenic or vasodilatory activity. No controlled data to establish causality."
+      },
+      {
+        "name": "Fatigue / lethargy",
+        "rate": "Unknown — reported anecdotally",
+        "notes": "Some users report transient fatigue. No scientific basis to determine whether this is a true pharmacological effect or coincidental."
+      }
+    ],
+    "seriousAEs": [
+      {
+        "name": "Theoretical tumor promotion via angiogenesis",
+        "rate": "Unknown — theoretical risk, not documented in preclinical or limited human data",
+        "notes": "BPC-157 upregulates VEGFR2 and promotes new blood vessel formation. Angiogenesis is a hallmark of tumor growth and metastatic progression. Any compound that promotes neovascularization could theoretically facilitate tumor expansion. No tumor-promoting effects have been documented in BPC-157 studies to date, but these studies were not designed to detect long-term oncologic outcomes, and the total human exposure is far too small to assess cancer risk."
+      },
+      {
+        "name": "Immunogenicity (peptide-specific risk)",
+        "rate": "Unknown — identified as a concern by the FDA but not studied",
+        "notes": "The FDA's Category 2 classification specifically cited immunogenicity as a safety concern for BPC-157 in compounding. As a synthetic peptide, BPC-157 could trigger immune responses including antibody formation. No immunogenicity studies have been published in humans."
+      },
+      {
+        "name": "Product contamination and purity (supply chain risk)",
+        "rate": "Unknown but potentially significant",
+        "notes": "Since BPC-157 has no regulatory approval, products sold online are unregulated. USADA and the FDA have warned that peptide products from unregulated sources may contain impurities, incorrect doses, or contaminating substances. There is no USP monograph or pharmacopeial standard for BPC-157. Users purchasing from research chemical suppliers or overseas vendors have no assurance of purity or identity."
+      },
+      {
+        "name": "Unknown long-term effects",
+        "rate": "Completely unknown",
+        "notes": "The longest published human exposure is the Phase II UC trial (duration not publicly disclosed) and a few-week IV pilot in 2 subjects. No long-term safety data exists in humans. The effects of chronic BPC-157 use over months or years — as many self-experimenters practice — are entirely unknown."
+      }
+    ],
+    "discontinuationRate": "Unknown. No controlled trial has measured discontinuation due to adverse events. In the approximately 75 human subjects across all published studies, no serious adverse events leading to discontinuation were reported, but these were very small, short-duration studies.",
+    "contraindications": [
+      {
+        "condition": "Active malignancy or high cancer risk",
+        "severity": "Theoretical but serious",
+        "notes": "BPC-157's pro-angiogenic mechanism (VEGFR2 upregulation) could theoretically promote tumor vascularization and growth. Patients with active cancer, a history of cancer, or significant cancer risk factors should avoid BPC-157. No clinical data exists to quantify this risk, but the biological plausibility is strong."
+      },
+      {
+        "condition": "Pregnancy and lactation",
+        "severity": "Absolute contraindication (no data)",
+        "notes": "No human reproductive safety data exists. While preclinical studies in animals showed no embryo-fetal toxicity (Xu et al., 2020), this does not guarantee safety in humans. BPC-157's angiogenic and growth-factor-modulating properties make it a theoretical concern during fetal development."
+      },
+      {
+        "condition": "Bleeding disorders or anticoagulant therapy",
+        "severity": "Theoretical",
+        "notes": "BPC-157 modulates nitric oxide synthesis and promotes angiogenesis, both of which can affect hemostasis. Patients with bleeding disorders or on anticoagulant therapy may require careful evaluation. No clinical data exists on this interaction."
+      },
+      {
+        "condition": "WADA-tested athletes",
+        "severity": "Absolute — banned substance",
+        "notes": "BPC-157 has been on the WADA Prohibited List since 2022 under category S0 (Unapproved Substances). Athletes under WADA jurisdiction face sanctions if detected. No Therapeutic Use Exemption (TUE) can be granted because BPC-157 is not an approved therapeutic agent."
+      }
+    ],
+    "drugInteractions": [
+      {
+        "drug": "Nitric oxide pathway medications (nitrates, PDE5 inhibitors like sildenafil/tadalafil)",
+        "severity": "Theoretical",
+        "notes": "BPC-157's bidirectional modulation of the nitric oxide system creates theoretical interaction potential. Concurrent use with nitrates or PDE5 inhibitors could theoretically potentiate hypotensive effects. No adverse interactions documented in published literature, but no formal drug interaction studies exist."
+      },
+      {
+        "drug": "Anti-angiogenic therapies (bevacizumab, sunitinib, etc.)",
+        "severity": "Theoretical — mechanistic antagonism",
+        "notes": "BPC-157 promotes angiogenesis via VEGFR2 upregulation. Anti-angiogenic cancer therapies work by blocking VEGF signaling. Concurrent use would be mechanistically contradictory and could undermine cancer treatment efficacy. This is a strong theoretical contraindication."
+      },
+      {
+        "drug": "Dopaminergic medications",
+        "severity": "Theoretical",
+        "notes": "BPC-157 interacts with the dopamine system in preclinical models (attenuates amphetamine effects, blocks haloperidol supersensitivity). Theoretical interaction with dopamine agonists, antagonists, or L-DOPA. No human data exists."
+      },
+      {
+        "drug": "Cardiovascular medications (antihypertensives, vasodilators)",
+        "severity": "Theoretical",
+        "notes": "BPC-157's NO modulation and angiogenic activity could theoretically interact with blood pressure medications. No documented interactions, but no formal studies have been conducted."
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "Absolutely contraindicated due to complete absence of human reproductive safety data. Preclinical animal studies (mice, rats, rabbits) showed no embryo-fetal toxicity, but this is insufficient to establish human safety. BPC-157's angiogenic and growth-factor-modulating properties present theoretical risks to fetal development.",
+      "women": "No sex-specific safety data exists. All published human studies included small mixed-sex cohorts or did not report sex-stratified safety data. Women of childbearing potential should use contraception if using BPC-157, though the compound is not approved for any use.",
+      "children": "Absolutely contraindicated. No pediatric safety or efficacy data exists for any indication. The effects of exogenous angiogenic peptides on developing tissues are unknown and potentially concerning."
+    },
+    "fdaRegulatoryWarnings": {
+      "category2Status": "In 2023, the FDA classified BPC-157 as a Category 2 bulk drug substance, meaning it presents potentially significant safety risks when used in compounding. The FDA cited concerns including immunogenicity, peptide characterization challenges, and insufficient evidence of safety for human use.",
+      "warningLetters": "The FDA has issued warning letters to companies marketing BPC-157 products (e.g., injectable BPC-157 sold as research chemicals that are clearly marketed for human use). These products are considered unapproved new drugs.",
+      "compoundingRestriction": "As of 2025, legitimate US compounding pharmacies have largely stopped compounding BPC-157 due to FDA regulatory pressure. Most BPC-157 available to consumers comes from unregulated overseas suppliers or gray-market 'research chemical' vendors with no quality assurance.",
+      "usadaBan": "BPC-157 has been on the WADA Prohibited List since January 1, 2022, under S0 (Unapproved Substances). USADA enforces this prohibition for US athletes. There is no legal basis for a TUE because no regulatory authority has approved BPC-157 for any medical use."
+    },
+    "blackBoxWarning": ""
+  },
+  "missingEvidence": [
+    "Any study — in any model — testing BPC-157 on hair follicles, hair cycling, or hair growth.",
+    "Any connection to DHT, Wnt/β-catenin, or follicle miniaturization pathways.",
+    "A fully published, peer-reviewed Phase II or Phase III human clinical trial for any indication. The UC trial data remains proprietary.",
+    "Significant independent replication. Most claims rest on one lab's work (Zagreb). The Taiwan group has replicated the VEGFR2 and FAK-paxillin mechanisms, but most other findings lack independent confirmation.",
+    "A published human trial with more than 20 subjects for any indication (excluding the Phase I safety study in healthy volunteers)."
+  ],
+  "bottomLine": {
+    "summary": "BPC-157 is a legitimately interesting peptide for tissue repair — particularly gut healing and tendon/ligament recovery. The preclinical evidence base, while heavily concentrated in one lab, is extensive and consistent. The VEGFR2 mechanism has been independently confirmed. The safety profile in animal studies is exceptional.\n\nBut for hair loss? BPC-157 has nothing. Zero studies, zero mechanism overlap with androgenetic alopecia, zero reason to apply it to your scalp. If someone is selling you BPC-157 for hair regrowth, they are either uninformed about what drives pattern hair loss, or they're counting on you being uninformed.",
+    "keyTakeaway": "The strongest honest claim you can make about BPC-157: It's the most-studied peptide for gut and musculoskeletal tissue repair, with a remarkable preclinical safety profile and promising (but unpublished) Phase II human data for ulcerative colitis. It is not a hair loss treatment. Use it for what it's actually good at — and pair your hair loss regimen with compounds that address the right pathways.",
+    "verdict": "Not a hair loss treatment"
+  },
+  "articleUrl": "/evidence/bpc-157",
+  "pubmedSearchUrl": "https://pubmed.ncbi.nlm.nih.gov/?term=BPC-157+hair",
+  "lastUpdated": "2026-03-19",
+  "version": "1.1",
+  "author": "Anagen Research Team"
+}

@@ -1,0 +1,435 @@
+{
+  "id": "liothyronine",
+  "name": "Liothyronine (T3)",
+  "fullName": "Liothyronine (Triiodothyronine / T3, Synthetic Thyroid Hormone)",
+  "aliases": ["T3", "Triiodothyronine", "Cytomel", "Topical T3", "Thyroid hormone"],
+
+  "category": "off-label",
+  "categoryLabel": "Off-Label",
+  "approvalStatus": "off-label",
+  "approvalNote": "FDA-approved as oral liothyronine (Cytomel) for hypothyroidism. Topical use for hair loss is entirely off-label and investigational. Included in some compounded scalp formulations at very low concentrations (e.g., 2 mcg/mL).",
+
+  "mechanismOfAction": "Thyroid hormone that activates nuclear thyroid hormone receptors (primarily TRbeta1) in hair follicles. Prolongs anagen via TGF-beta2 downregulation, stimulates hair matrix keratinocyte proliferation, reduces apoptosis, boosts follicular mitochondrial energy metabolism, upregulates FGF-7/KGF and IGF-1, and activates Wnt/beta-catenin and Hedgehog signaling pathways. Hair follicles express deiodinases (D2/D3) enabling local T4-to-T3 conversion.",
+  "primaryTargets": ["TGF-beta2 downregulation (catagen inhibition)", "TRbeta1 receptor activation", "Wnt/beta-catenin signaling", "Sonic Hedgehog signaling", "Mitochondrial biogenesis/ATP production", "FGF-7/KGF and IGF-1 upregulation", "Hair matrix keratinocyte proliferation"],
+  "routeOfAdministration": ["topical"],
+  "typicalDose": "Topical: 1-10 nM in ex vivo studies; ~2 mcg/mL in compounded pharmacy formulations. No established clinical dose for hair loss.",
+
+  "evidenceGrade": "D",
+  "evidenceGradeRationale": "Strong mechanistic rationale with compelling ex vivo and animal data, but the only human clinical trial (in alopecia areata, not AGA) was negative. No human trial of topical T3 for androgenetic alopecia has been published. Evidence currently lives in preclinical space.",
+  "highestEvidenceLevel": "human-rct",
+  "totalClaimsEvaluated": 8,
+  "humanTrialCount": 1,
+  "evidenceLevelCounts": {
+    "in-silico": 0,
+    "in-vitro": 0,
+    "in-vivo-animal": 2,
+    "ex-vivo": 4,
+    "human-open-label": 0,
+    "human-rct": 1
+  },
+
+  "oneLinerSummary": "Compelling mechanistic biology and strong ex vivo data, but no positive human clinical trial for hair loss",
+  "strengthOfEvidenceForHair": 2,
+  "keyLimitation": "The only human trial was negative (in alopecia areata); no human trial exists for AGA",
+  "bestFor": "Theoretical adjunct in compounded formulations; awaiting clinical validation",
+
+  "claims": [
+    {
+      "number": 1,
+      "title": "Hair follicles are direct, independent targets of thyroid hormones with a complete local HPT axis",
+      "evidenceLevel": "ex-vivo",
+      "evidenceLevelLabel": "Ex vivo (human scalp hair follicle analysis)",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "Well-established biology from multiple research groups, but receptor expression does not prove therapeutic efficacy.",
+      "model": "Human scalp hair follicles from female facelift patients (ages 40-69) analyzed via immunohistochemistry, RT-PCR, and functional assays for thyroid hormone signaling components.",
+      "finding": "Hair follicles express thyroid hormone receptors (TRalpha1, TRbeta1), deiodinase enzymes (D2, D3), TRH and TRH receptors, and TSH receptors. The follicle possesses the complete hypothalamic-pituitary-thyroid axis machinery in miniature, operating as an independent thyroid hormone-responsive mini-organ.",
+      "assessment": "This is well-established biology replicated by multiple groups. It provides the strongest possible rationale for exploring thyroid hormones in hair biology. But establishing that a receptor system exists is different from proving that activating it topically regrows hair in AGA patients. Many receptor systems are present in follicles; their presence alone does not make them viable therapeutic targets.",
+      "assessmentSummary": "Establishes strong mechanistic rationale but does not prove therapeutic efficacy.",
+      "citations": [
+        {
+          "authors": "van Beek N, Bodo E, Kromminga A, Gaspar E, Meyer K, Uncomber MA, Paus R",
+          "year": 2008,
+          "title": "Thyroid hormones directly alter human hair follicle functions: anagen prolongation and stimulation of both hair matrix keratinocyte proliferation and hair pigmentation",
+          "journal": "J Clin Endocrinol Metab",
+          "pmid": "18728176",
+          "doi": "10.1210/jc.2008-0283",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18728176/"
+        },
+        {
+          "authors": "Gaspar E, Hardenbicker C, Bodo E, Wenzel B, Ramot Y, Funk W, Kromminga A, Paus R",
+          "year": 2010,
+          "title": "Thyrotropin releasing hormone (TRH): a new player in human hair-growth control",
+          "journal": "FASEB J",
+          "pmid": "19825978",
+          "doi": "10.1096/fj.08-126417",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19825978/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 2,
+      "title": "T3 and T4 prolong anagen, stimulate proliferation, and reduce apoptosis in human hair follicles",
+      "evidenceLevel": "ex-vivo",
+      "evidenceLevelLabel": "Ex vivo (human hair follicle organ culture)",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "Foundational study with intact follicle architecture, but limited by lack of systemic context and non-AGA donor tissue.",
+      "model": "Human anagen VI scalp hair follicles from euthyroid females (mean age 56) undergoing facelift surgery, organ-cultured for 6 days with T3 (1-100 nM) or T4 (1-100 nM).",
+      "finding": "T4 significantly prolonged anagen duration, correlated with TGF-beta2 downregulation. T4 upregulated hair matrix keratinocyte proliferation. Both T3 and T4 downregulated apoptosis. Both stimulated intrafollicular melanin synthesis and modulated thyroid-responsive keratins (CK6 upregulated, CK14 downregulated).",
+      "assessment": "This van Beek et al. 2008 paper is the foundational study for the entire field. The TGF-beta2 downregulation mechanism is particularly compelling because TGF-beta2 is a validated catagen inducer. However, these isolated follicles lacked blood supply, DHT exposure, and immune context. The donors were older women, not AGA patients with miniaturizing follicles. Whether T3/T4 can overcome DHT-driven miniaturization is an entirely different and untested question.",
+      "assessmentSummary": "Strong proof-of-concept for anagen prolongation in healthy follicles; unproven in AGA-specific context.",
+      "citations": [
+        {
+          "authors": "van Beek N, Bodo E, Kromminga A, Gaspar E, Meyer K, Uncomber MA, Paus R",
+          "year": 2008,
+          "title": "Thyroid hormones directly alter human hair follicle functions: anagen prolongation and stimulation of both hair matrix keratinocyte proliferation and hair pigmentation",
+          "journal": "J Clin Endocrinol Metab",
+          "pmid": "18728176",
+          "doi": "10.1210/jc.2008-0283",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18728176/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 3,
+      "title": "Topical T3 dramatically increases hair count and length in mice and rats",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (rodent studies)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Whole-organism data with striking effect sizes, but mouse/rat hair biology differs substantially from human AGA.",
+      "model": "SKH-1 hairless mice treated topically with T3 in liposomes (150 ng or 3.8 mcg daily) for 7 days; CD rats treated with T3 (0.5 or 12.8 mcg daily) for 2 weeks.",
+      "finding": "Mice receiving 3.8 mcg T3: 42% more hairs/mm, hair length 1,180% longer, 49% greater epidermal thymidine incorporation, 80% more BrdU+ cells. Rats receiving 12.8 mcg T3: 85% more hairs/mm, 48% greater dermal thickness, 130% greater thymidine incorporation. Higher doses caused systemic thyroid changes (suppressed serum T4).",
+      "assessment": "The effect sizes are dramatic, but the animal model limitations are significant. Mice have synchronized hair cycles unlike humans. Hairless mice have fundamentally different follicular biology. The most impressive results occurred at doses that also caused systemic thyroid hormone changes, raising the question of whether hair effects were truly local. Results justify further investigation but cannot be directly translated to human AGA.",
+      "assessmentSummary": "Dramatic animal results but limited translatability; higher effective doses caused systemic thyroid changes.",
+      "citations": [
+        {
+          "authors": "Safer JD, Fraser LM, Ray S, Holick MF",
+          "year": 2001,
+          "title": "Topical triiodothyronine stimulates epidermal proliferation, dermal thickening, and hair growth in mice and rats",
+          "journal": "Thyroid",
+          "pmid": "11525263",
+          "doi": "10.1089/10507250152484547",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11525263/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 4,
+      "title": "Topically applied T3 prolongs anagen in intact human scalp skin ex vivo",
+      "evidenceLevel": "ex-vivo",
+      "evidenceLevelLabel": "Ex vivo (full-thickness human scalp skin organ culture with topical application)",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "Most clinically relevant preclinical model (topical application on intact human scalp skin), but small sample size and short duration.",
+      "model": "Full-thickness human scalp skin from 5 healthy donors (ages 48-56), organ-cultured for 6 days with topical T3 (1 nM, 10 nM) and T4 (1 mcM, 10 mcM) in two vehicles. Vehicle A: 30% ethanol/50% propylene glycol; Vehicle B: 60% ethanol/20% propylene glycol.",
+      "finding": "Topical T3 at 1 nM in Vehicle A significantly increased percentage of anagen follicles (p<0.05). T3 upregulated FGF-7/KGF (p<0.05 to p<0.001) and IGF-1. Both T3 and T4 increased K15+ bulge stem cell marker expression (p<0.05 to p<0.01) and CD31+ endothelial cells. Combining T3+T4 unexpectedly inhibited anagen. Authors recommended 1 nM T3 in Vehicle A for clinical testing.",
+      "assessment": "This is the most clinically relevant preclinical data to date -- topical application on intact human scalp skin closely models actual patient use. The FGF-7 upregulation, stem cell marker activation, and pro-angiogenic effects add compelling mechanistic depth. However, sample size was small (5 donors), culture lasted only 6 days, and the unexpected T3+T4 combination inhibition raises dose-response complexity concerns. The authors recommend intermittent pulse dosing for future clinical work.",
+      "assessmentSummary": "Best preclinical model so far -- topical on intact scalp skin -- but awaiting human clinical confirmation.",
+      "citations": [
+        {
+          "authors": "Paus R et al.",
+          "year": 2025,
+          "title": "Pilot evidence that topically applied triiodothyronine can stimulate hair growth in human scalp skin",
+          "journal": "Clin Exp Dermatol",
+          "pmid": "40275449",
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40275449/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 5,
+      "title": "TRH (thyrotropin-releasing hormone) promotes hair growth and antagonizes catagen in human follicles",
+      "evidenceLevel": "ex-vivo",
+      "evidenceLevelLabel": "Ex vivo (human hair follicle organ culture)",
+      "evidenceWeight": "Moderate-High",
+      "weightRationale": "Identifies a parallel therapeutic target in the thyroid pathway; same ex vivo limitations as other organ culture studies.",
+      "model": "Microdissected human scalp hair follicles organ-cultured with TRH.",
+      "finding": "TRH promoted hair shaft elongation, prolonged anagen, and antagonized catagen induction by TGF-beta2. TRH increased proliferation and inhibited apoptosis of hair matrix keratinocytes. Effects mediated in part by reducing ATM/Atr-dependent p53 phosphorylation. Hair follicles express TRH receptors and produce TRH endogenously.",
+      "assessment": "This study identifies TRH as a second potential hair growth-promoting target within the thyroid axis. As a tripeptide, TRH could theoretically be easier to formulate topically than T3. However, the same organ culture limitations apply, and no human trial of topical TRH for any form of hair loss has been conducted. This is a promising research lead, not a treatment.",
+      "assessmentSummary": "Identifies an additional therapeutic target in the thyroid pathway; remains preclinical only.",
+      "citations": [
+        {
+          "authors": "Gaspar E, Hardenbicker C, Bodo E, Wenzel B, Ramot Y, Funk W, Kromminga A, Paus R",
+          "year": 2010,
+          "title": "Thyrotropin releasing hormone (TRH): a new player in human hair-growth control",
+          "journal": "FASEB J",
+          "pmid": "19825978",
+          "doi": "10.1096/fj.08-126417",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19825978/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 6,
+      "title": "Thyroid axis hormones boost mitochondrial function and ATP production in hair follicles",
+      "evidenceLevel": "ex-vivo",
+      "evidenceLevelLabel": "Ex vivo (human hair follicle organ culture)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Adds important metabolic dimension to the mechanism; remains ex vivo without in vivo confirmation.",
+      "model": "Organ-cultured human scalp hair follicles treated with TRH (30 nM), TSH (10 mU/mL), T4 (100 nM), and T3 (100 pM).",
+      "finding": "All four HPT-axis hormones increased expression of mitochondrial respiratory chain components (MTCO1, TFAM, porin), stimulated complex I/IV activity, and promoted mitochondrial biogenesis. T3 and TSH increased follicular heat production. T3, T4, and TRH stimulated ATP production in hair follicle keratinocytes. T3 and T4 reduced ROS formation; all hormones upregulated ROS scavengers (catalase, SOD2).",
+      "assessment": "Adds an important metabolic dimension -- hair follicles are among the most energy-demanding tissues, and mitochondrial dysfunction is increasingly linked to hair loss. The ROS reduction is a favorable safety signal. However, this remains an ex vivo finding. Whether topically applied T3 reaches follicular mitochondria in sufficient concentrations in vivo is unknown.",
+      "assessmentSummary": "Compelling metabolic mechanism (energy boost + ROS reduction) but unconfirmed in vivo.",
+      "citations": [
+        {
+          "authors": "Vidali S, Knuever J, Engber J, Biro T, Kloepper JE, Paus R",
+          "year": 2014,
+          "title": "Hypothalamic-pituitary-thyroid axis hormones stimulate mitochondrial function and biogenesis in human hair follicles",
+          "journal": "J Invest Dermatol",
+          "pmid": "23949722",
+          "doi": "10.1038/jid.2013.286",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23949722/"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 7,
+      "title": "A TRbeta-selective agonist promotes hair regrowth in mice via Wnt and Hedgehog pathways",
+      "evidenceLevel": "in-vivo-animal",
+      "evidenceLevelLabel": "In vivo (mouse depilation model)",
+      "evidenceWeight": "Moderate",
+      "weightRationale": "Identifies specific signaling pathways and a selective receptor target, but mouse depilation model does not recapitulate AGA.",
+      "model": "45 female C3H/HeJ mice with depilation-synchronized telogen follicles, treated topically with TDM10842 (a TRbeta1-selective agonist) at 0.05% in propylene glycol/ethanol vehicle. Two applications of 60 mcL each.",
+      "finding": "TDM10842 accelerated telogen-to-anagen transition: visible skin graying by day 4, hair shaft emergence by day 8. Ki-67 significantly increased (p<0.0001). 857 differentially expressed genes identified. Mechanism: upregulation of Wnt/beta-catenin (Wnt5a/5b, Ctnnb1, Lef1, Ccnd1) and Hedgehog signaling (Shh, Gli1/2). Pclaf identified as critical hub gene (r=0.88 with Wnt, r=0.81 with Hedgehog). Cyclin D1 was the key downstream effector.",
+      "assessment": "Mechanistically rich and identifies a potentially safer therapeutic approach (TRbeta-selective instead of pan-thyroid hormone). The Wnt and Hedgehog pathways are validated for follicle cycling. However, this is a depilation model -- it accelerates a natural transition, not reversal of miniaturization. The compound (TDM10842) is not T3 and has not been tested in humans. The 2024 Drug Discovery Today review identifies TRbeta as a 'promising target' for AGA but acknowledges the field remains preclinical.",
+      "assessmentSummary": "Identifies TRbeta-selective activation as a promising approach; remains an animal model with no human data.",
+      "citations": [
+        {
+          "authors": "Zhi J, Li F, Jiang X, Bai R",
+          "year": 2022,
+          "title": "Thyroid hormone receptor agonist promotes hair growth in mice",
+          "journal": "Clin Cosmet Investig Dermatol",
+          "pmid": "",
+          "doi": "10.2147/CCID.S354219",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10681092/"
+        },
+        {
+          "authors": "Zhi J, Li F, Jiang X, Bai R",
+          "year": 2024,
+          "title": "Thyroid receptor beta: a promising target for developing novel anti-androgenetic alopecia drugs",
+          "journal": "Drug Discov Today",
+          "pmid": "",
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1359644624001387"
+        }
+      ],
+      "hairSpecific": true
+    },
+    {
+      "number": 8,
+      "title": "A clinical trial of topical T3 in alopecia areata was safe but showed no benefit over placebo",
+      "evidenceLevel": "human-rct",
+      "evidenceLevelLabel": "Human RCT (double-blind, randomized pilot trial)",
+      "evidenceWeight": "High",
+      "weightRationale": "Highest evidence level but provides negative evidence. Study was in alopecia areata (not AGA), was underpowered (n=10), and used a non-optimized formulation.",
+      "model": "Double-blind, randomized pilot clinical trial. 10 patients with patchy alopecia areata. Topical triiodothyronine ointment applied to one of two bilaterally symmetrical patches, placebo to the other, twice daily for 12 weeks. Hair regrowth assessed every 4 weeks. Thyroid function monitored.",
+      "finding": "After 12 weeks, no statistically significant difference between topical triiodothyronine and placebo. The formulation was safe -- no adverse events, no clinically significant thyroid function changes.",
+      "assessment": "This is the only human RCT of topical T3 for any form of alopecia, and it was negative. Important caveats: (1) Alopecia areata is autoimmune, not AGA -- entirely different pathophysiology, so failure in AA does not definitively predict failure in AGA. (2) N=10 is severely underpowered. (3) The formulation was not based on the later ex vivo optimization research. (4) The authors noted newer analogues might be more effective. Despite these caveats, a negative human trial is a negative human trial, and it tempers the enthusiasm generated by preclinical data.",
+      "assessmentSummary": "The only human RCT was negative, though in a different disease with suboptimal formulation. Safety was confirmed.",
+      "citations": [
+        {
+          "authors": "Nasiri S, Haghpanah V, Taheri E, Jalali SF, Larijani B, Sirmardani S",
+          "year": 2012,
+          "title": "Hair regrowth with topical triiodothyronine ointment in patients with alopecia areata: a double-blind, randomized pilot clinical trial of efficacy",
+          "journal": "J Dermatolog Treat",
+          "pmid": "21521379",
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21521379/"
+        }
+      ],
+      "hairSpecific": true
+    }
+  ],
+
+  "efficacy": {
+    "keyTrials": [
+      {
+        "name": "Nasiri et al. 2012 -- Topical T3 in Alopecia Areata (RCT)",
+        "design": "Double-blind, randomized, placebo-controlled pilot trial; n=10 patients with patchy alopecia areata; topical triiodothyronine ointment vs placebo applied twice daily for 12 weeks",
+        "result": "Negative. No statistically significant difference in hair regrowth between topical T3 and placebo at 12 weeks. Formulation was safe with no adverse events and no thyroid function changes.",
+        "limitation": "Tested in alopecia areata (autoimmune), NOT androgenetic alopecia. Severely underpowered (n=10). Non-optimized formulation predating later ex vivo dose optimization research. Failure in AA does not definitively predict failure in AGA.",
+        "citation": "Nasiri S et al. J Dermatolog Treat. 2012; PMID 21521379"
+      },
+      {
+        "name": "TDM-105795 Phase 2a -- TRbeta1 Agonist in AGA (Technoderma, 2024)",
+        "design": "Phase 2a proof-of-concept trial; 71 males with AGA across 13 US sites; daily topical TDM-105795 (0.0025% low-strength or 0.02% high-strength) vs placebo for 4 months",
+        "result": "Positive signal. High-strength (0.02%) showed mean increase of +24.3 non-vellus hairs in 1 cm2 target area; low-strength showed +20.3 hairs; placebo showed +14.0 hairs. Favorable safety profile with extremely low to no systemic exposure.",
+        "limitation": "This is NOT liothyronine/T3 -- it is a TRbeta1-selective agonist (a different compound that targets the same receptor pathway). Results demonstrate proof-of-concept for the thyroid receptor pathway in AGA but cannot be directly attributed to T3. Full data not yet peer-reviewed. Modest effect sizes with notable placebo response.",
+        "citation": "Technoderma Medicines press release, Feb 2024. PR Newswire."
+      },
+      {
+        "name": "Safer et al. 2001 -- Topical T3 in Mice and Rats (Animal)",
+        "design": "SKH-1 hairless mice (topical T3 liposomes, 150 ng or 3.8 mcg/day, 7 days) and CD rats (T3 0.5 or 12.8 mcg/day, 2 weeks)",
+        "result": "Dramatic positive results in animals. Mice at 3.8 mcg: +42% hair count, +1,180% hair length, +80% BrdU+ proliferating cells. Rats at 12.8 mcg: +85% hair count, +48% dermal thickness.",
+        "limitation": "Animal models with fundamentally different hair biology from humans. Synchronized mouse hair cycles do not model AGA. Most impressive results occurred at doses causing systemic thyroid changes (suppressed serum T4), questioning whether effects were truly local.",
+        "citation": "Safer JD et al. Thyroid. 2001; PMID 11525263"
+      },
+      {
+        "name": "Paus et al. 2025 -- Topical T3 on Intact Human Scalp Skin (Ex Vivo)",
+        "design": "Full-thickness human scalp skin from 5 healthy donors (ages 48-56), organ-cultured 6 days with topical T3 (1 nM, 10 nM) in ethanol/propylene glycol vehicles",
+        "result": "Topical T3 at 1 nM significantly increased anagen follicle percentage (p<0.05), upregulated FGF-7/KGF (p<0.05 to p<0.001) and IGF-1, increased K15+ bulge stem cell markers, and increased CD31+ endothelial cells. Combining T3+T4 unexpectedly inhibited anagen.",
+        "limitation": "Ex vivo model, not a clinical trial. Only 5 donors, 6-day culture. Non-AGA tissue. Does not prove in vivo human efficacy. The T3+T4 combination inhibition raises dose-response complexity concerns.",
+        "citation": "Paus R et al. Clin Exp Dermatol. 2025; PMID 40275449"
+      }
+    ],
+    "timeToEffect": "Unknown for hair loss in humans. The only human RCT (12 weeks in alopecia areata) showed no effect. Ex vivo studies show measurable anagen prolongation and proliferation changes within 6 days. Animal studies show visible hair growth within 7-14 days. TDM-105795 (a TRbeta1-selective agonist, not T3) showed hair count increases at 4 months in its Phase 2a trial. If topical T3 works in AGA, onset would likely be measured in months, consistent with the hair cycle timeline.",
+    "peakEffect": "Completely unknown. No positive human clinical data exists for topical T3 in any form of alopecia. The TDM-105795 Phase 2a trial (different compound, same pathway) assessed only a single 4-month timepoint. Whether thyroid receptor-mediated hair effects plateau, continue to improve, or diminish with chronic use is entirely unstudied.",
+    "maintenanceRequired": true,
+    "discontinuationEffect": "Unknown for topical T3 specifically. Mechanistically, T3 prolongs anagen and stimulates proliferation -- these are active, ongoing processes that would be expected to cease upon discontinuation, similar to minoxidil. Systemic hypothyroidism causes diffuse telogen effluvium that reverses with thyroid hormone restoration, suggesting thyroid-mediated hair effects are maintenance-dependent. Hair regrown via any anagen-prolonging mechanism would likely be lost upon stopping treatment.",
+    "comparisonToStandard": "No head-to-head comparison exists between topical T3 and any approved hair loss treatment. The TDM-105795 Phase 2a trial (TRbeta1-selective agonist, not T3) showed +24.3 hairs/cm2 at 4 months vs +14.0 for placebo -- for context, 5% topical minoxidil typically produces +10-15 hairs/cm2 over placebo at 4-6 months, though cross-trial comparisons are unreliable. Topical T3 itself has zero positive human efficacy data to compare.",
+    "evidenceLimitations": "Hair-specific clinical efficacy data for topical liothyronine is essentially nonexistent. The only human RCT was negative in alopecia areata (a different disease). No human trial of topical T3 for AGA has been published. The TDM-105795 Phase 2a data provides proof-of-concept for the thyroid receptor pathway but uses a different, receptor-selective compound. All positive T3 data comes from ex vivo organ cultures and animal models that do not recapitulate human AGA. The gap between compelling preclinical biology and clinical evidence remains unbridged."
+  },
+
+  "sideEffects": {
+    "commonAEs": [
+      {
+        "name": "No adverse events reported (topical, 12-week RCT)",
+        "rate": "0% in Nasiri et al. 2012 (n=10)",
+        "notes": "The only human trial of topical T3 for hair loss (in alopecia areata) reported zero adverse events and no clinically significant thyroid function changes over 12 weeks. However, n=10 is far too small to establish a comprehensive safety profile."
+      },
+      {
+        "name": "Scalp irritation (topical, theoretical)",
+        "rate": "Unknown -- not systematically studied",
+        "notes": "Compounded topical formulations containing T3 typically use ethanol/propylene glycol vehicles, which themselves can cause contact irritation. No controlled study has isolated T3-specific local adverse effects from vehicle effects."
+      },
+      {
+        "name": "Tachycardia / palpitations (systemic use)",
+        "rate": "Common with oral liothyronine, especially at supratherapeutic doses",
+        "notes": "Well-characterized systemic side effect of oral T3. Risk with topical scalp application appears very low based on limited data: low-dose topical T3 (150 ng/day in mice) showed no systemic absorption, though higher doses (3.8 mcg/day) suppressed serum T4. Compounded scalp formulations use very low concentrations (~2 mcg/mL), but percutaneous absorption in humans is not well-quantified."
+      },
+      {
+        "name": "Weight loss / increased metabolism (systemic use)",
+        "rate": "Common with oral liothyronine at supratherapeutic doses",
+        "notes": "Dose-dependent effect of systemic thyroid hormone excess. FDA black box warning states thyroid hormones should not be used for weight loss. Unlikely at topical scalp doses used in compounded formulations, but no formal PK study exists."
+      },
+      {
+        "name": "Anxiety / nervousness / tremor (systemic use)",
+        "rate": "Common with oral liothyronine at supratherapeutic doses",
+        "notes": "Classic symptoms of iatrogenic thyrotoxicosis. A 2025 meta-analysis (52 studies, n=630,254) found regulated L-T3 use was NOT associated with increased anxiety/mood disorders. Risk from topical scalp application at compounding doses is likely very low but unstudied."
+      },
+      {
+        "name": "Insomnia (systemic use)",
+        "rate": "Common with oral liothyronine at supratherapeutic doses",
+        "notes": "Consistent with sympathomimetic effects of thyroid hormone excess. Not reported in the topical hair loss trial."
+      },
+      {
+        "name": "Heat intolerance / sweating (systemic use)",
+        "rate": "Common with oral liothyronine at supratherapeutic doses",
+        "notes": "Reflects increased basal metabolic rate from excess thyroid hormone. Not reported with topical use."
+      }
+    ],
+    "seriousAEs": [
+      {
+        "name": "Cardiac arrhythmia / atrial fibrillation",
+        "rate": "Dose-dependent with systemic use; not observed in topical hair loss studies",
+        "notes": "Atrial fibrillation is the most common serious arrhythmia with thyroid hormone overtreatment. Elderly patients are at highest risk. Not reported in the Nasiri et al. topical T3 trial, but that study was too small and short to detect rare serious events."
+      },
+      {
+        "name": "Bone density loss / osteoporosis (chronic systemic use)",
+        "rate": "Increased risk with chronic oral use, especially in postmenopausal women",
+        "notes": "Thyroid hormone excess increases bone resorption and decreases bone mineral density. Particularly concerning in postmenopausal women (already at elevated osteoporosis risk) and with long-term use. FDA prescribing information warns that the minimum effective dose should be used. Risk from topical scalp application is theoretically very low due to limited systemic absorption, but no long-term safety data exists."
+      },
+      {
+        "name": "Angina pectoris / myocardial infarction",
+        "rate": "Rare; primarily with oral use in patients with pre-existing coronary artery disease",
+        "notes": "Thyroid hormone increases myocardial oxygen demand. Patients with underlying CAD are at risk for angina or MI with even modest thyroid hormone excess. Not relevant to topical scalp use at typical compounding doses in patients without cardiac disease."
+      },
+      {
+        "name": "Thyrotoxicosis / thyroid storm (massive overdose)",
+        "rate": "Extremely rare; associated with massive oral overdose or chronic supratherapeutic dosing",
+        "notes": "Life-threatening condition with seizures, coma, cardiovascular collapse, and death reported in severe overdose. FDA label reports cerebral embolism, seizure, shock, coma, and death as potential consequences. Essentially impossible from topical scalp application at compounding doses."
+      },
+      {
+        "name": "Suppression of HPT axis (high-dose topical, animal data)",
+        "rate": "Observed in animal studies at higher topical doses",
+        "notes": "In Safer et al. 2001, mice receiving 3.8 mcg topical T3/day showed suppressed serum T4, indicating systemic absorption sufficient to affect the HPT axis. Low-dose topical (150 ng/day) did not produce this effect. Epidermal deiodinases (D2/D3) may provide a buffer against systemic absorption, but the safety margin for chronic topical use in humans is not established."
+      }
+    ],
+    "discontinuationRate": "0% in the only human trial (Nasiri et al. 2012, topical T3 in alopecia areata, n=10, 12 weeks). All 10 patients completed the study with no adverse events leading to discontinuation. This is too small a sample to establish a meaningful discontinuation rate. For oral liothyronine in hypothyroidism, discontinuation due to side effects is uncommon at appropriate doses but increases with supratherapeutic dosing.",
+    "contraindications": [
+      "Uncorrected adrenal insufficiency -- thyroid hormone administration in patients with untreated adrenal insufficiency can precipitate adrenal crisis. Adrenal function must be corrected before initiating thyroid hormone therapy.",
+      "Known hypersensitivity to liothyronine or any excipient in the formulation.",
+      "Acute myocardial infarction -- thyroid hormone increases myocardial oxygen demand and is contraindicated during acute MI.",
+      "Thyrotoxicosis / untreated hyperthyroidism -- adding exogenous T3 to an already hyperthyroid state risks thyroid storm.",
+      "Note: These contraindications are established for oral/systemic liothyronine. For topical scalp application at compounding doses (~2 mcg/mL), systemic exposure is expected to be minimal, but no formal studies have established separate topical contraindications. Clinicians generally apply systemic contraindications as a precaution."
+    ],
+    "drugInteractions": [
+      {
+        "drug": "Oral anticoagulants (warfarin, dicumarol)",
+        "severity": "Major",
+        "notes": "Thyroid hormones increase catabolism of vitamin K-dependent clotting factors. Concomitant use potentiates anticoagulant effect; INR monitoring and dose adjustment of anticoagulant required. Primarily a concern with oral/systemic T3; topical scalp risk is likely minimal but unquantified."
+      },
+      {
+        "drug": "Insulin and oral hypoglycemics",
+        "severity": "Moderate",
+        "notes": "Thyroid hormones may increase insulin requirements by increasing glucose absorption and glycogenolysis. Patients on diabetes medications should monitor blood glucose if initiating thyroid hormone therapy. Primarily systemic concern."
+      },
+      {
+        "drug": "Cardiac glycosides (digoxin)",
+        "severity": "Moderate",
+        "notes": "Thyroid hormones may reduce serum digoxin levels by increasing its volume of distribution and renal clearance. Digoxin dose may require upward adjustment. Systemic concern."
+      },
+      {
+        "drug": "Sympathomimetic amines (epinephrine, norepinephrine, decongestants)",
+        "severity": "Major",
+        "notes": "FDA black box warning specifically references the danger of combining thyroid hormones with sympathomimetic amines. Additive cardiovascular stimulation may cause coronary insufficiency. Critical interaction for oral T3; minimal concern for topical scalp use."
+      },
+      {
+        "drug": "Cholestyramine / colestipol / calcium / iron / antacids",
+        "severity": "Moderate",
+        "notes": "These agents bind thyroid hormones in the gut, reducing absorption. Relevant only to oral administration, not topical."
+      },
+      {
+        "drug": "Estrogen / oral contraceptives",
+        "severity": "Moderate",
+        "notes": "Estrogen increases thyroxine-binding globulin (TBG), which may increase thyroid hormone requirements. Relevant primarily to systemic T3 replacement, not topical scalp use."
+      },
+      {
+        "drug": "Ketamine",
+        "severity": "Moderate",
+        "notes": "Concurrent use of ketamine and thyroid hormones may produce hypertension and tachycardia. Systemic concern."
+      },
+      {
+        "drug": "Tricyclic antidepressants (amitriptyline, imipramine)",
+        "severity": "Moderate",
+        "notes": "Concomitant use may increase both the therapeutic and toxic effects of both drugs, possibly due to increased receptor sensitivity. T3 is sometimes used as an adjunct to antidepressants; this is a recognized systemic interaction."
+      }
+    ],
+    "specialPopulations": {
+      "pregnancy": "FDA Pregnancy Category A for oral liothyronine -- studies in pregnant women have not demonstrated increased risk of fetal abnormalities. Thyroid hormone is essential for fetal neurodevelopment, and hypothyroidism during pregnancy should be treated. CYTOMEL should not be discontinued during pregnancy. For topical scalp use: no specific studies. Given that low-dose topical T3 produces minimal systemic absorption, risk is likely very low, but no data exists to support or refute safety of topical scalp T3 during pregnancy.",
+      "women": "Postmenopausal women are at increased risk of bone density loss with chronic systemic thyroid hormone use. The minimum effective dose should be used. For topical scalp use, systemic exposure is expected to be minimal, but postmenopausal women should be aware of this theoretical concern. All ex vivo hair follicle studies used female donor tissue (facelift patients ages 40-69), so the preclinical biology applies to female follicles.",
+      "children": "Safety and efficacy of topical T3 for hair loss have not been studied in children. Oral liothyronine is used in pediatric hypothyroidism but carries specific risks: overtreatment may cause craniosynostosis in infants, premature epiphyseal closure compromising adult height, and pseudotumor cerebri. These risks pertain to systemic doses, not topical scalp application at compounding concentrations. Pediatric use for hair loss is not recommended given the complete absence of safety or efficacy data.",
+      "elderly": "Elderly patients have increased prevalence of cardiovascular disease and are more susceptible to cardiac effects of thyroid hormone excess (particularly atrial fibrillation). Oral liothyronine should be initiated at lower doses in elderly patients. For topical scalp use at compounding doses, cardiovascular risk is likely minimal, but no studies have specifically evaluated this population."
+    },
+    "blackBoxWarning": "Thyroid hormones, including CYTOMEL (liothyronine sodium), either alone or with other therapeutic agents, should not be used for the treatment of obesity or for weight loss. In euthyroid patients, doses within the range of daily hormonal requirements are ineffective for weight reduction. Larger doses may produce serious or even life-threatening manifestations of toxicity, particularly when given in association with sympathomimetic amines such as those used for their anorectic effects.",
+    "topicalSafetyNote": "Critical context: Nearly all side effect data for liothyronine comes from ORAL/SYSTEMIC use for hypothyroidism. The safety profile of TOPICAL SCALP application at compounding doses (~2 mcg/mL) is largely unknown but theoretically much safer due to limited systemic absorption. Animal data suggests low-dose topical T3 does not produce measurable systemic thyroid changes, while higher doses can. Human scalp skin expresses deiodinase enzymes (D2/D3) that may buffer against systemic absorption by locally metabolizing T3. The single human topical T3 trial (Nasiri et al., n=10, 12 weeks) showed no adverse events and no thyroid function changes. However, no long-term human safety data for chronic topical scalp T3 exists. The TDM-105795 Phase 2a trial (a different TRbeta1-selective compound) demonstrated 'extremely low to no systemic exposure' with its topical formulation, suggesting that topical thyroid receptor agonists can be designed to minimize systemic risk."
+  },
+
+  "missingEvidence": [
+    "A placebo-controlled human trial of topical T3 for androgenetic alopecia. The only human trial was in alopecia areata and was negative. No published RCT has tested topical T3 in AGA patients.",
+    "Dose-response data in humans. Ex vivo studies suggest 1 nM T3 is optimal, but no study has tested different concentrations on human scalps.",
+    "Long-term safety data for chronic topical thyroid hormone on the scalp (6-12 months). The 12-week alopecia areata trial showed safety, but longer-term HPT axis effects are unknown.",
+    "Evidence that topical T3 can overcome DHT-driven miniaturization. All positive data involves non-miniaturizing follicles in non-AGA contexts.",
+    "Head-to-head comparison with any established hair loss treatment (minoxidil, finasteride, etc.).",
+    "Clinical pharmacokinetic data confirming the concentration of T3 that reaches the follicle after topical application in humans."
+  ],
+
+  "bottomLine": {
+    "summary": "Liothyronine (T3) has one of the strongest mechanistic rationales of any off-label hair loss treatment. Hair follicles are genuine thyroid hormone-responsive mini-organs, and in lab settings T3 prolongs anagen, reduces apoptosis, downregulates TGF-beta2, boosts mitochondrial function, and stimulates growth factor production. The recent topical ex vivo human scalp data (Paus et al. 2024/2025) adds genuine clinical plausibility. But the only human clinical trial was negative in a different disease, and no trial in AGA exists.",
+    "keyTakeaway": "The mechanistic foundation is compelling and the preclinical data is genuinely interesting, but there is currently no clinical evidence that topical T3 regrows hair in humans with androgenetic alopecia. It is scientifically interesting but clinically unproven. If you use a compounded formulation containing T3, its specific contribution to any benefit is unknown.",
+    "verdict": "Preliminary -- strong rationale, no clinical proof in AGA"
+  },
+
+  "articleUrl": "/evidence/liothyronine",
+  "pubmedSearchUrl": "https://pubmed.ncbi.nlm.nih.gov/?term=thyroid+hormone+hair+follicle+topical",
+
+  "lastUpdated": "2026-03-19",
+  "version": "1.1",
+  "author": "Anagen Research Team",
+  "reviewedBy": ""
+}
